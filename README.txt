@@ -1,6 +1,4 @@
-﻿>> ta bort denna rad och lägg till generell info om repo här<<
-
-* To start developing, use LabVIEW>>open, point to proj file (C:\Program Files (x86)\National Instruments\LabVIEW 2014\resource\Framework\Providers\addq\G#IDE\AddQ_G#IDE.lvproj). Do not use repo path, will lead to crosslinking.
+﻿* To start developing, use LabVIEW>>open, point to proj file (C:\Program Files (x86)\National Instruments\LabVIEW 2014\resource\Framework\Providers\addq\G#IDE\AddQ_G#IDE.lvproj). Do not use repo path, will lead to crosslinking.
 
 * Password to the password-protected files of the IDE are found in Doc/PWG#.txt. Use the last password.
 
@@ -33,6 +31,7 @@ Checklist for a release. Mostly used by project lead.
 	- License text in installer
  - Check crosslinking. Open G#IDE-project and check paths . All files must be saved linking to this location.
  - Manually check every change in the changelog
+ - Run tests in Verification folder.
  - Use VIPM to create installer. See readme in VIPM-folder
  - Project provider “bootcamp” for uploading to NI Tools network. 
  - https://basecamp.com/2299158/projects/4706160/
