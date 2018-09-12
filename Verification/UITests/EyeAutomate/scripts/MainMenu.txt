@@ -1,0 +1,41 @@
+
+Call "scripts/GSharpMainMenu.txt"
+Click "images/1520627747613.png" 11 2 100 16
+Check "images/1520627769350.png"
+Move "images/HelpButton.png"
+
+//Click If hover
+If "{ImageFolder}/1521032339998.png"
+	Click "{ImageFolder}/1521032339998.png"
+EndIf
+
+Check "images/DebuggerHelpText.png"
+//close help
+Type [ALT_PRESS][F4][ALT_RELEASE]
+//close debugger
+Type [ALT_PRESS][F4][ALT_RELEASE]
+
+//open options
+Call "scripts/GSharpMainMenu.txt"
+Click "images/1520627747613.png" 11 28 75 19
+Check "images/1520630350303.png"
+Check "images/1520630373312.png"
+Click "images/1520704720721.png" 138 24 67 16
+
+//open version information
+Call "scripts/GSharpMainMenu.txt"
+Click "images/1520627747613.png" 15 45 123 17
+
+//Fallerar plötsligt:
+// Check "images/AddQLogoLarge.png" 
+
+VerifyReadText "Yes"
+ReadText "images/1520630032782.png" 124 1 33 13
+
+Check {ReadText}={FrameworkVersion}
+
+ReadText "images/1520630032782.png" 62 13 60 15
+Check {ReadText}={RootClassVersion}
+
+Type [ALT_PRESS][F4][ALT_RELEASE]
+

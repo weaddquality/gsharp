@@ -1,0 +1,67 @@
+Timeout 3
+RecognitionMode "Exact"
+ManualRecovery Yes
+Display "{ImageFolder}/examples/grid2ab.png"
+Begin "Try to move to D15 but Click A15 instead."
+	Move "{ImageFolder}/examples/D15.png"
+Catch
+	Click "{ImageFolder}/examples/A15.png"
+Catch
+	Move "{ImageFolder}/examples/D15.png"
+Catch
+	Move "{ImageFolder}/examples/D15.png"
+End
+Run scripts/examples/PressEnterTest.txt seconds=10
+Begin "Manual recovery. Press the Pass button."
+	Click "{ImageFolder}/examples/D15.png"
+End
+Run scripts/examples/PressEnterTest.txt seconds=15
+Begin "Another manual recovery. Press the Pass button."
+	Click "{ImageFolder}/examples/D15.png"
+Catch
+	Click "{ImageFolder}/examples/D15.png"
+End
+Display "{ImageFolder}/examples/grid2ab.png" "{ImageFolder}/examples/grid2cd.png"
+Begin "Catch click D15. Fail if displayed."
+	Click "{ImageFolder}/examples/D15.png"
+Catch
+	Click "{ImageFolder}/examples/Next.png"
+	Click "{ImageFolder}/examples/D15.png"
+End
+Display "{ImageFolder}/examples/grid2cd.png" "{ImageFolder}/examples/grid2ab.png"
+ManualRecovery No
+Begin "Recover from a failed step."
+	Call "" "scripts/examples/StepFailTest.txt"
+Catch
+End
+Begin "Catch a move to A15"
+	WaitMouseMove "{ImageFolder}/examples/A15.png"
+Catch
+	WaitMouseMove "{ImageFolder}/examples/D15.png"
+Catch
+	WaitMouseMove "{ImageFolder}/examples/A15.png"
+Catch
+	WaitMouseMove "{ImageFolder}/examples/A15.png"
+End
+Begin "A step within a step"
+	Begin "D15 should exist"
+		Check "{ImageFolder}/examples/D15.png"
+	End
+End
+Begin "Catch click A15"
+	// Catch first
+	Click "{ImageFolder}/examples/A15.png"
+Catch
+	// Catch second
+	Click "{ImageFolder}/examples/A15.png"
+Catch
+	Click "{ImageFolder}/examples/Previous.png"
+	Click "{ImageFolder}/examples/A15.png"
+End
+Begin "Catch a failed manual recovery test"
+	Call "scripts/examples/ManualRecoveryTest.txt"
+Catch
+End
+Run scripts/examples/PressEnterTest.txt seconds=10
+Begin "An empty step is the same as a manual test. Click the Pass button."
+End

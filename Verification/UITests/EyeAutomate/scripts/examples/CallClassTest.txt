@@ -1,0 +1,5 @@
+Add 1 2 3 5 -1
+Check "{Response}=10"
+Set "five" "5"
+Add 1 2 3 "{five}"
+Check "{Response}=11"

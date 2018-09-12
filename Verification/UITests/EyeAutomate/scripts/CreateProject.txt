@@ -1,0 +1,88 @@
+
+Click "images/1520630617773.png" 1 4 69 12
+MouseLeftClick
+RecognitionMode "Exact"
+
+//zero y location of dependencies
+Set "DepLocation2" 0
+
+Begin "Wait for project creation"
+	Check "{ImageFolder}/1520964725751.png"
+End
+Set "NoOfClasses" 0
+
+Find "{ImageFolder}/DependenciesIconInTree.png" 56 1 80 16
+Set "DepLocation" {MatchLocation1}
+
+//Check toolbar exists
+Move "images/GSharpTool.png" 72 54
+
+Repeat "data/ClassTemplates.csv"
+	Begin "Create Class"
+		Call "scripts/RightClick_MyComputer_CreateGSharpClass.txt"
+		Click "{ImageFolder}/ClassNameEntry.png" 21 66
+		//click again, if window got unselected
+		MouseDoubleClick
+		Type {ClassName}
+		
+		Begin "Select Template"
+			Click "{ImageFolder}/1520978785452.png" 42 37
+			Repeat {TemplateIndex}
+				Type [DOWN]
+			EndRepeat
+		End
+		
+		Begin "SelectFolder"
+			Click "images/SelectFolderButton.png" 57 45
+			Type "%TEMP%\GsharpTests"
+			Type [ENTER]
+			// sometimes, return will not take:
+			If "{ImageFolder}/CurrentFolderButton.png"
+				Click "{ImageFolder}/CurrentFolderButton.png" 50 43
+				If "{ImageFolder}/CurrentFolderButton.png"
+					Type [SPACE][ENTER]
+				EndIf
+			EndIf
+		End
+		
+		Begin "SelectParent"
+			If  "{Parent}"!=""
+				Click "{ImageFolder}/ParentClassTree.png" 75 87
+				Type {Parent}
+			EndIf
+		End
+		
+		Click "images/CreateClassButton.png" 50 45
+		
+		
+		Begin "wait for class create"
+			Set "DepY" {DepLocation2}
+			While "{DepLocation2}"="{DepY}"
+				//kolla om dependencies flyttat sig i Y-led
+				Find "{ImageFolder}/DependenciesIconInTree.png" 56 1 80 16
+				Wait 100
+				Set "DepLocation" {MatchLocation1}
+			EndWhile
+			Click "{ImageFolder}/DependenciesIconInTree.png" 56 1 80 16
+			Type [UP]
+		End
+		
+		
+		Call "scripts/ClickOnLastCreatedClass.txt"
+		
+		Begin "Create Methods"
+			Repeat "data/Methods_{ClassTemplate}.csv"
+				Call "scripts/CreateMethod.txt"
+				Click "{ImageFolder}/DependenciesIconInTree.png" 56 1 80 16
+				Type [UP][[LEFT]][LEFT]
+				Call "scripts/ClickOnLastCreatedClass.txt"
+			EndRepeat
+		End
+	End
+EndRepeat
+
+
+
+
+
+

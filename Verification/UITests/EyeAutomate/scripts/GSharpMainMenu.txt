@@ -1,0 +1,5 @@
+Begin "GSharpMainMenu"
+	Click "images/1520703662759.png" 89 0 35 17
+	Move "images/1520702427973.png" 18 7 45 21
+	Click "images/1520702527593.png" 18 7 42 19
+End

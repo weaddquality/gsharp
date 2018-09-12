@@ -1,0 +1,15 @@
+// ta bort markering av n[t annat.
+
+Begin "Open Right-click menu"
+	MouseRightClick
+	WhileNot {ImageFolder}/1520757134386.png
+		Sleep 100
+	EndWhile
+	
+	Begin "ClickG#IDE"
+		Move "{ImageFolder}/1520756639616.png" 59 47
+		Click "{ImageFolder}/1520756585555.png" 57 47
+		MouseLeftClick
+	End
+	
+	

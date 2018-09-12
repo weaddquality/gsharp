@@ -1,0 +1,11 @@
+Check 12>5.2
+Set name Eric
+Check "{name}=Eric"
+Check "!({name}!=Eric)"
+Set "data" "3"
+Check "{data}<10"
+Check "{data}<=10.5"
+Verify "10>{data}"
+CheckNot "10<{data}"
+Check "3 <= {data} & {data} < 10"
+Check "(Erica={name} | 2<=5) & 17.2>={data}"

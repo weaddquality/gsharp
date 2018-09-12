@@ -1,0 +1,48 @@
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Projects\GSharp\trunk\Help\GsharpUML\GSharpAddIn.chm
+
+BSDlicense.htm
+GsharpUMLExamples.htm
+GsharpUMLGettingStarted.htm
+GsharpUMLHome.htm
+GsharpUMLInstallation.htm
+GsharpUMLProfile.htm
+GsharpUMLSupport.htm
+GsharpUMLSystemRequirements.htm
+GUML\ClassDialog\ClassDialog.html
+GUML\ProjectSelectPopup\ProjectSelectPopup.html
+GSharpAddIn.hhc
+GSharpAddIn.hhk
+GsharpUMLExamples_files\image001.jpg
+GsharpUMLGettingStarted_files\image001.jpg
+GsharpUMLGettingStarted_files\image002.jpg
+GsharpUMLGettingStarted_files\image003.jpg
+GsharpUMLGettingStarted_files\image004.jpg
+GsharpUMLGettingStarted_files\image005.jpg
+GsharpUMLGettingStarted_files\image006.jpg
+GsharpUMLGettingStarted_files\image007.jpg
+GsharpUMLGettingStarted_files\image008.jpg
+GsharpUMLGettingStarted_files\image009.jpg
+GsharpUMLHome_files\image001.jpg
+GsharpUMLHome_files\LVcompatible.silver.hor.small.png
+GsharpUMLProfile_files\image001.jpg
+GsharpUMLProfile_files\image002.jpg
+GsharpUMLProfile_files\image003.jpg
+GUML\ClassDialog\ClassDialog.jpg
+GUML\ClassDialog\c1dcclst.jpg
+GUML\ClassDialog\cpath.jpg
+GUML\ClassDialog\cu32.jpg
+GUML\ClassDialog\cbool.jpg
+GUML\ProjectSelectPopup\ProjectSelectPopup.jpg
+GUML\ProjectSelectPopup\cbool.jpg
+
+Compile time: 0 minutes, 1 second
+12	Topics
+40	Local links
+9	Internet links
+22	Graphics
+
+
+Created c:\Projects\GSharp\trunk\Help\GsharpUML\GSharpAddIn.chm, 635,084 bytes
+Compression decreased file by 301,103 bytes.

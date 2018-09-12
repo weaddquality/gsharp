@@ -1,0 +1,5 @@
+ClassTemplate, ClassName, ClassDescription, Parent
+0, GSharpTempl, GSharpTemplDescr, 0
+1, GSharpInterfaceTempl, GSharpInterfaceTemplDescr, 0
+2, GSharpStaticTempl, GSharpStaticTemplDescr, 0
+3, LVNative, LVNativeTemplDescr, 0

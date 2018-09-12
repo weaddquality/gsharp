@@ -1,0 +1,14 @@
+Begin "The first call with a csv should fail but the second should pass"
+	Call scripts/examples/names.csv scripts/examples/CheckNotTest.txt
+Catch
+	Call scripts/examples/names2.csv scripts/examples/CheckNotTest.txt
+End
+Begin "Same but using Repeat"
+	Repeat scripts/examples/names.csv
+		Call scripts/examples/CheckNotTest.txt
+	EndRepeat
+Catch
+	Repeat scripts/examples/names2.csv
+		Call scripts/examples/CheckNotTest.txt
+	EndRepeat
+End

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD>
+<BODY>
+   <OBJECT type="text/site properties">
+     <param name="Window Styles" value="0x800025">
+     <param name="comment" value="title:">
+     <param name="comment" value="base:">
+   </OBJECT>
+   <UL>
+      <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="BSD License">
+            <param name="Local" value="BSDlicense.htm">
+          </OBJECT>
+      <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="G# WhiteStarUML Plug-in Examples">
+            <param name="Local" value="GsharpUMLExamples.htm">
+          </OBJECT>
+      <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="G# WhiteStarUML Plug-in - Getting Started">
+            <param name="Local" value="GsharpUMLGettingStarted.htm">
+          </OBJECT>
+      <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="G# UML Plug-in">
+            <param name="Local" value="GsharpUMLHome.htm">
+          </OBJECT>
+      <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="G# UML plug-in Installation">
+            <param name="Local" value="GsharpUMLInstallation.htm">
+          </OBJECT>
+      <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Profile">
+            <param name="Local" value="GsharpUMLProfile.htm">
+          </OBJECT>
+      <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Support">
+            <param name="Local" value="GsharpUMLSupport.htm">
+          </OBJECT>
+      <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="G# WhiteStarUML Plug-in System Requirements">
+            <param name="Local" value="GsharpUMLSystemRequirements.htm">
+          </OBJECT>
+      <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GUML">
+          </OBJECT>
+      <UL>
+         <LI><OBJECT type="text/sitemap">
+               <param name="Name" value="ClassDialog">
+               <param name="Local" value="GUML/ClassDialog/ClassDialog.html">
+             </OBJECT>
+         <LI><OBJECT type="text/sitemap">
+               <param name="Name" value="ProjectSelectPopup">
+               <param name="Local" value="GUML/ProjectSelectPopup/ProjectSelectPopup.html">
+             </OBJECT>
+      </UL>
+   </UL>
+</BODY>
+</HTML>

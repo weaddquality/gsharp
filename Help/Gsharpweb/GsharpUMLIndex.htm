@@ -1,0 +1,263 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<title>G# StarUML Plug-in</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:13.5pt;
+	font-family:"Times New Roman","serif";
+	font-weight:normal;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+p.msolistparagraphcxspfirst, li.msolistparagraphcxspfirst, div.msolistparagraphcxspfirst
+	{mso-style-name:msolistparagraphcxspfirst;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.msolistparagraphcxspmiddle, li.msolistparagraphcxspmiddle, div.msolistparagraphcxspmiddle
+	{mso-style-name:msolistparagraphcxspmiddle;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.msolistparagraphcxsplast, li.msolistparagraphcxsplast, div.msolistparagraphcxsplast
+	{mso-style-name:msolistparagraphcxsplast;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{mso-style-name:msochpdefault;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{font-size:10.0pt;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=SV link=blue vlink=purple>
+
+<div class=Section1>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-size:14.0pt;line-height:
+115%;font-family:"Arial","sans-serif"'>G# StarUML Plug-in</span></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;line-height:115%;
+font-family:"Arial","sans-serif"'>The G# StarUML Plug-in is a plug-in to the G#
+Framework and also to the free, open source UML tool, <a
+href="http://staruml.sourceforge.net/en/" target="_blank">StarUML</a>. It integrates
+into StarUML making it really easy to design and maintain the LabVIEW G# code
+in a professional UML design tool. The plug-in supports both code generating
+from StarUML to LabVIEW G# classes and also supports reversed engineering from
+a LabVIEW project containing G# classes to visualizing the classes and their
+dependencies in a UML class diagram in StarUML.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;line-height:115%;
+font-family:"Arial","sans-serif"'>The plug-in adds new G# menus in the StarUML
+development environment and all actions are performed from the StarUML
+environment. There are two major actions to perform:</span></p>
+
+<p class=MsoListParagraph style='text-indent:-18.0pt'><span lang=EN-US
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Generate Code – Generates code from a StarUML class diagram, G# and LabVIEW
+native classes are created in a LabVIEW project.</span></p>
+
+<p class=MsoListParagraph style='text-indent:-18.0pt'><span lang=EN-US
+style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Reversed Engineering – Analyzes a LabVIEW project containing G# and LabVIEW
+native classes, which are visualized in a UML class diagram in StarUML.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;line-height:115%;
+font-family:"Arial","sans-serif";color:red'>The G# StarUML Plug-in</span><span
+lang=EN-US style='font-size:9.0pt;line-height:115%;font-family:"Arial","sans-serif"'>
+is a National Instrument <em><span style='font-family:"Arial","sans-serif"'>Compatible
+with LabVIEW </span></em><strong><i><span style='font-family:"Arial","sans-serif";
+font-weight:normal'>Standard</span></i></strong><b> </b>product.</span></p>
+
+<p class=MsoNormal><img border=0 width=302 height=92
+src="GsharpUMLIndex_files/image001.jpg" alt="CwLV_standard_hor.png"></p>
+
+<p class=MsoNormal style='margin-top:11.25pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:13.5pt'><span lang=EN-US
+style='font-size:9.0pt;font-family:"Arial","sans-serif";color:red'>G# is a
+registered trademark of AddQ Consulting.</span></p>
+
+<p class=MsoNormal style='margin-top:11.25pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:13.5pt'><span lang=EN-US
+style='font-size:9.0pt;font-family:"Arial","sans-serif";color:#333333'>For more
+information, please visit the </span><span style='font-size:9.0pt;font-family:
+"Arial","sans-serif";color:#333333'><a
+href="http://www.addq.se/document/GsharpUMLOnlineManual.htm" target="_blank"><span
+lang=EN-US style='color:#779D28;text-decoration:none'>G# StarUML Plug-in Online
+Manual</span></a></span><span lang=EN-US style='font-size:9.0pt;font-family:
+"Arial","sans-serif";color:#333333'>.</span></p>
+
+<p class=MsoNormal style='margin-top:11.25pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:13.5pt'><span
+style='font-size:9.0pt;font-family:"Arial","sans-serif";color:#333333'><img
+border=0 width=321 height=304
+src="http://www.addq.se/document/StarUMLUserInterface.jpg"
+alt=StarUMLUserInterface.jpg></span></p>
+
+<p class=MsoNormal style='margin-top:11.25pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:13.5pt'><b><span
+lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333'>Download</span></b><span
+lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333'><br>
+The G# StarUML Plug-in is free and requires no license. You may install the G#
+StarUML Plug-in with as many users and computers as you like.</span></p>
+
+<p class=MsoNormal style='margin-top:11.25pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:13.5pt'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Arial","sans-serif"'><a
+href="http://www.addq.se/document/G%23%20StarUML%20Plug-in.pdf" target="_blank"><span
+style='color:windowtext'>G# StarUML Plug-in Brochure (pdf)</span></a></span></p>
+
+<p class=MsoNormal style='margin-top:11.25pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:13.5pt'><b><i><span
+lang=EN-US style='font-size:9.0pt;font-family:"Arial","sans-serif";color:#333333'>Supported
+LabVIEW Versions</span></i></b><span lang=EN-US style='font-size:9.0pt;
+font-family:"Arial","sans-serif";color:#333333'><br>
+LabVIEW 2009 Full Development or higher with <a href="http://www.addq.se/gsharp">G#
+Framework</a> toolkit installed.</span></p>
+
+<p class=MsoNormal style='margin-top:11.25pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:13.5pt'><b><i><span
+lang=EN-US style='font-size:9.0pt;font-family:"Arial","sans-serif";color:#333333'>Supported
+StarUML Versions</span></i></b></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;line-height:115%;
+font-family:"Arial","sans-serif"'>StarUML 5.0 or higher. Download from: <a
+href="http://staruml.sourceforge.net/en/download.php" target="_blank">http://staruml.sourceforge.net/en/download.php</a></span></p>
+
+<p class=MsoNormal style='margin-top:11.25pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:13.5pt'><b><i><span
+lang=EN-US style='font-size:9.0pt;font-family:"Arial","sans-serif";color:#333333'>Supported
+Operating Systems</span></i></b><span lang=EN-US style='font-size:9.0pt;
+font-family:"Arial","sans-serif";color:#333333'><br>
+Windows XP/Vista/7</span></p>
+
+<p class=MsoNormal style='margin-top:11.25pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:13.5pt'><span lang=EN-US
+style='font-size:9.0pt;font-family:"Arial","sans-serif";color:#333333'>Current
+version</span><span lang=EN-US style='font-size:9.0pt;font-family:"Arial","sans-serif"'>:
+<span style='color:red'>1.1.0</span><span style='color:#333333'> (view </span></span><span
+style='font-size:9.0pt;font-family:"Arial","sans-serif";color:#333333'><a
+href="http://www.addq.se/document/G%23%20StarUML%20Plug-in%20ReadMe.txt"
+target="_blank"><span lang=EN-US style='color:#779D28;text-decoration:none'>G#
+StarUML Plug-in ReadMe.txt</span></a></span><span lang=EN-US style='font-size:
+9.0pt;font-family:"Arial","sans-serif";color:#333333'>)</span></p>
+
+<p class=MsoNormal style='margin-top:11.25pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:13.5pt'><span
+style='font-size:9.0pt;font-family:"Arial","sans-serif";color:#333333'><a
+href="http://www.addq.se/default.asp?pageID=172" target="_self"><span
+lang=EN-US style='color:#779D28;text-decoration:none'>Register and download </span></a></span></p>
+
+<p class=MsoNormal style='margin-top:11.25pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:13.5pt'><b><span
+lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333'>Support</span></b><span
+lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333'><br>
+For support issues, please contact: </span><span style='font-size:10.0pt;
+font-family:"Arial","sans-serif";color:#333333'><a href="mailto:support@addq.se"
+target="_blank"><span lang=EN-US style='color:#779D28;text-decoration:none'>support@addq.se</span></a></span><span
+lang=EN-US style='font-size:10.0pt;font-family:"Arial","sans-serif";color:#333333'>.
+Our policy is to respond within one working day. We will not support issues
+regarding object-oriented design, but we can of course offer this as consultant
+services. Please contact: </span><span style='font-size:10.0pt;font-family:
+"Arial","sans-serif";color:#333333'><a href="mailto:sales@addq.se"><span
+lang=EN-US style='color:#779D28;text-decoration:none'>sales@addq.se</span></a></span></p>
+
+<p class=MsoNormal style='margin-top:11.25pt;margin-right:0cm;margin-bottom:
+5.0pt;margin-left:0cm;line-height:13.5pt'><span lang=EN-US style='font-size:
+10.0pt;font-family:"Arial","sans-serif";color:#333333'>Please join the G#
+community group for more information, discussions and ideas at:<br>
+</span><span style='font-size:10.0pt;font-family:"Arial","sans-serif";
+color:#333333'><a href="http://decibel.ni.com/content/groups/gsharp"
+target="_blank"><span lang=EN-US style='color:#779D28;text-decoration:none'>http://decibel.ni.com/content/groups/gsharp</span></a></span></p>
+
+<p class=MsoNormal><i><span lang=EN-US style='font-size:10.0pt;line-height:
+115%;font-family:"Arial","sans-serif"'>&nbsp;</span></i></p>
+
+<p class=MsoNormal><i><span lang=EN-US style='font-size:10.0pt;line-height:
+115%;font-family:"Arial","sans-serif"'>The Compatible with LabVIEW logo is a
+trademark of National Instruments Corporation and is used under a license from
+National Instruments Corporation.</span></i></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

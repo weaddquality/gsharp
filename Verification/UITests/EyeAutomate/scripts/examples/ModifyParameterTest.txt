@@ -1,0 +1,4 @@
+Verify "{ParameterToModify}=10"
+Verify "{PassedParameter}=30"
+Set ParameterToModify 20
+Verify "{ParameterToModify}=20"

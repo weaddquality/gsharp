@@ -1,0 +1,8 @@
+RecognitionMode "Exact"
+Timeout "5" // seconds. help says ms
+Set FrameworkVersion "1.8.0"
+Set RootClassVersion "1.6.8"
+Call "scripts/del temp folder.txt"
+Call "scripts/StartLabVIEW.txt"
+Call "scripts/MainMenu.txt"
+Call "scripts/CreateProject.txt"

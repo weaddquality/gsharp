@@ -1,0 +1,14 @@
+Display "images/examples/grid2.png"
+Move "images/examples/C.png" "images/examples/8.png"
+Capture 22 14
+Check "images/examples/C8.png" "{CurrentX}" "{CurrentY}"
+MouseLeftClick
+Display 350 200 "images/examples/grid2.png"
+Move "images/examples/four.png"
+Search 1
+Click "images/examples/A15.png"
+Timeout 120
+Display 200 200 "images/examples/grid2ab.png" "images/examples/grid2cd.png"
+Move "images/examples/four.png"
+Search2D 2 "images/examples/Next.png"
+Click "images/examples/D15.png"

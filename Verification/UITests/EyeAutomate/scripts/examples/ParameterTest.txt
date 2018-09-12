@@ -1,0 +1,55 @@
+Display "{ImageFolder}/examples/grid2.png"
+Begin MoveTo
+	Set MyParam "{ImageFolder}/examples/C8.png"
+	Call "MoveToImage={MyParam}" "scripts/examples/MoveTest.txt"
+End
+Begin MoveTo "{ImageFolder}/examples/A15.png"
+	Set "MyParam" "{ImageFolder}/examples/A15.png"
+	Call "MoveToImage={MyParam}" "scripts/examples/MoveTest.txt"
+End
+Begin MoveTo
+	Set MyParam "{ImageFolder}/examples/D15.png"
+	Call "Dummy Parameter = Dummy value & MoveToImage = {MyParam}" "scripts/examples/MoveTest.txt"
+End
+MouseLeftClick
+Set "ParameterToModify" "10"
+Call scripts/examples/ModifyParameterTest.txt PassedParameter=30
+Verify "{ParameterToModify}=10"
+
+// Calculate the total of the Iteration parameter
+Set Total 0
+Repeat 3
+	Add {Iteration} {Total}
+	Set Total {Response}
+EndRepeat
+Check {Total}=6
+
+// Calculate the total of the Iteration parameter
+Set Total 0
+Repeat 3
+	Repeat 3
+		Add {Iteration} {Total}
+		Set Total {Response}
+	EndRepeat
+EndRepeat
+Check {Total}=18
+
+// Calculate the total of the Iteration parameter
+Set Total 0
+Repeat 3
+	Repeat 3
+		Repeat 3
+			Add {Iteration} {Total}
+			Set Total {Response}
+		EndRepeat
+	EndRepeat
+EndRepeat
+Check {Total}=54
+
+// Calculate the total of numbers from cumbers.csv
+Set Total 0
+Repeat "data/examples/numbers.csv"
+	Add {Number} {Total}
+	Set Total {Response}
+EndRepeat
+Check {Total}=6

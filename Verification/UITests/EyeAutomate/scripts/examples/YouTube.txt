@@ -1,0 +1,9 @@
+Begin "Enter a text to search for in the Result field, then press Pass"
+End
+Begin "Open YouTube"
+	StartWeb "http://www.youtube.com"
+	Wait 5000
+End
+Begin "Search for entered text"
+	Type "{ManualTestResult}[ENTER]"
+End

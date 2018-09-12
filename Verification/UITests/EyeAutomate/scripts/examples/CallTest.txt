@@ -1,0 +1,28 @@
+Display "{ImageFolder}/examples/grid2ab.png" "{ImageFolder}/examples/grid2cd.png"
+Sleep 1000
+CheckNot "{ImageFolder}/examples/Previous.png"
+Call "scripts/examples/NextTest.txt"
+Click "{ImageFolder}/examples/Previous.png"
+Display "{ImageFolder}/examples/grid2ab.png" "{ImageFolder}/examples/grid2cd.png"
+Sleep 1000
+If "{ImageFolder}/examples/Next.png"
+	Call "scripts/examples/NextTest.txt"
+EndIf
+Click "{ImageFolder}/examples/Previous.png"
+Display "{ImageFolder}/examples/grid2ab.png" "{ImageFolder}/examples/grid2cd.png"
+Sleep 1000
+IfNot "{ImageFolder}/examples/Previous.png"
+	Call "scripts/examples/NextTest.txt"
+EndIf
+Click "{ImageFolder}/examples/Previous.png"
+Display "{ImageFolder}/examples/grid2ab.png" "{ImageFolder}/examples/grid2ab.png" "{ImageFolder}/examples/grid2cd.png"
+Sleep 1000
+While "{ImageFolder}/examples/Next.png"
+	Call "scripts/examples/NextTest.txt"
+EndWhile
+Click "{ImageFolder}/examples/Previous.png"
+Display "{ImageFolder}/examples/grid2ab.png" "{ImageFolder}/examples/grid2ab.png" "{ImageFolder}/examples/grid2cd.png"
+WhileNot "{ImageFolder}/examples/Previous.png"
+	Call "scripts/examples/NextTest.txt"
+EndWhile
+Click "{ImageFolder}/examples/Previous.png"

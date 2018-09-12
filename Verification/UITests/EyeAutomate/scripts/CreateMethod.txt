@@ -1,0 +1,28 @@
+
+Call "scripts/GsharpClassMenu.txt"
+Click "{ImageFolder}/1520783025131.png" 11 2 108 17
+
+Click "{ImageFolder}/MEthodNameEntry.png" 33 72
+MouseDoubleClick
+Type {MethodName}
+
+// go to Method template
+//Type [TAB]
+Click "{ImageFolder}/MethodTemplateSelector.png" 3 12
+MouseDoubleClick
+
+Repeat {MethodTemplateIndex}
+	Type [DOWN]
+EndRepeat
+
+Click "{ImageFolder}/MethodDescriptionEntry.png" 15 40
+MouseDoubleClick
+Type {MethodDescription}
+
+// If {Override}!=""
+// Click "{ImageFolder}/1521027115441.png" 13 82
+// //hitta rätt metod att klicka på, eller skriv in hela namnet så den blir vald
+// EndIf
+
+Click "{ImageFolder}/CreateMethodButton.png"
+

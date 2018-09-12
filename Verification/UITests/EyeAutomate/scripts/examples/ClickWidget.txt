@@ -1,0 +1,5 @@
+OpenBrowser "Chrome"
+GetUrl "http://www.wikipedia.org"
+Click "widgets/examples/WikipediaSearchField.wid"
+WriteText "tiger"
+Click "widgets/examples/WikipediaSearchButton.wid"

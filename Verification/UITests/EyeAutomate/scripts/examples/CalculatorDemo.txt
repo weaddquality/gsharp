@@ -1,0 +1,24 @@
+Begin "Display the demo application"
+	Display {ImageFolder}/examples/1.png {ImageFolder}/examples/2.png {ImageFolder}/examples/3.png {ImageFolder}/examples/4.png {ImageFolder}/examples/5.png {ImageFolder}/examples/6.png
+End
+Begin "Click 4"
+	Click "{ImageFolder}/examples/1339591236943.png" 9 50
+End
+Begin "Click +"
+	Click "{ImageFolder}/examples/1339591236943.png" 70 91
+End
+Begin "Click 6"
+	Click "{ImageFolder}/examples/1339591236943.png"
+End
+Begin "Click ="
+	Click "{ImageFolder}/examples/1339591236943.png" 89 79
+End
+Begin "Verify the result"
+	Check "{ImageFolder}/examples/1339591249497.png" 155 21 36 25
+End
+Begin "Clear result"
+	Click "{ImageFolder}/examples/1339591236943.png" 49 10
+End
+Begin "Close the demo application"
+	Click "{ImageFolder}/examples/1339593249568.png" 76 40
+End

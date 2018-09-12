@@ -1,0 +1,66 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="400040">
+G#:  Object reference is invalid!
+</nierror>
+<nierror code="400041">
+G#:  Can't look up an unnamned object!
+</nierror>
+<nierror code="400042">
+G#:  Object is not valid. Perhaps it has already been destroyed?
+</nierror>
+<nierror code="400043">
+G#: Timeout when waiting for external process to create object of class. Does a process really reply to the "External create object" event?
+</nierror>
+<nierror code="400044">
+G#:  The expected type of the unwired reference is not of the same class as the constructor method. This will cause an incorrect behavior. Perphaps an old value is still in the control?
+</nierror>
+<nierror code="400045">
+G#: You are trying to run an abstract method of the class with an instance of the same class, and not with a sub class with an overriding implementation!
+</nierror>
+<nierror code="400046">
+G#: Abstract method is not implemented in class!
+</nierror>
+<nierror code="400047">
+G#: Timeout when waiting for external process to create class attributes of class. Does a process really reply to the "External create object" event?
+</nierror>
+<nierror code="400048">
+G#:  The named object doesn't exists! Can't look up existing!
+</nierror>
+<nierror code="400049">
+G#: No G# create event was received when running the constructor. Does an external creator process really responds to the G# event "External Create" and then runs the utility method "NewObject"? See the "<G# event>" case  for an example of how to do it.
+</nierror>
+<nierror code="400050">
+G#: The constructor is not idle or reentrant and could not be executed!
+</nierror>
+<nierror code="400051">
+G#: No G# create event was received when running the default constructor of class . Does an external creator process really responds to the G# event "Run constructor" and then responds with the event "Run constructor done"?
+</nierror>
+<nierror code="400052">
+G#: No G# create event was received when running the "G#Object_Open.vi" of class. Does an external creator process really responds to the G# event "Run open method" and then responds with the event "Run open method done"?
+</nierror>
+<nierror code="400053">
+G#: Timeout when trying to start external create process!
+</nierror>
+<nierror code="400054">
+G#: An object with that name already exists!
+</nierror>
+<nierror code="400055">
+G#: Timeout when trying to start process!
+</nierror>
+<nierror code="400056">
+G#: Can't convert an object that isn't a subclass of the target class!
+</nierror>
+<nierror code="400057">
+G#: Not supported!
+</nierror>
+<nierror code="400058">
+G#: Interface method is not implemented!
+</nierror>
+<nierror code="400059">
+G#: Implementing method has not same reentrant execution as the interface.
+</nierror>
+</nidocument>

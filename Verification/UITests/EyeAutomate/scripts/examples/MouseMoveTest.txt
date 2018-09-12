@@ -1,0 +1,18 @@
+Display "images/examples/sphere_frame.png"
+Move images/examples/sphere.png
+Check "images/examples/sphere.png" "{CurrentX}" "{CurrentY}"
+Capture 112 112
+Set Sphere "{CapturedImage}"
+Check "images/examples/sphere_center.png"
+MoveRelative 20 20
+MoveRelative -20 -20
+Check "images/examples/sphere_center.png"
+Move images/examples/sphere.png 100 50
+Check "images/examples/sphere_right.png" "{CurrentX}" "{CurrentY}"
+Move images/examples/sphere.png 50 100
+Check "images/examples/sphere_bottom.png" "{CurrentX}" "{CurrentY}"
+Move "images/examples/sphere.png" +60 +0
+Check "images/examples/sphere_outside.png" "{CurrentX}" "{CurrentY}"
+Click "images/examples/sphere.png"
+Display "{Sphere}"
+Click "images/examples/sphere_center.png"

@@ -1,0 +1,6 @@
+Begin "Should fail"
+WaitMouseMove "images/examples/D15.png"
+WaitMouseMove "images/examples/A15.png"
+WaitMouseMove "images/examples/D15.png"
+WaitMouseMove "images/examples/A15.png"
+End

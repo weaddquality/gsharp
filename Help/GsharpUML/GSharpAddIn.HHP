@@ -1,0 +1,30 @@
+[OPTIONS]
+Auto Index=Yes
+Binary TOC=No
+Binary Index=Yes
+Compatibility=1.1
+Compiled file=GSharpAddIn.chm
+Contents file=GSharpAddIn.hhc
+Default topic=GsharpUMLHome.htm
+Error log file=_errorlog.txt
+Index file=GSharpAddIn.hhk
+Title=G# StarUML Plug-in
+Full-text search=Yes
+Display compile progress=Yes
+Display compile notes=Yes
+Default window=main
+
+[WINDOWS]
+main=,"GSharpAddIn.hhc","GSharpAddIn.hhk","GsharpUMLHome.htm","GsharpUMLHome.htm",,,,,0x23520,222,0x1046,[10,10,780,560],0xB0000,,,,,,0
+
+[FILES]
+BSDlicense.htm
+GsharpUMLExamples.htm
+GsharpUMLGettingStarted.htm
+GsharpUMLHome.htm
+GsharpUMLInstallation.htm
+GsharpUMLProfile.htm
+GsharpUMLSupport.htm
+GsharpUMLSystemRequirements.htm
+GUML\ClassDialog\ClassDialog.html
+GUML\ProjectSelectPopup\ProjectSelectPopup.html

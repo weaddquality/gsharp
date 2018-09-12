@@ -1,0 +1,1742 @@
+[__Header__]
+ProductName = "TestStand"
+ProductVersion = 2.0.1.121
+Version = 143
+Type = "SequenceFile"
+Path = "Q:\\G# Verification\\Verification\\TestCases\\KernelTestSequence.seq"
+ProductVersionString = "2.0.1f1"
+CharEncoding = "SBCS"
+
+[DEF, %OBJECTS]
+SF = SequenceFileData
+Path = PathValue
+PassFailTest = StepType
+StepTypeSubstepsArray = Objs
+EditSubstep = StepType
+StepTypeDescFmt = Str
+StepTypeDefNameFmt = Str
+StepTypeMenu = Obj
+TEInf = Obj
+Error = Obj
+CommonResults = Obj
+FlexCStepAdditions = Obj
+FCParameter = FCParameter
+GStepAdditions = Obj
+
+[DEF, SF]
+Seq = Objs
+FileGlobalDefaults = Obj
+ModelFile = "TYPE, Path"
+LoadOpt = Str
+UnloadOpt = Str
+Version = Str
+BatchSync = Num
+SFGlobalsScope = Num
+Type = Num
+ModelOption = Num
+%NAME = "Data"
+
+[SF]
+%LO: Seq = [0]
+%HI: Seq = [0]
+%FLG: ModelFile = 8
+LoadOpt = "UseStepLoadOpt"
+%FLG: LoadOpt = 8
+UnloadOpt = "UseStepUnloadOpt"
+%FLG: UnloadOpt = 8
+Version = "0.0.0.0"
+%FLG: Version = 8
+BatchSync = 1
+%FLG: BatchSync = 8
+%FLG: SFGlobalsScope = 8
+%FLG: Type = 8
+%FLG: ModelOption = 8
+
+[DEF, SF.Seq]
+%[0] = Sequence
+
+[DEF, SF.Seq[0]]
+Parameters = Obj
+Locals = Obj
+Main = Objs
+Setup = Objs
+Cleanup = Objs
+GotoCleanupOnFail = Bool
+RecordResults = Bool
+RTS = Obj
+%NAME = "MainSequence"
+
+[SF.Seq[0]]
+%FLG: Parameters = 262144
+%LO: Main = [0]
+%HI: Main = [58]
+%FLG: GotoCleanupOnFail = 8
+RecordResults = True
+%FLG: RecordResults = 8
+%FLG: RTS = 262152
+
+[DEF, SF.Seq[0].Locals]
+ResultList = Objs
+
+[DEF, SF.Seq[0].Locals.ResultList]
+%EPTYPE = TEResult
+
+[DEF, SF.Seq[0].Main]
+%[0] = GStep
+%TYPE: %[0] = "PassFailTest"
+%[1] = GStep
+%TYPE: %[1] = "PassFailTest"
+%[2] = GStep
+%TYPE: %[2] = "PassFailTest"
+%[3] = GStep
+%TYPE: %[3] = "PassFailTest"
+%[4] = GStep
+%TYPE: %[4] = "PassFailTest"
+%[5] = GStep
+%TYPE: %[5] = "PassFailTest"
+%[6] = GStep
+%TYPE: %[6] = "PassFailTest"
+%[7] = GStep
+%TYPE: %[7] = "PassFailTest"
+%[8] = GStep
+%TYPE: %[8] = "PassFailTest"
+%[9] = GStep
+%TYPE: %[9] = "PassFailTest"
+%[10] = GStep
+%TYPE: %[10] = "PassFailTest"
+%[11] = GStep
+%TYPE: %[11] = "PassFailTest"
+%[12] = GStep
+%TYPE: %[12] = "PassFailTest"
+%[13] = GStep
+%TYPE: %[13] = "PassFailTest"
+%[14] = GStep
+%TYPE: %[14] = "PassFailTest"
+%[15] = GStep
+%TYPE: %[15] = "PassFailTest"
+%[16] = GStep
+%TYPE: %[16] = "PassFailTest"
+%[17] = GStep
+%TYPE: %[17] = "PassFailTest"
+%[18] = GStep
+%TYPE: %[18] = "PassFailTest"
+%[19] = GStep
+%TYPE: %[19] = "PassFailTest"
+%[20] = GStep
+%TYPE: %[20] = "PassFailTest"
+%[21] = GStep
+%TYPE: %[21] = "PassFailTest"
+%[22] = GStep
+%TYPE: %[22] = "PassFailTest"
+%[23] = GStep
+%TYPE: %[23] = "PassFailTest"
+%[24] = GStep
+%TYPE: %[24] = "PassFailTest"
+%[25] = GStep
+%TYPE: %[25] = "PassFailTest"
+%[26] = GStep
+%TYPE: %[26] = "PassFailTest"
+%[27] = GStep
+%TYPE: %[27] = "PassFailTest"
+%[28] = GStep
+%TYPE: %[28] = "PassFailTest"
+%[29] = GStep
+%TYPE: %[29] = "PassFailTest"
+%[30] = GStep
+%TYPE: %[30] = "PassFailTest"
+%[31] = GStep
+%TYPE: %[31] = "PassFailTest"
+%[32] = GStep
+%TYPE: %[32] = "PassFailTest"
+%[33] = GStep
+%TYPE: %[33] = "PassFailTest"
+%[34] = GStep
+%TYPE: %[34] = "PassFailTest"
+%[35] = GStep
+%TYPE: %[35] = "PassFailTest"
+%[36] = GStep
+%TYPE: %[36] = "PassFailTest"
+%[37] = GStep
+%TYPE: %[37] = "PassFailTest"
+%[38] = GStep
+%TYPE: %[38] = "PassFailTest"
+%[39] = GStep
+%TYPE: %[39] = "PassFailTest"
+%[40] = GStep
+%TYPE: %[40] = "PassFailTest"
+%[41] = GStep
+%TYPE: %[41] = "PassFailTest"
+%[42] = GStep
+%TYPE: %[42] = "PassFailTest"
+%[43] = GStep
+%TYPE: %[43] = "PassFailTest"
+%[44] = GStep
+%TYPE: %[44] = "PassFailTest"
+%[45] = GStep
+%TYPE: %[45] = "PassFailTest"
+%[46] = GStep
+%TYPE: %[46] = "PassFailTest"
+%[47] = GStep
+%TYPE: %[47] = "PassFailTest"
+%[48] = GStep
+%TYPE: %[48] = "PassFailTest"
+%[49] = GStep
+%TYPE: %[49] = "PassFailTest"
+%[50] = GStep
+%TYPE: %[50] = "PassFailTest"
+%[51] = GStep
+%TYPE: %[51] = "PassFailTest"
+%[52] = GStep
+%TYPE: %[52] = "PassFailTest"
+%[53] = GStep
+%TYPE: %[53] = "PassFailTest"
+%[54] = GStep
+%TYPE: %[54] = "PassFailTest"
+%[55] = GStep
+%TYPE: %[55] = "PassFailTest"
+%[56] = GStep
+%TYPE: %[56] = "PassFailTest"
+%[57] = GStep
+%TYPE: %[57] = "PassFailTest"
+%[58] = GStep
+%TYPE: %[58] = "PassFailTest"
+%[59] = GStep
+%TYPE: %[59] = "PassFailTest"
+
+[SF.Seq[0].Main[0].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[0].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[0].TS.SData]
+ViPath = "TcA01-001_ObjectCreationAndDestructionOfBaseclass.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[0]]
+%NAME = "TcA01-001-1 Object creation base class 10 obj"
+
+[SF.Seq[0].Main[1].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=2"
+
+[DEF, SF.Seq[0].Main[1].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[1].TS.SData]
+ViPath = "TcA01-001_ObjectCreationAndDestructionOfBaseclass.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[1]]
+%NAME = "TcA01-001-2 Object creation base class 50 obj"
+
+[SF.Seq[0].Main[2].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=3"
+
+[DEF, SF.Seq[0].Main[2].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[2].TS.SData]
+ViPath = "TcA01-001_ObjectCreationAndDestructionOfBaseclass.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[2]]
+%NAME = "TcA01-001-3 Object creation base class 300 obj"
+
+[SF.Seq[0].Main[3].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=4"
+
+[DEF, SF.Seq[0].Main[3].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[3].TS.SData]
+ViPath = "TcA01-001_ObjectCreationAndDestructionOfBaseclass.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[3]]
+%NAME = "TcA01-001-4 Object creation base class 10 obj Ext Create"
+
+[SF.Seq[0].Main[4].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[4].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[4].TS.SData]
+ViPath = "TcA01-002_ObjectCreationAndDestructionOfSubclass.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[4]]
+%NAME = "TcA01-002-1 Object creation sub class 10 obj"
+
+[SF.Seq[0].Main[5].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=2"
+
+[DEF, SF.Seq[0].Main[5].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[5].TS.SData]
+ViPath = "TcA01-002_ObjectCreationAndDestructionOfSubclass.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[5]]
+%NAME = "TcA01-002-2 Object creation sub class 50 obj"
+
+[SF.Seq[0].Main[6].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=3"
+
+[DEF, SF.Seq[0].Main[6].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[6].TS.SData]
+ViPath = "TcA01-002_ObjectCreationAndDestructionOfSubclass.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[6]]
+%NAME = "TcA01-002-3 Object creation sub class 300 obj"
+
+[SF.Seq[0].Main[7].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=4"
+
+[DEF, SF.Seq[0].Main[7].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[7].TS.SData]
+ViPath = "TcA01-002_ObjectCreationAndDestructionOfSubclass.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[7]]
+%NAME = "TcA01-002-4 Object creation sub class 10 obj Ext Create"
+
+[SF.Seq[0].Main[8].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[8].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[8].TS.SData]
+ViPath = "TcA01-003_ObjectCreationAndDestructionOfMultipleClasses.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[8]]
+%NAME = "TcA01-003-1 Object creation multiple classes 1 obj"
+
+[SF.Seq[0].Main[9].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=2"
+
+[DEF, SF.Seq[0].Main[9].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[9].TS.SData]
+ViPath = "TcA01-003_ObjectCreationAndDestructionOfMultipleClasses.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[9]]
+%NAME = "TcA01-003-2 Object creation multiple classes 50 obj"
+
+[SF.Seq[0].Main[10].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=3"
+
+[DEF, SF.Seq[0].Main[10].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[10].TS.SData]
+ViPath = "TcA01-003_ObjectCreationAndDestructionOfMultipleClasses.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[10]]
+%NAME = "TcA01-003-3 Object creation multiple classes 100 ovj"
+
+[SF.Seq[0].Main[11].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[11].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[11].TS.SData]
+ViPath = "TcA01-004_ObjectCreationAndDestructionWithDefaultConstructor.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[11]]
+%NAME = "TcA01-004-1 Object creation default constructor"
+
+[SF.Seq[0].Main[12].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=2"
+
+[DEF, SF.Seq[0].Main[12].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[12].TS.SData]
+ViPath = "TcA01-004_ObjectCreationAndDestructionWithDefaultConstructor.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[12]]
+%NAME = "TcA01-004-2 Object creation default constructor Ext Create"
+
+[SF.Seq[0].Main[13].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[13].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[13].TS.SData]
+ViPath = "TcA01-005_ObjectCreationAndDestructionWithGenericConstructor.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[13]]
+%NAME = "TcA01-005-1 Object creation generic create"
+
+[SF.Seq[0].Main[14].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=2"
+
+[DEF, SF.Seq[0].Main[14].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[14].TS.SData]
+ViPath = "TcA01-005_ObjectCreationAndDestructionWithGenericConstructor.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[14]]
+%NAME = "TcA01-005-2 Object creation generic create Ext Create"
+
+[SF.Seq[0].Main[15].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[15].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[15].TS.SData]
+ViPath = "TcA01-006_ObjectsCanBeNamedWhenCreated.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[15]]
+%NAME = "TcA01-006-1 Objects can be named when created"
+
+[SF.Seq[0].Main[16].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=2"
+
+[DEF, SF.Seq[0].Main[16].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[16].TS.SData]
+ViPath = "TcA01-006_ObjectsCanBeNamedWhenCreated.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[16]]
+%NAME = "TcA01-006-2 Objects can be named when created"
+
+[SF.Seq[0].Main[17].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=3"
+
+[DEF, SF.Seq[0].Main[17].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[17].TS.SData]
+ViPath = "TcA01-006_ObjectsCanBeNamedWhenCreated.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[17]]
+%NAME = "TcA01-006-3 Objects can be named when created"
+
+[SF.Seq[0].Main[18].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=4"
+
+[DEF, SF.Seq[0].Main[18].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[18].TS.SData]
+ViPath = "TcA01-006_ObjectsCanBeNamedWhenCreated.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[18]]
+%NAME = "TcA01-006-4 Objects can be named when created"
+
+[SF.Seq[0].Main[19].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=5"
+
+[DEF, SF.Seq[0].Main[19].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[19].TS.SData]
+ViPath = "TcA01-006_ObjectsCanBeNamedWhenCreated.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[19]]
+%NAME = "TcA01-006-5 Objects can be named when created"
+
+[SF.Seq[0].Main[20].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[20].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[20].TS.SData]
+ViPath = "TcA01-007_ObjectsCanBeLookedUpByName.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[20]]
+%NAME = "TcA01-007-1 Objects can be looked up by name"
+
+[SF.Seq[0].Main[21].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=2"
+
+[DEF, SF.Seq[0].Main[21].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[21].TS.SData]
+ViPath = "TcA01-007_ObjectsCanBeLookedUpByName.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[21]]
+%NAME = "TcA01-007-2 Objects can be looked up by name Ext Create"
+
+[SF.Seq[0].Main[22].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[22].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[22].TS.SData]
+ViPath = "TcA01-008_NameObjectsWithUserCounter.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[22]]
+%NAME = "TcA01-008-1 Name Objects with User Counter"
+
+[SF.Seq[0].Main[23].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[23].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[23].TS.SData]
+ViPath = "TcA01-009_ObjectCreationWithNoRegistration.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[23]]
+%NAME = "TcA01-009-1 Object creation with no registration 10 obj"
+
+[SF.Seq[0].Main[24].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[24].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[24].TS.SData]
+ViPath = "TcA01-010_GarbageCollectorWithSameOwner.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[24]]
+%NAME = "TcA01-010-1 Garbage Collector with same owner"
+
+[SF.Seq[0].Main[25].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[25].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[25].TS.SData]
+ViPath = "TcA02-001_ReadingLockingAndSettingAnObjectsAttributes.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[25]]
+%NAME = "TcA02-001-1 Reading Locking Setting Attributes"
+
+[SF.Seq[0].Main[26].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[26].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[26].TS.SData]
+ViPath = "TcA02-002_ModifyingObjectsAttributesFromInheritedMethods.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[26]]
+%NAME = "TcA02-002-1 Modifying attributes from inherited methods"
+
+[SF.Seq[0].Main[27].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[27].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[27].TS.SData]
+ViPath = "TcA02-003_ModifyingObjectAttributesMultipleTimes.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[27]]
+%NAME = "TcA02-003-1 Modifying object attributes multiple times 1 obj 100 times"
+
+[SF.Seq[0].Main[28].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=2"
+
+[DEF, SF.Seq[0].Main[28].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[28].TS.SData]
+ViPath = "TcA02-003_ModifyingObjectAttributesMultipleTimes.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[28]]
+%NAME = "TcA02-003-2 Modifying object attributes multiple times 10 obj 10 times"
+
+[SF.Seq[0].Main[29].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=3"
+
+[DEF, SF.Seq[0].Main[29].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[29].TS.SData]
+ViPath = "TcA02-004_AttributesCanBeModifiedFasterThanGOOP1.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[29]]
+%NAME = "TcA02-004-3 Attributes could be modified faster that GOOP1 100 obj 100 times"
+
+[SF.Seq[0].Main[30].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=2"
+
+[DEF, SF.Seq[0].Main[30].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[30].TS.SData]
+ViPath = "TcA02-005_ResizingAttributesCanBeModifiedFasterThanGOOP1.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[30]]
+%NAME = "TcA02-005-2 Attributes could be resized faster that GOOP1 10 obj 1000 times"
+
+[SF.Seq[0].Main[31].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[31].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[31].TS.SData]
+ViPath = "TcA02-007_AttributesCanBeUnlockedWithoutBeingModified.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[31]]
+%NAME = "TcA02-007-1 Attributes can be unlocked without being modified"
+
+[SF.Seq[0].Main[32].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[32].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[32].TS.SData]
+ViPath = "TcA02-008_MutualExclusionWhenModifyingAttributes.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[32]]
+%NAME = "TcA02-008-1 Mutual exclusion when modifying attributes"
+
+[SF.Seq[0].Main[33].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[33].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[33].TS.SData]
+ViPath = "TcA02-009_TimeoutWhenWaitingForModifyingAttributes.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[33]]
+%NAME = "TcA02-009-1 Timeout when waiting for modifying attributes"
+
+[SF.Seq[0].Main[34].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[34].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[34].TS.SData]
+ViPath = "TcA03-002_ReadingLockingAndSettingClassAttributes.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[34]]
+%NAME = "TcA03-002-1 Reading, locking and setting class attributes"
+
+[SF.Seq[0].Main[35].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=2"
+
+[DEF, SF.Seq[0].Main[35].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[35].TS.SData]
+ViPath = "TcA03-002_ReadingLockingAndSettingClassAttributes.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[35]]
+%NAME = "TcA03-002-2 Reading, locking and setting class attributes Ext Creator"
+
+[SF.Seq[0].Main[36].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[36].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[36].TS.SData]
+ViPath = "TcA03-003_MutualExclusionWhenModifyingClassAttributes.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[36]]
+%NAME = "TcA03-003-1 Mutual exclustion when modifying class attributes"
+
+[SF.Seq[0].Main[37].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=2"
+
+[DEF, SF.Seq[0].Main[37].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[37].TS.SData]
+ViPath = "TcA03-003_MutualExclusionWhenModifyingClassAttributes.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[37]]
+%NAME = "TcA03-003-2 Mutual exclustion when modifying class attributes Ext Creator"
+
+[SF.Seq[0].Main[38].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[38].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[38].TS.SData]
+ViPath = "TcA03-006_ClassAttributesCanBeUnlockedWithoutBeingModified.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[38]]
+%NAME = "TcA03-006-1 Class attributes can be unlocked without being modified"
+
+[SF.Seq[0].Main[39].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=2"
+
+[DEF, SF.Seq[0].Main[39].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[39].TS.SData]
+ViPath = "TcA03-006_ClassAttributesCanBeUnlockedWithoutBeingModified.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[39]]
+%NAME = "TcA03-006-2 Class attributes can be unlocked without being modified Ext Creator"
+
+[SF.Seq[0].Main[40].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[40].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[40].TS.SData]
+ViPath = "TcA03-007_TimeoutWhenWaitingForModifyingClassAttributes.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[40]]
+%NAME = "TcA03-007-1 Timeout when waiting for modifying class attributes"
+
+[SF.Seq[0].Main[41].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=2"
+
+[DEF, SF.Seq[0].Main[41].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[41].TS.SData]
+ViPath = "TcA04-001_DynamicallyCallSubClassMethods.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[41]]
+%NAME = "TcA04-001-2 Dynamically call sub class methods 10 obj"
+
+[SF.Seq[0].Main[42].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[42].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[42].TS.SData]
+ViPath = "TcA04-004_NestedObjectsCallsDynamicMethods.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[42]]
+%NAME = "TcA04-004-1 Nested objects calls dynamic methods"
+
+[SF.Seq[0].Main[43].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[43].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[43].TS.SData]
+ViPath = "TcA05-001_ImplementingInterfaces.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[43]]
+%NAME = "TcA05-001-1 Implementing Interfaces"
+
+[SF.Seq[0].Main[44].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[44].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[44].TS.SData]
+ViPath = "TcA06-002_DestroyedReferenceErrorHandling.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[44]]
+%NAME = "TcA06-002-1 Destroyed reference error handling"
+
+[SF.Seq[0].Main[45].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[45].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[45].TS.SData]
+ViPath = "TcA06-003_ConstructorErrorHandling.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[45]]
+%NAME = "TcA06-003-1 Constructor error handling"
+
+[SF.Seq[0].Main[46].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[46].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[46].TS.SData]
+ViPath = "TcA06-004_ObjectsAreDestroyedEvenIfErrorIn.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[46]]
+%NAME = "TcA06-004-1 Objects are destroyed even if error in 1 obj"
+
+[SF.Seq[0].Main[47].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=2"
+
+[DEF, SF.Seq[0].Main[47].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[47].TS.SData]
+ViPath = "TcA06-004_ObjectsAreDestroyedEvenIfErrorIn.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[47]]
+%NAME = "TcA06-004-2 Objects are destroyed even if error in 10 obj"
+
+[SF.Seq[0].Main[48].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[48].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[48].TS.SData]
+ViPath = "TcA06-005_MissingAbstractMethod.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[48]]
+%NAME = "TcA06-005-1 Missing abstract method"
+
+[SF.Seq[0].Main[49].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[49].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[49].TS.SData]
+ViPath = "TcA07-001_ObjectStatusInformation.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[49]]
+%NAME = "TcA07-001-1 Object status information"
+
+[SF.Seq[0].Main[50].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[50].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[50].TS.SData]
+ViPath = "TcA07-002_SupportMethods.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[50]]
+%NAME = "TcA07-002-1 Support methods"
+
+[SF.Seq[0].Main[51].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[51].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[51].TS.SData]
+ViPath = "TcA07-003_Serialization.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[51]]
+%NAME = "TcA07-003-1 Serialization"
+
+[SF.Seq[0].Main[52].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=2"
+
+[DEF, SF.Seq[0].Main[52].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[52].TS.SData]
+ViPath = "TcA07-003_Serialization.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[52]]
+%NAME = "TcA07-003-2 Serialization with file"
+
+[SF.Seq[0].Main[53].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=3"
+
+[DEF, SF.Seq[0].Main[53].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[53].TS.SData]
+ViPath = "TcA07-003_Serialization.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[53]]
+%NAME = "TcA07-003-3 Serialization XML"
+
+[SF.Seq[0].Main[54].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=4"
+
+[DEF, SF.Seq[0].Main[54].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[54].TS.SData]
+ViPath = "TcA07-003_Serialization.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[54]]
+%NAME = "TcA07-003-4 Serialization with file XML"
+
+[SF.Seq[0].Main[55].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[55].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[55].TS.SData]
+ViPath = "TcA07-004_GenericOpen.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[55]]
+%NAME = "TcA07-004-1 Generic Open"
+
+[SF.Seq[0].Main[56].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=2"
+
+[DEF, SF.Seq[0].Main[56].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[56].TS.SData]
+ViPath = "TcA07-004_GenericOpen.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[56]]
+%NAME = "TcA07-004-2 Generic Open Ext Creator"
+
+[SF.Seq[0].Main[57].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[57].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[57].TS.SData]
+ViPath = "TcA07-005_InterfaceSupportMethods.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[57]]
+%NAME = "TcA07-005-1 Interface Support Methods"
+
+[SF.Seq[0].Main[58].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[58].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[58].TS.SData]
+ViPath = "TcA07-006_CastFromLabVIEWObject.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[58]]
+%NAME = "TcA07-006-1 Cast from LabVIEW Object"
+
+[SF.Seq[0].Main[59].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[59].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[59].TS.SData]
+ViPath = "TcA01-011_CloneObject.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[59]]
+%NAME = "TcA01-011-1 Clone Object"
+
+[SF.Seq[0].Main[60].TS]
+Adapter = "G Std Prototype Adapter"
+UnloadOpt = "UnloadAfterStepExecution"
+PreExpr = "Step.InBuf=1"
+
+[DEF, SF.Seq[0].Main[60].TS]
+SData = "TYPE, GStepAdditions"
+%FLG: SData = 2097152
+
+[SF.Seq[0].Main[60].TS.SData]
+ViPath = "TcA04-002_ForceParentCallMethods.vi"
+PassInBuf = True
+PassInvocInfo = True
+
+[DEF, SF.Seq[0].Main[60]]
+%NAME = "TcA04-002-1 Force Parent Call Methods.vi"
+
+[DEF, SF.Seq[0].RTS]
+Type = Num
+OptimizeNonReentrantCalls = Bool
+EPNameExpr = Str
+EPEnabledExpr = Str
+EPMenuHint = Str
+EPIgnoreClient = Bool
+EPInitiallyHidden = Bool
+EPCheckToSaveTitledFile = Bool
+ShowEPAlways = Bool
+ShowEPForFileWin = Bool
+ShowEPForExeWin = Bool
+ShowEPForEditorOnly = Bool
+AllowIntExeOfEP = Bool
+CopyStepsOnOverriding = Bool
+Priority = Num
+
+[SF.Seq[0].RTS]
+OptimizeNonReentrantCalls = True
+EPNameExpr = "\"Unnamed Entry Point\""
+EPEnabledExpr = "True"
+EPCheckToSaveTitledFile = True
+ShowEPForFileWin = True
+CopyStepsOnOverriding = True
+Priority = 2953567917
+
+[%TYPES]
+Path = "Path"
+PassFailTest = "PassFailTest"
+StepTypeSubstepsArray = "StepTypeSubstepsArray"
+EditSubstep = "EditSubstep"
+StepTypeDescFmt = "StepTypeDescFmt"
+StepTypeDefNameFmt = "StepTypeDefNameFmt"
+StepTypeMenu = "StepTypeMenu"
+TEInf = "TEInf"
+Error = "Error"
+CommonResults = "CommonResults"
+FlexCStepAdditions = "FlexCStepAdditions"
+FCParameter = "FCParameter"
+GStepAdditions = "GStepAdditions"
+
+[DEF, Path]
+%LOCATION = "StdTypes"
+%ROOT_TYPE = True
+
+[Path]
+%TIMESTAMP = 1018442948
+%VERSION = "2.0.1.121"
+%FLG = 37748736
+
+[DEF, PassFailTest]
+%LOCATION = "StepTypes"
+Substeps = "TYPE, StepTypeSubstepsArray"
+DescriptionFormat = "TYPE, StepTypeDescFmt"
+DefaultNameFormat = "TYPE, StepTypeDefNameFmt"
+Menu = "TYPE, StepTypeMenu"
+TS = "TYPE, TEInf"
+Result = Obj
+InBuf = Str
+DataSource = Str
+CodeTemplates = Str
+%FLG: CodeTemplates = 524288
+%ROOT_TYPE = True
+
+[PassFailTest]
+%LO: Substeps = [0]
+%HI: Substeps = [0]
+DescriptionFormat Line0001 = "ResStr(\"NI_STEPTYPES\", \"PASSFAIL_DESCRIPTION_NAME\") + ((\"%ModuleDescription\" == \"\") ? \"\" : \",  %ModuleDescrip"
+DescriptionFormat Line0002 = "tion\")"
+DefaultNameFormat = "ResStr(\"NI_STEPTYPES\", \"PASSFAIL_DEF_STEP_NAME\")"
+%FLG: Result = 4194304
+%INSTFLG: Result = 4194304
+DataSource = "Step.Result.PassFail"
+CodeTemplates = "PassFail_Template|PassFailVC++_Template|PassFailMFC_Template|PassFailHTB80_Template|PassFailHTB72_Template"
+%FLG: CodeTemplates = 24
+%TIMESTAMP = 1008353074
+%VERSION = "2.0.1.121"
+%FLG = 33554433
+%TYPE_FLG = 2
+
+[DEF, PassFailTest.Substeps]
+%[0] = FlexCStep
+%TYPE: %[0] = "EditSubstep"
+
+[PassFailTest.Substeps[0].TS]
+Adapter = "DLL Flexible Prototype Adapter"
+%INSTFLG: SData = 2097152
+%INSTOVRD: SData = 2097152
+
+[DEF, PassFailTest.Substeps[0].TS]
+SData = "TYPE, FlexCStepAdditions"
+%FLG: SData = 2097152
+
+[PassFailTest.Substeps[0].TS.SData.Call]
+LibPath = "CommonSubsteps.dll"
+Func = "EditPassFailStep"
+%LO: Parms = [0]
+%HI: Parms = [3]
+
+[DEF, PassFailTest.Substeps[0].TS.SData.Call.Parms]
+%[0] = "TYPE, FCParameter"
+%[1] = "TYPE, FCParameter"
+%[2] = "TYPE, FCParameter"
+%[3] = "TYPE, FCParameter"
+
+[PassFailTest.Substeps[0].TS.SData.Call.Parms[0]]
+Name = "Return Value"
+Type = 3
+ObjType = 2
+
+[PassFailTest.Substeps[0].TS.SData.Call.Parms[1]]
+Type = 4
+ArgVal = "ThisContext"
+ArgDisplayVal = "ThisContext"
+
+[PassFailTest.Substeps[0].TS.SData.Call.Parms[2]]
+Name = "readOnly"
+ArgVal = "!CurrentUserHasPrivilege(\"EditSequenceFiles\")"
+ArgDisplayVal = "!CurrentUserHasPrivilege(\"EditSequenceFiles\")"
+
+[PassFailTest.Substeps[0].TS.SData.Call.Parms[3]]
+Name = "changed"
+ObjType = 2
+NumPass = 1
+ArgVal = "RunState.InitialSelection.SelectedFile.ChangeCount"
+ArgDisplayVal = "RunState.InitialSelection.SelectedFile.ChangeCount"
+
+[PassFailTest.Substeps[0].Result]
+%INSTOVRD: Common = 4194304
+
+[PassFailTest.Substeps[0]]
+MenuName = "ResStr(\"NI_STEPTYPES\", \"PASSFAIL_EDIT_STEP_MENU_NAME\")"
+
+[DEF, PassFailTest.Substeps[0]]
+%NAME = "Edit"
+
+[PassFailTest.Menu]
+ItemName = "ResStr(\"NI_STEPTYPES\", \"PASSFAIL_MENU_ITEM_NAME\")"
+Group = "Tests"
+
+[DEF, PassFailTest.TS]
+SData = Obj
+%FLG: SData = 2097152
+
+[PassFailTest.TS]
+%INSTFLG: SData = 2097152
+%INSTOVRD: SData = 7143449
+StatusExpr Line0001 = "Step.DataSource != \"Step.Result.PassFail\" ? Step.Result.PassFail = Evaluate(Step.DataSource) : False, Step.Result.Pass"
+StatusExpr Line0002 = "Fail ? \"Passed\" : \"Failed\" "
+%INSTFLG: StatusExpr = 1
+
+[DEF, PassFailTest.Result]
+Error = "TYPE, Error"
+Status = Str
+PassFail = Bool
+ReportText = Str
+Common = "TYPE, CommonResults"
+
+[PassFailTest.Result]
+%FLG: Error = 4194304
+%INSTFLG: Error = 4194304
+%INSTOVRD: Error = 4194304
+%FLG: Status = 4194304
+%INSTFLG: Status = 4194304
+PassFail = True
+%INSTOVRD: Common = 4194304
+
+[DEF, StepTypeSubstepsArray]
+%LOCATION = "StdTypes"
+%ROOT_TYPE = True
+
+[StepTypeSubstepsArray]
+%TIMESTAMP = 1018442948
+%VERSION = "2.0.1.121"
+%FLG = 37748760
+%INSTFLG = 524312
+%INSTOVRD = 655384
+
+[DEF, EditSubstep]
+%LOCATION = "StepTypes"
+DescriptionFormat = "TYPE, StepTypeDescFmt"
+DefaultNameFormat = "TYPE, StepTypeDefNameFmt"
+Menu = "TYPE, StepTypeMenu"
+Substeps = "TYPE, StepTypeSubstepsArray"
+CodeTemplates = Str
+%FLG: CodeTemplates = 524288
+TS = "TYPE, TEInf"
+Result = Obj
+MenuName = Str
+%ROOT_TYPE = True
+
+[EditSubstep]
+DefaultNameFormat = "ResStr(\"NI_STEPTYPES\", \"EDIT_DEF_SUBSTEP_NAME\")"
+CodeTemplates = "Default_Template"
+%FLG: CodeTemplates = 24
+%FLG: Result = 4194304
+%INSTFLG: Result = 4194304
+%TIMESTAMP = 1018442948
+%VERSION = "2.0.1.121"
+%FLG = 37748737
+%TYPE_FLG = 2
+
+[EditSubstep.Menu]
+CanBeSubstepType = True
+CanOnlyBeSubstepType = True
+ItemName = "ResStr(\"NI_STEPTYPES\", \"EDIT_SUBSTEP_MENU_ITEM_NAME\")"
+Group = "EditSubsteps"
+
+[DEF, EditSubstep.TS]
+SData = Obj
+%FLG: SData = 2097152
+
+[EditSubstep.TS]
+%INSTFLG: SData = 2097152
+%INSTOVRD: SData = 7274521
+
+[DEF, EditSubstep.Result]
+Error = "TYPE, Error"
+Status = Str
+ReportText = Str
+Common = "TYPE, CommonResults"
+
+[EditSubstep.Result]
+%FLG: Error = 4194304
+%INSTFLG: Error = 4194304
+%INSTOVRD: Error = 4194304
+%FLG: Status = 4194304
+%INSTFLG: Status = 4194304
+
+[DEF, StepTypeDescFmt]
+%LOCATION = "StdTypes"
+%ROOT_TYPE = True
+
+[%OBJECTS]
+StepTypeDescFmt = "\"%ModuleDescription\""
+StepTypeDefNameFmt = "\"\""
+
+[StepTypeDescFmt]
+%TIMESTAMP = 1018442948
+%VERSION = "2.0.1.121"
+%FLG = 37748760
+%INSTFLG = 524312
+%INSTOVRD = 524312
+
+[DEF, StepTypeDefNameFmt]
+%LOCATION = "StdTypes"
+%ROOT_TYPE = True
+
+[StepTypeDefNameFmt]
+%TIMESTAMP = 1018442948
+%VERSION = "2.0.1.121"
+%FLG = 37748760
+%INSTFLG = 524312
+%INSTOVRD = 524312
+
+[DEF, StepTypeMenu]
+%LOCATION = "StdTypes"
+Adapter = Str
+CanBeSubstepType = Bool
+CanOnlyBeSubstepType = Bool
+Category = Str
+ItemName = Str
+SingularItemName = Str
+SeparatorBeforeCategory = Bool
+SeparatorBeforeItemName = Bool
+Group = Str
+%ROOT_TYPE = True
+
+[StepTypeMenu]
+Category = "\"\""
+ItemName = "\"\""
+SingularItemName = "\"\""
+%TIMESTAMP = 1018442948
+%VERSION = "2.0.1.121"
+%FLG = 37748760
+%INSTFLG = 524312
+%INSTOVRD = 524312
+
+[DEF, TEInf]
+%LOCATION = "StdTypes"
+Adapter = Str
+Icon = Str
+SData = Obj
+%FLG: SData = 2097152
+PreCond = Str
+LoadOpt = Str
+UnloadOpt = Str
+Mode = Str
+WindowActivation = Str
+NoResult = Bool
+StepFCSeqF = Bool
+IgnoreRTE = Bool
+UseMutex = Bool
+MutexNameOrRef = Str
+BatchSyncOpt = Num
+SwitchEnabled = Bool
+VirtualDeviceName = Str
+SwitchOperation = Num
+RouteGroupConnect = Str
+RouteGroupDisconnect = Str
+MulticonnectMode = Num
+OperationOrder = Num
+ConnectionLifetime = Num
+WaitForDebounce = Bool
+PassAct = Str
+FailAct = Str
+PassActTarget = Str
+FailActTarget = Str
+CustExpr = Str
+CustTrueAct = Str
+CustFalseAct = Str
+CustTrueActTarget = Str
+CustFalseActTarget = Str
+LoopType = Str
+LoopWhile = Str
+LoopStatus = Str
+LoopIncrement = Str
+LoopInitialize = Str
+LoopOpt = Num
+PreExpr = Str
+PostExpr = Str
+StatusExpr = Str
+HasModule = Bool
+CanSpecifyModule = Bool
+CanEditCode = Bool
+CanEditModulePrototype = Bool
+PrecondIntExe = Num
+%ROOT_TYPE = True
+
+[TEInf]
+%INSTOVRD: Adapter = 5046297
+%INSTOVRD: Icon = 5046297
+%INSTFLG: SData = 2097152
+%INSTOVRD: SData = 7143449
+%INSTOVRD: PreCond = 5046297
+LoadOpt = "PreloadWhenExecuted"
+%INSTOVRD: LoadOpt = 5046297
+UnloadOpt = "UnloadWithFile"
+%INSTOVRD: UnloadOpt = 5046297
+Mode = "Normal"
+%INSTOVRD: Mode = 5046297
+WindowActivation = "None"
+%INSTOVRD: WindowActivation = 5046297
+%INSTOVRD: NoResult = 5046297
+StepFCSeqF = True
+%INSTOVRD: StepFCSeqF = 5046297
+%INSTOVRD: IgnoreRTE = 5046297
+%INSTOVRD: UseMutex = 5046297
+%INSTOVRD: MutexNameOrRef = 5046297
+%INSTOVRD: BatchSyncOpt = 5046297
+%INSTOVRD: SwitchEnabled = 5046297
+%INSTOVRD: VirtualDeviceName = 5046297
+SwitchOperation = 1
+%INSTOVRD: SwitchOperation = 5046297
+%INSTOVRD: RouteGroupConnect = 5046297
+%INSTOVRD: RouteGroupDisconnect = 5046297
+MulticonnectMode = 1
+%INSTOVRD: MulticonnectMode = 5046297
+OperationOrder = 2
+%INSTOVRD: OperationOrder = 5046297
+%INSTOVRD: ConnectionLifetime = 5046297
+WaitForDebounce = True
+%INSTOVRD: WaitForDebounce = 5046297
+PassAct = "Next"
+%INSTOVRD: PassAct = 5046297
+FailAct = "Next"
+%INSTOVRD: FailAct = 5046297
+%INSTOVRD: PassActTarget = 5046297
+%INSTOVRD: FailActTarget = 5046297
+%INSTOVRD: CustExpr = 5046297
+CustTrueAct = "Next"
+%INSTOVRD: CustTrueAct = 5046297
+CustFalseAct = "Next"
+%INSTOVRD: CustFalseAct = 5046297
+%INSTOVRD: CustTrueActTarget = 5046297
+%INSTOVRD: CustFalseActTarget = 5046297
+LoopType = "NoLooping"
+%INSTOVRD: LoopType = 5046297
+%INSTOVRD: LoopWhile = 5046297
+%INSTOVRD: LoopStatus = 5046297
+LoopIncrement = "RunState.LoopIndex += 1"
+%INSTOVRD: LoopIncrement = 5046297
+LoopInitialize = "RunState.LoopIndex = 0"
+%INSTOVRD: LoopInitialize = 5046297
+%INSTOVRD: LoopOpt = 5046297
+%INSTOVRD: PreExpr = 5046297
+%INSTOVRD: PostExpr = 5046297
+%INSTOVRD: StatusExpr = 5046297
+HasModule = True
+%INSTOVRD: HasModule = 5046297
+CanSpecifyModule = True
+%INSTOVRD: CanSpecifyModule = 5046297
+CanEditCode = True
+%INSTOVRD: CanEditCode = 5046297
+CanEditModulePrototype = True
+%INSTOVRD: CanEditModulePrototype = 5046297
+%INSTOVRD: PrecondIntExe = 5046297
+%TIMESTAMP = 1018442948
+%VERSION = "2.0.1.121"
+%FLG = 33554456
+%INSTFLG = 262168
+%INSTOVRD = 262168
+
+[DEF, Error]
+%LOCATION = "StdTypes"
+Code = Num
+Msg = Str
+Occurred = Bool
+%ROOT_TYPE = True
+
+[Error]
+%FLG: Code = 4194304
+%INSTFLG: Code = 4194304
+%FLG: Msg = 4194304
+%INSTFLG: Msg = 4194304
+%FLG: Occurred = 4194304
+%INSTFLG: Occurred = 4194304
+%TIMESTAMP = 1018442948
+%VERSION = "2.0.1.121"
+%FLG = 37748736
+
+[DEF, CommonResults]
+%LOCATION = "StdTypes"
+%ROOT_TYPE = True
+
+[CommonResults]
+%TIMESTAMP = 1018442948
+%VERSION = "2.0.1.121"
+%FLG = 37748736
+%INSTFLG = 4194304
+
+[DEF, FlexCStepAdditions]
+%LOCATION = "StdTypes"
+Call = ExternalCall
+ModuleSrcPath = "TYPE, Path"
+%ROOT_TYPE = True
+
+[DEF, FlexCStepAdditions.Call]
+LibPath = "TYPE, Path"
+Func = Str
+Conv = Num
+Parms = Objs
+
+[FlexCStepAdditions.Call]
+Conv = 1
+%LO: Parms = [0]
+%HI: Parms = [0]
+
+[DEF, FlexCStepAdditions.Call.Parms]
+%EPTYPE = "TYPE, FCParameter"
+%FLG: %EPTYPE = 131072
+%[0] = "TYPE, FCParameter"
+
+[FlexCStepAdditions.Call.Parms[0]]
+Name = "Return Value"
+Type = 3
+
+[FlexCStepAdditions]
+%TIMESTAMP = 1008353143
+%VERSION = "2.0.1.121"
+%FLG = 33554456
+
+[DEF, FCParameter]
+%LOCATION = "StdTypes"
+Name = Str
+Type = Num
+NumType = Num
+ObjType = Num
+StructType = Str
+NumPass = Num
+NumEls = Str
+StrPass = Num
+ResultAct = Num
+ArgVal = Str
+ArgDisplayVal = Str
+Flags = Num
+%ROOT_TYPE = True
+
+[FCParameter]
+Name = "_notNamed"
+NumType = 4
+NumEls = "1024"
+%TIMESTAMP = 1008353143
+%VERSION = "2.0.1.121"
+%FLG = 33554456
+
+[DEF, GStepAdditions]
+%LOCATION = "StdTypes"
+ViPath = "TYPE, Path"
+PassInBuf = Bool
+PassInvocInfo = Bool
+PassContextPtr = Bool
+ShowFrntPnl = Bool
+%ROOT_TYPE = True
+
+[GStepAdditions]
+%TIMESTAMP = 1008324626
+%VERSION = "2.0.1.121"
+%FLG = 33554456
+

@@ -1,0 +1,31 @@
+
+Set "SelectedClassIndex" -1
+If {ImageFolder}/LastCreatedNormalClass.png 82 15
+	Click {ImageFolder}/LastCreatedNormalClass.png 80 15
+	Set "SelectedClassIndex" 0
+EndIf
+
+If "{SelectedClassIndex}"=-1
+	If {ImageFolder}/LastCreatedInterfaceClass.png
+		Click {ImageFolder}/LastCreatedInterfaceClass.png 80 15
+		Set "SelectedClassIndex" 1
+	EndIf
+EndIf
+
+If "{SelectedClassIndex}"=-1
+	If {ImageFolder}/LastCreatedStaticClass.png
+		Click {ImageFolder}/LastCreatedStaticClass.png 84 26
+	EndIf
+	
+	If {ImageFolder}/LastCreatedLVNativelClass.png
+		Click "{ImageFolder}/LastCreatedLVNativelClass.png" 80 15
+		Set "SelectedClassIndex" 2
+	EndIf
+EndIf
+
+If "{SelectedClassIndex}"=-1
+	If "{ImageFolder}/LastCreatedImplementingClass.png"
+		Click "{ImageFolder}/LastCreatedImplementingClass.png" 81 12
+		Set "SelectedClassIndex" 3
+	EndIf
+EndIf

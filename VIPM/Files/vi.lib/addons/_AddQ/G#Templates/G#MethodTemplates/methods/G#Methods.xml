@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<G#Template>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="ReadAttribute.vi" Alias="Read Attribute"></Method>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="WriteAttribute.vi" Alias="Write Attribute"></Method>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="ReadWriteAttribute.vi" Alias="Read and Write Attribute"></Method>
+<Method Normal="False" Override="False" Polymorphic="False" Malleable="True" VI="ReadAttribute.vim" AllowDynDispatch="False" Alias="Read Attribute Malleable Method"></Method>
+<Method Normal="False" Override="False" Polymorphic="False" Malleable="True" VI="WriteAttribute.vim" AllowDynDispatch="False" Alias="Write Attribute Malleable Method"></Method>
+<LineBreak Normal="True" Override="True"></LineBreak>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="Abstract.vi" Alias="Abstract"></Method>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="NoneModifying.vi" Alias="None Modifying Method"></Method>
+<Method Normal="False" Override="False" Polymorphic="False" Malleable="True" VI="NoneModifying.vim" AllowDynDispatch="False" Alias="None Modifying Malleable Method"></Method>
+<LineBreak Normal="True" Override="True"></LineBreak>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="NoneModifyingClass.vi" AllowDynDispatch="False" Alias="None Modifying Class Method"></Method>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="ReadClassAttribute.vi" AllowDynDispatch="False" Alias="Read Class Attribute"></Method>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="WriteClassAttribute.vi" AllowDynDispatch="False" Alias="Write Class Attribute"></Method>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="ReadWriteClassAttribute.vi" AllowDynDispatch="False" Alias="Read and Write Class Attribute"></Method>
+<Method Normal="False" Override="True" Polymorphic="False" Malleable="False" VI="DefaultConstructor.vi" Alias="Default Constructor"></Method>
+<Method Normal="False" Override="True" Polymorphic="False" Malleable="False" VI="Destructor.vi" Alias="Destructor"></Method>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="ReadAttributeFrontPanelInMem.vi" Alias="Read Attribute Front Panel In Memory"></Method>
+<Method Normal="False" Override="False" Polymorphic="True" Malleable="False" VI="Polymorphic.vi" AllowDynDispatch="False" Alias="Polymorphic Method"></Method>
+<Method Normal="False" Override="False" Polymorphic="False" Malleable="True" VI="NoneModifyingClass.vim" AllowDynDispatch="False" Alias="None Modifying Class Malleable Method"></Method>
+</G#Template>
+
+<G#StaticTemplate>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="NoneModifyingClass.vi" AllowDynDispatch="False" Alias="None Modifying Class Method"></Method>
+<Method Normal="False" Override="False" Polymorphic="False" Malleable="True" VI="NoneModifyingClass.vim" AllowDynDispatch="False" Alias="None Modifying Class Malleable Method"></Method>
+<LineBreak Normal="True" Override="False"></LineBreak>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="ReadClassAttribute.vi" AllowDynDispatch="False" Alias="Read Class Attribute"></Method>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="WriteClassAttribute.vi" AllowDynDispatch="False" Alias="Write Class Attribute"></Method>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="ReadWriteClassAttribute.vi" AllowDynDispatch="False" Alias="Read and Write Class Attribute"></Method>
+<Method Normal="False" Override="False" Polymorphic="True" Malleable="False" VI="Polymorphic.vi" AllowDynDispatch="False" Alias="Polymorphic Method"></Method>
+</G#StaticTemplate>
+
+<G#BaseTemplateG3>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="ReadAttribute.vi" Alias="Read Attribute"></Method>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="WriteAttribute.vi" Alias="Write Attribute"></Method>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="ReadWriteAttribute.vi" Alias="Read and Write Attribute"></Method>
+<Method Normal="False" Override="False" Polymorphic="False" Malleable="True" VI="ReadAttribute.vim" AllowDynDispatch="False" Alias="Read Attribute Malleable Method"></Method>
+<Method Normal="False" Override="False" Polymorphic="False" Malleable="True" VI="WriteAttribute.vim" AllowDynDispatch="False" Alias="Write Attribute Malleable Method"></Method>
+<LineBreak Normal="True" Override="True"></LineBreak>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="Abstract.vi" Alias="Abstract"></Method>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="NoneModifying.vi" Alias="None Modifying Method"></Method>
+<Method Normal="False" Override="False" Polymorphic="False" Malleable="True" VI="NoneModifying.vim" AllowDynDispatch="False" Alias="None Modifying Malleable Method"></Method>
+<LineBreak Normal="True" Override="True"></LineBreak>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="NoneModifyingClass.vi" AllowDynDispatch="False" Alias="None Modifying Class Method"></Method>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="ReadClassAttribute.vi" AllowDynDispatch="False" Alias="Read Class Attribute"></Method>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="WriteClassAttribute.vi" AllowDynDispatch="False" Alias="Write Class Attribute"></Method>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="ReadWriteClassAttribute.vi" AllowDynDispatch="False" Alias="Read and Write Class Attribute"></Method>
+<Method Normal="False" Override="False" Polymorphic="False" Malleable="True" VI="NoneModifyingClass.vim" AllowDynDispatch="False" Alias="None Modifying Class Malleable Method"></Method>
+<LineBreak Normal="True" Override="False"></LineBreak>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="WriteAttributeOld.vi" Alias="Write Attribute Old"></Method>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="ReadWriteAttributeOld.vi" Alias="Read and Write Attribute Old"></Method>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="WriteClassAttributeOld.vi" AllowDynDispatch="False" Alias="Write Class Attribute Old"></Method>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="ReadWriteClassAttributeOld.vi" AllowDynDispatch="False" Alias="Read and Write Class Attribute Old"></Method>
+<Method Normal="False" Override="False" Polymorphic="True" Malleable="False" VI="Polymorphic.vi" AllowDynDispatch="False" Alias="Polymorphic Method"></Method>
+</G#BaseTemplateG3>
+
+<G#SubTemplateG3>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="ReadAttribute.vi" Alias="Read Attribute"></Method>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="WriteAttribute.vi" Alias="Write Attribute"></Method>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="ReadWriteAttribute.vi" Alias="Read and Write Attribute"></Method>
+<Method Normal="False" Override="False" Polymorphic="False" Malleable="True" VI="ReadAttribute.vim" AllowDynDispatch="False" Alias="Read Attribute Malleable Method"></Method>
+<Method Normal="False" Override="False" Polymorphic="False" Malleable="True" VI="WriteAttribute.vim" AllowDynDispatch="False" Alias="Write Attribute Malleable Method"></Method>
+<LineBreak Normal="True" Override="True"></LineBreak>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="NoneModifying.vi" Alias="None Modifying Method"></Method>
+<Method Normal="False" Override="False" Polymorphic="False" Malleable="True" VI="NoneModifying.vim" AllowDynDispatch="False" Alias="None Modifying Malleable Method"></Method>
+<LineBreak Normal="True" Override="True"></LineBreak>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="NoneModifyingClass.vi" AllowDynDispatch="False" Alias="None Modifying Class Method"></Method>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="ReadClassAttribute.vi" AllowDynDispatch="False" Alias="Read Class Attribute"></Method>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="WriteClassAttribute.vi" AllowDynDispatch="False" Alias="Write Class Attribute"></Method>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="ReadWriteClassAttribute.vi" AllowDynDispatch="False" Alias="Read and Write Class Attribute"></Method>
+<Method Normal="False" Override="False" Polymorphic="False" Malleable="True" VI="NoneModifyingClass.vim" AllowDynDispatch="False" Alias="None Modifying Class Malleable Method"></Method>
+<LineBreak Normal="True" Override="False"></LineBreak>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="WriteAttributeOld.vi" Alias="Write Attribute Old"></Method>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="ReadWriteAttributeOld.vi" Alias="Read and Write Attribute Old"></Method>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="WriteClassAttributeOld.vi" AllowDynDispatch="False" Alias="Write Class Attribute Old"></Method>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="ReadWriteClassAttributeOld.vi" AllowDynDispatch="False" Alias="Read and Write Class Attribute Old"></Method>
+<Method Normal="False" Override="False" Polymorphic="True" Malleable="False" VI="Polymorphic.vi" AllowDynDispatch="False" Alias="Polymorphic Method"></Method>
+</G#SubTemplateG3>
+
+<G#InterfaceImplementation>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="Implement.vi" Alias="Implement"></Method>
+<Method Normal="False" Override="False" Polymorphic="True" Malleable="False" VI="Polymorphic.vi" AllowDynDispatch="False" Alias="Polymorphic Method"></Method>
+</G#InterfaceImplementation>
+
+<G#InterfaceTemplate>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="ExecuteVI.vi" Alias="Execute"></Method>
+<Method Normal="True" Override="False" Polymorphic="False" Malleable="False" VI="Abstract.vi" Alias="Abstract"></Method>
+<Method Normal="False" Override="False" Polymorphic="True" Malleable="False" VI="Polymorphic.vi" AllowDynDispatch="False" Alias="Polymorphic Method"></Method>
+</G#InterfaceTemplate>
+
+<LvNative>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="Normal.vi" Alias="Standard"></Method>
+<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="NormalNoRefs.vi" Alias="No Class Control"></Method>
+<Method Normal="False" Override="False" Polymorphic="True" Malleable="False" VI="Polymorphic.vi" AllowDynDispatch="False" Alias="Polymorphic Method"></Method>
+<Method Normal="False" Override="False" Polymorphic="False" Malleable="True" VI="NoneModifyingClass.vim" AllowDynDispatch="False" Alias="Malleable Method"></Method>
+</LvNative>
+

@@ -1,0 +1,47 @@
+Begin "Display JAutomate and demo applikation"
+AnimateCursor Yes
+Display images/examples/r1.png images/examples/r2.png images/examples/r3.png images/examples/r4.png images/examples/r5.png images/examples/r6.png images/examples/r7.png images/examples/r8.png images/examples/r9.png images/examples/r10.png
+Wait 2000
+End
+Begin "Click the Record button"
+WaitMouseMove "images/examples/1343679934316.png"
+Wait 1000
+MouseLeftClick
+End
+Begin "Start recording"
+WaitMouseMove "images/examples/1343679935104.png"
+Wait 1000
+MouseLeftClick
+End
+Begin "Click 4"
+WaitMouseMove "images/examples/1343679935655.png"
+MouseLeftClick
+End
+Begin "Click +"
+WaitMouseMove "images/examples/1343679936138.png"
+MouseLeftClick
+End
+Begin "Click 6"
+WaitMouseMove "images/examples/1343679936720.png"
+MouseLeftClick
+End
+Begin "Click ="
+WaitMouseMove "images/examples/1343679937449.png"
+MouseLeftClick
+End
+Begin "Verify the result"
+WaitMouseMove "images/examples/1343680729342.png"
+MouseLeftClick
+WaitMouseMove "images/examples/1343679938437.png"
+End
+Begin "Clear result"
+WaitMouseMove "images/examples/1343680806857.png"
+MouseLeftClick
+WaitMouseMove "images/examples/1343679939154.png"
+MouseLeftClick
+End
+Begin "Stop the recording"
+Wait 2000
+WaitMouseMove "images/examples/1343679940195.png"
+MouseLeftClick
+End

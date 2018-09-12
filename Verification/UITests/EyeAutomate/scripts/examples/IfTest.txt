@@ -1,0 +1,24 @@
+Begin "Select first option if not selected"
+	Display "images/examples/options0.png" "images/examples/options1.png" "images/examples/options2.png" "images/examples/options3.png"
+	If "images/examples/first_option.png" 2 2 90 15
+		Click "images/examples/first_option.png" 8 50
+	EndIf
+	WaitVerify "images/examples/first_option_checked.png"
+End
+Begin "Select second option if not selected"
+	IfNot "images/examples/second_option_checked.png" 0 0 111 17
+		Click "images/examples/second_option.png" 8 50
+	EndIf
+	Check "images/examples/second_option_checked.png" 0 0 111 17
+End
+Begin "Select third option if the last unselected option"
+	If "images/examples/first_option_checked.png" 0 0 95 16
+		If "images/examples/second_option_checked.png" 0 0 111 17
+			IfNot "images/examples/third_option_checked.png" 0 0 96 17
+				Click "images/examples/third_option.png" 8 50
+			EndIf
+		EndIf
+	EndIf
+	Check "images/examples/third_option_checked.png" 0 0 96 17
+	MouseLeftClick
+End

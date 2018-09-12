@@ -1,0 +1,1 @@
+This folder is obsolete. VIPM is now the only installer.

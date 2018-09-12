@@ -1,0 +1,355 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<title>G#Debugger.lvlib:G#Debugger_GUI.vi</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:18.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Cambria","serif";
+	color:#4F81BD;
+	font-weight:bold;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{font-size:10.0pt;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+<meta name=Author content="">
+</head>
+
+<body bgcolor=white lang=SV>
+
+<div class=Section1>
+
+<h2><a name="G_Debugger.lvlib:G_Debugger_GUI.vi"></a><span lang=EN-US>G#Debugger
+GUI - Active Debug tab</span></h2>
+
+<p><span lang=EN-US>This tab will enable the G# Active Debug. It is a powerful
+way of debugging and testing methods without actual need to create and
+application. When enabling the active debug, the current active project (from which
+the debugger is lauched) will be scanned for classes and placed in the tree
+view control. Select a method in the tree view and the panel of the method will
+show up in the subpanel to the right. If a constructor method (the Create.vi)
+is selected and executed by the <i>Run VI</i> button, an object is created and
+the reference cached in the debugger. Then, another method of the class (or a
+parent class) could be selected to be executed. Control values could be edited
+in the subpanel before running it. It is also possible to open the front panel
+in the by either double clicking in the tree view or press the <i>Open VI Panel</i>
+button. The method VI could then be executed directly by using the standard <i>Run</i>
+button. Notice that you have to select the VI in the tree view before executing
+it, because the cached reference needs to be copied to the input reference of
+the method.</span></p>
+
+<p><span lang=EN-US>All created objects will of course show up in the objects
+tab and trace tab. To destroy the object, run the <i>Destroy </i>method or use
+the <i>Garbage Collector</i> button on the <i>Objects</i> tab. It is also
+possible to select any object in the object tree view and use this as the
+cached object.</span></p>
+
+<p><img width=1179 height=787 src="GDebugger_ActiveDebug.jpg"
+alt="G#Debugger GUI - Active Debug tab"></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cenum.jpg alt=cenum></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Tab Control</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Selects between Objects, Trace or Active Debug mode.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cbool.jpg alt=cbool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Enable Active Debug</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Enables active debug mode. External create process will
+  own the created objects.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cstr.jpg alt=cstr></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>DebugTree</span></b><span lang=EN-US> </span></p>
+  <p><span lang=EN-US>All classes and public methods in the current active
+  project.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cbool.jpg alt=cbool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Wait Until Done</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Waits until the VI is finished until releasing control
+  back to debugger.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cbool.jpg alt=cbool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Run VI</span></b><span lang=EN-US> </span></p>
+  <p><span lang=EN-US>Runs the selected VI. </span>Object reference is cached.</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cbool.jpg alt=cbool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Abort VI</span></b><span lang=EN-US> </span></p>
+  <p><span lang=EN-US>Aborts the selected VI (if running).</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cbool.jpg alt=cbool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Open Panel</span></b><span lang=EN-US>
+  </span></p>
+  <p><span lang=EN-US>Opens the front panel of the selected VI.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cbool.jpg alt=cbool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>External Create Process Running</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Indicates if the background external create process is
+  running.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cu8.jpg alt=cu8></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Window Transparency</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Transparency of the front panel window.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cbool.jpg alt=cbool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Window Behaviour</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Selects if the debugger is on top of all VIs or not.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=ibool.jpg alt=ibool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Cached Ref Valid</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Each time a constructor is executed, the last reference
+  is cached and will be copied to the new selected, opened or executed methods
+  'reference in'.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=iu32.jpg alt=iu32></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Object ID</span></b><span lang=EN-US> </span></p>
+  <p><span lang=EN-US>Unique object id of the cached reference.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=istr.jpg alt=istr></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Cached Reference Class Name</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Class of the cashed reference.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=istr.jpg alt=istr></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>G# Version</span></b><span lang=EN-US>
+  </span></p>
+  <p><span lang=EN-US>Version of G#.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=iu32.jpg alt=iu32></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Object ID</span></b><span lang=EN-US> </span></p>
+  <p><span lang=EN-US>Unique object identity.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=istr.jpg alt=istr></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Application Instance</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Application instance of the object scope.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=istr.jpg alt=istr></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Owner</span></b><span lang=EN-US> </span></p>
+  <p><span lang=EN-US>Owning top-level VI of the selected object. When this VI
+  stops executing, LabVIEW will automatically garbage collect the object.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

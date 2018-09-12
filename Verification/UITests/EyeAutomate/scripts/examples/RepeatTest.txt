@@ -1,0 +1,8 @@
+Display "images/examples/options0.png" "images/examples/options1.png" "images/examples/options2.png" "images/examples/options3.png"
+Move "images/examples/first_option.png"
+Find "images/examples/checkbox.png" 0 0 16 16
+Repeat {MatchCount}
+	Click {MatchLocation{Iteration}}
+EndRepeat
+Check "images/examples/all_checked.png"
+MouseLeftClick

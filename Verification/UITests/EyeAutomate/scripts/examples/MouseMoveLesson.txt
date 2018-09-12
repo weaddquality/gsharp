@@ -1,0 +1,29 @@
+Begin "Move to center"
+AnimateCursor Yes
+Display 120 120 {ImageFolder}/examples/sphere.png
+ManualTest "MouseMove " "{ImageFolder}/examples/sphere_small.png" " - places the cursor in the center of the image.<br><br>Press Pass to continue."
+MouseMove {ImageFolder}/examples/sphere.png
+End
+Begin "Move to right side"
+ManualTest "MouseMove " "{ImageFolder}/examples/sphere_small.png" " 100 50 - places the cursor at the right side of the sphere. 100% of the width and 50% of the height."
+MouseMove {ImageFolder}/examples/sphere.png 100 50
+End
+Begin "Move to bottom side"
+ManualTest "MouseMove " "{ImageFolder}/examples/sphere_small.png" " 50 100 - places the cursor at the bottom side of the sphere."
+MouseMove {ImageFolder}/examples/sphere.png 50 100
+End
+Begin "100 pixels to the right"
+ManualTest "MouseMove " "{ImageFolder}/examples/sphere_small.png" " +100 +0 - places the cursor 100 pixels to the right of the center of the sphere.<br><br>Same result as using a MouseMove followed by a MouseMoveRelative."
+MouseMove {ImageFolder}/examples/sphere.png +100 +0
+End
+Begin "Close dialog"
+MouseMove {ImageFolder}/examples/sphere.png
+MouseLeftClick
+End
+Begin "Moving within a grid"
+Display 450 200 {ImageFolder}/examples/grid.png
+ManualTest "MouseMove" "{ImageFolder}/examples/1342978147656.png" " " "{ImageFolder}/examples/1342978208252.png" "- takes the x-coordinate from the first image and the y-coordinate from the second."
+MouseMove "{ImageFolder}/examples/1342978147656.png" "{ImageFolder}/examples/1342978208252.png"
+Wait 2000
+MouseLeftClick
+End

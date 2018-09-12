@@ -1,0 +1,30 @@
+Set "Name" "Eric"
+If "{Name}=Eric"
+	Set "Name" "Erica"
+EndIf
+
+IfNot "{Name}=Erica"
+	Set "Name" "Incorrect"
+EndIf
+Check "{Name}!=Incorrect"
+
+Set "Name" "Erica"
+IfNot "{Name}=Erica"
+	Set "Name" "Incorrect"
+Else
+	Set "Name" "Correct"
+EndIf
+Check "{Name}=Correct"
+
+Set Total 1
+If 10>1
+	Set Total "{Total}0"
+	IfNot 10>1
+		Set Total "{Total}1"
+	Else
+		Set Total "{Total}11"
+	EndIf
+Else
+	Set Total "{Total}00"
+EndIf
+Check "{Total}=1011"

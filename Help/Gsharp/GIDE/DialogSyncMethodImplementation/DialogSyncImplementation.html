@@ -1,0 +1,79 @@
+<HTML>
+<HEAD>
+<TITLE>Dialog - Synchronize Method Implementation</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="Dialog - Synchronize Method Implementation"></A><H2>Dialog - Synchronize Method Implementation</H2>
+<P>Synchronizes method implementations so that the method signature (connector pane) matches for all implementations of the method.</P>
+<P><IMG SRC="SyncConPane.png"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Sync</B> <P>Synchronizes according to the chosen settings</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Cancel</B> <P>Cancel.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Help</B> <P>Help.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>Affected implementations. Select the method to use as source.</B> <P>The affected implementations of the specified method that will be updated. The selected implementation will be used as source and all affected implementations of the method will update their connector panes to match the selected implementation.
+
+Controls that are present on the same connector pane terminal on both the source and the destination and have the same type will only update documentation and default value, if those options are selected in the "Synchronization Options" of this dialog. Controls that do not match the type for the source and destination or do not exist at the destination connector pane terminal will be duplicated from the source implementation. Controls connected to the connector pane which does not match the selected implementation will be removed.
+
+</P>
+<P></P>
+<P>Double-click to open a VI.</P>
+</TD>
+</TR>
+</Table>
+<BR/><B>Synchronization Options</B>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Documentation</B> <P>If selected, any control that already exists in the target implementation (VI) with the same type will have its documentation and tip-strip replaced with the documentation of the corresponding control in this method.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Default Value</B> <P>If selected, any control that already exists in the target implementation (VI) with the same type will have its default value replaced with the default value of the corresponding  control in this method.</P>
+</TD>
+</TR>
+</Table>
+</BODY>
+</HTML>

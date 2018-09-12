@@ -1,0 +1,7 @@
+// select project to unselect anything else
+Click "{ImageFolder}/1520792981415.png" 28 78 18 19
+Move "images/1520705082086.png" 4 1 9 13
+MouseRightClick
+Move  "images/1520630688723.png" 17 3 130 18
+Click "images/1520705180578.png" 17 0 35 16
+Click "images/1520631212349.png" 21 4 50 16

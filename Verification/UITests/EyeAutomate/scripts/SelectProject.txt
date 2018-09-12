@@ -1,0 +1,7 @@
+// select project to unselect anything else
+Click "{ImageFolder}/1520792981415.png" 42 43
+// select project to select window and make sure that the project is selected
+If {ImageFolder}/1520935572308.png
+	Wait 500
+	MouseLeftClick
+EndIf

@@ -1,0 +1,32 @@
+Begin "Display horses"
+	AnimateCursor Yes
+	Display 0 0 854 480 "{ImageFolder}/examples/raceboard.png"
+	Display 100 19 114 70 "{ImageFolder}/examples/horse1.png"
+	Display 100 95 114 70 "{ImageFolder}/examples/horse2.png"
+	Display 100 169 114 70 "{ImageFolder}/examples/horse3.png"
+	Display 100 245 114 70 "{ImageFolder}/examples/horse4.png"
+	Display 100 320 114 70 "{ImageFolder}/examples/horse5.png"
+	Display 100 395 114 70 "{ImageFolder}/examples/horse6.png"
+End
+Begin "Run the race"
+	Set Horse none
+	While "{ImageFolder}/examples/finishline.png" 0 0 11 455
+		AnimateCursor No
+		SetRandom Horse "{ImageFolder}/examples/horse1.png" "{ImageFolder}/examples/horse2.png" "{ImageFolder}/examples/horse3.png" "{ImageFolder}/examples/horse4.png" "{ImageFolder}/examples/horse5.png" "{ImageFolder}/examples/horse6.png"
+		Move {Horse}
+		MouseLeftPress
+		AnimateCursor Yes
+		MouseMoveRelative 50 0
+		MouseLeftRelease
+	EndWhile
+	Sleep 2000
+End
+Begin "Hide horses"
+	Click "{ImageFolder}/examples/horse1.png"
+	Click "{ImageFolder}/examples/horse2.png"
+	Click "{ImageFolder}/examples/horse3.png"
+	Click "{ImageFolder}/examples/horse4.png"
+	Click "{ImageFolder}/examples/horse5.png"
+	Click "{ImageFolder}/examples/horse6.png"
+	MouseLeftClick
+End

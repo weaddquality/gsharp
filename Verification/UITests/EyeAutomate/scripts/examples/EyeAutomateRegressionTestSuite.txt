@@ -1,0 +1,15 @@
+StopIfFailed No
+ManualRecovery Yes
+//Call "scripts/examples/MouseMoveTest.txt"
+//Call "scripts/examples/CallTest.txt"
+//Call "scripts/examples/CallWithCsvTest.txt"
+//Call "scripts/examples/CheckTest.txt"
+Call "scripts/examples/ParameterTest.txt"
+Call "scripts/examples/CheckExpression.txt"
+Call "scripts/examples/IfTest.txt"
+Call "scripts/examples/WhileTest.txt"
+Call "scripts/examples/RepeatTest.txt"
+Call "scripts/examples/IfExpressionTest.txt"
+Call "scripts/examples/AiTest.txt"
+Call "scripts/examples/AiToleranceTest.txt"
+Call "scripts/examples/CatchTest.txt"

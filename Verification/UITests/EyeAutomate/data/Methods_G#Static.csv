@@ -1,0 +1,5 @@
+MethodTemplate, MethodTemplateIndex, MethodName, MethodDescription
+None Modifying Class Method, 0, NonModClassMeth, NonModClassMethDescr
+Read Class Attribute, 2, ReadClassAttr, ReadClassAttrDescr
+Write Class Attribute, 3, WriteClassAttr, WriteClassAttrDescr
+Read and Write Class Attribute, 4, RWClassAttr, RWClassAttrDescr

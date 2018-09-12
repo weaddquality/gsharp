@@ -1,0 +1,4 @@
+MethodTemplate, MethodTemplateIndex, MethodName, MethodDescription
+Standard, 0, StandardMeth, StandardDescr
+NoClassControl, 1, NoClassControlMeth, NoClassControlDescr
+

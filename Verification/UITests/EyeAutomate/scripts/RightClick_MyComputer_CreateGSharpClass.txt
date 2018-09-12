@@ -1,0 +1,18 @@
+// Call "scripts/SelectProject.txt"
+RecognitionMode "Exact"
+Begin "right-click my computer"
+	If "images/1520705082086.png" 55 53
+		Click "images/1520705082086.png" 55 53
+	EndIf
+	
+	If "{ImageFolder}/1520965353370.png"
+		ContextClick "{ImageFolder}/1520965353370.png" 53 63
+	EndIf
+End
+
+
+//could work to click directly, but this is more tolerant
+Move "images/1520630688723.png" 17 3 130 18
+Click "images/1520705180578.png" 17 0 35 16
+Click "images/1520631212349.png" 21 4 50 16
+

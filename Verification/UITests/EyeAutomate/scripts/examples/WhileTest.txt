@@ -1,0 +1,17 @@
+UseMatchCache "No"
+Begin "Check all options using While"
+	Display "images/examples/options0.png" "images/examples/options1.png" "images/examples/options2.png" "images/examples/options3.png"
+	Move "images/examples/first_option.png"
+	While "images/examples/checkbox.png" 0 0 16 16
+		Click "images/examples/checkbox.png" 0 0 16 16
+	EndWhile
+	MouseLeftClick
+End
+Begin "Check all options using WhileNot"
+	Display "images/examples/options0.png" "images/examples/options1.png" "images/examples/options2.png" "images/examples/options3.png"
+	Move "images/examples/first_option.png"
+	WhileNot "images/examples/all_checked.png" 0 0 16 58
+		Click "images/examples/checkbox.png" 0 0 16 16
+	EndWhile
+	MouseLeftClick
+End

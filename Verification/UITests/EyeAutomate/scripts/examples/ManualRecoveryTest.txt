@@ -1,0 +1,4 @@
+ManualRecovery No
+Begin "Fail the test if this dialog is displayed since ManualRecovery is off."
+Click "{ImageFolder}/examples/A15.png"
+End

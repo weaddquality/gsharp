@@ -1,0 +1,11 @@
+Display "images/examples/grid2ab.png"
+Check "images/examples/Next.png"
+Check "images/examples/A15.png"
+WaitVerify "images/examples/A15.png"
+Verify "images/examples/A15.png"
+CheckNot "images/examples/D15.png"
+VerifyNot "images/examples/D15.png"
+Sleep 1
+Wait "images/examples/A15.png"
+WaitNot "images/examples/D15.png"
+Click "images/examples/A15.png"

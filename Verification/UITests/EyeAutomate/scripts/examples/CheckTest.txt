@@ -1,0 +1,5 @@
+Display "images/examples/grid2ab.png"
+Check "images/examples/Next.png"
+Check "images/examples/A15.png"
+CheckNot "images/examples/D15.png"
+Click "images/examples/A15.png"

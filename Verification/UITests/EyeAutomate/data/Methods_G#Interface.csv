@@ -1,0 +1,3 @@
+MethodTemplate, MethodTemplateIndex, MethodName, MethodDescription
+Execute, 0, ExecuteMethod, ExecuteDescr
+Abstract, 1, AbstractMethod, AbstractDescr

@@ -1,0 +1,4 @@
+MethodTemplate, MethodTemplateIndex, MethodName, MethodDescription
+Read Attribute, 0, ReadAttr, ReadAttrDescr
+Write Attribute, 1, WriteAttr, WriteAttrDescr
+Read and Write Attribute, 2, RWAttr, RWAttrDescr

@@ -1,0 +1,9 @@
+Begin "AiTest"
+	Display "images/examples/calc1.png" "images/examples/calc2.png"
+	Click images/examples/ai1.png 10 50
+	Check "images/examples/aiverify1.png" 7 92 34 13
+	If images/examples/aiverify1.png 8 91 34 14
+		Check "images/examples/ai10000.png"
+		Click images/examples/ai1.png 11 49
+	EndIf
+End

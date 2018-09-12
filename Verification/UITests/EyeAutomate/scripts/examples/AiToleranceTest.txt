@@ -1,0 +1,12 @@
+Display "{ImageFolder}/examples/controls.png" "{ImageFolder}/examples/controlsadjusted.png"
+Repeat 2
+	MouseMove "{ImageFolder}/examples/1406904707559.png"
+	MouseMove "{ImageFolder}/examples/1406904707609.png"
+	MouseMove "{ImageFolder}/examples/1406904707641.png"
+	MouseMove "{ImageFolder}/examples/1406904707673.png"
+	MouseMove "{ImageFolder}/examples/1406904707703.png"
+	MouseMove "{ImageFolder}/examples/1406904707730.png"
+	MouseMove "{ImageFolder}/examples/1406904707765.png"
+	MouseMove "{ImageFolder}/examples/1406904707789.png"
+	MouseLeftClick
+EndRepeat

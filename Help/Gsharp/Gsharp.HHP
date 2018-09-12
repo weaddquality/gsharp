@@ -1,0 +1,99 @@
+[OPTIONS]
+Auto Index=Yes
+Binary TOC=No
+Binary Index=Yes
+Compatibility=1.1 or later
+Compiled File=Gsharp.chm
+Contents File=Gsharp.hhc
+Default Topic=GsharpHome.htm
+Error log file=_errorlog.txt
+Index File=Gsharp.hhk
+Title=G#
+Full-text search=Yes
+Display compile progress=Yes
+Display compile notes=Yes
+Default Window=main
+Default Font=
+Language=
+Create CHI file=No
+Full text search stop list file=
+
+[WINDOWS]
+main="G#","Gsharp.hhc","Gsharp.hhk","GsharpHome.htm","GsharpHome.htm",,,,,0x23520,222,0x1046,[10,10,640,450],0xB0000,,,,,,0
+
+[FILES]
+GsharpHome.htm
+GDebugger\ActiveDebug\GDebugger_ActiveDebug.html
+GDebugger\Objects\GDebugger_Objects.html
+GDebugger\Trace\GDebugger_Trace.html
+GInterface\advanced\GObject_Deserialize\GObject_Deserialize.html
+GInterface\advanced\GObject_GetClassPath\GObject_GetClassPath.html
+GInterface\advanced\GObject_Serialize\GObject_Serialize.html
+GInterface\ClearReference\ClearReference.html
+GInterface\Destroy\Destroy.html
+GInterface\GetClassName\GetClassName.html
+GInterface\GetObjectID\GetObjectID.html
+GInterface\GetObjectStatus\GetObjectStatus.html
+GInterface\GInterface_Create\GInterface_Create.html
+GInterface\IsEmptyObject\IsEmptyObject.html
+GInterface\IsEqual\IsEqual.html
+GInterface\NotARefNum\NotARefNum.html
+GInterface\ToString\ToString.html
+GInterface\utils\GInterface_AbstractMethod\GInterface_AbstractMethod.html
+GInterface\utils\GInterface_GetInstance\GInterface_GetInstance.html
+GInterface\utils\ReplaceMe\ReplaceMe.html
+GObject\advanced\GObject_CastFromLabVIEWObject\GObject_CastFromLabVIEWObject.html
+GObject\advanced\GObject_Deserialize\GObject_Deserialize.html
+GObject\advanced\GObject_GenericCreate\GObject_GenericCreate.html
+GObject\advanced\GObject_GenericDefaultConstructor\GObject_GenericDefaultConstructor.html
+GObject\advanced\GObject_GenericOpen\GObject_GenericOpen.html
+GObject\advanced\GObject_GetClassPath\GObject_GetClassPath.html
+GObject\advanced\GObject_GetClassType\GObject_GetClassType.html
+GObject\advanced\GObject_GetEvent\GObject_GetEvent.html
+GObject\advanced\GObject_GetParent\GObject_GetParent.html
+GObject\advanced\GObject_IsCallToParent\GObject_IsCallToParent.html
+GObject\advanced\GObject_SendUserEvent\GObject_SendUserEvent.html
+GObject\advanced\GObject_Serialize\GObject_Serialize.html
+GObject\advanced\GObject_StartExternalCreateProcess\GObject_StartExternalCreateProcess.html
+GObject\ClearReference\ClearReference.html
+GObject\Destroy\Destroy.html
+GObject\GarbageCollector\GarbageCollector.html
+GObject\GetClassName\GetClassName.html
+GObject\GetObjectID\GetObjectID.html
+GObject\GetObjectStatus\GetObjectStatus.html
+GObject\GObject_Create\GObject_Create.html
+GObject\GObject_Open\GObject_Open.html
+GObject\IsEmptyObject\IsEmptyObject.html
+GObject\IsEqual\IsEqual.html
+GObject\IsInstanceOf\IsInstanceOf.html
+GObject\NotARefNum\NotARefNum.html
+GObject\private\GObject_Clear\GObject_Clear.html
+GObject\private\GObject_ExternalCreateProcess\GObject_ExternalCreateProcess.html
+GObject\private\GObject_ExternalCreateProcessDelegate\GObject_ExternalCreateProcessDelegate.html
+GObject\private\GObject_RegisterClassAttributes\GObject_RegisterClassAttributes.html
+GObject\private\GObject_RegisterObject\GObject_RegisterObject.html
+GObject\private\GObject_RunVI\GObject_RunVI.html
+GObject\private\GObject_SendEvent\GObject_SendEvent.html
+GObject\private\GObject_UnregisterObject\GObject_UnregisterObject.html
+GObject\protected\GObject_Delete\GObject_Delete.html
+GObject\protected\GObject_ErrorMissingMethod\GObject_ErrorMissingMethod.html
+GObject\protected\GObject_InstanceClassAttributes\GObject_InstanceClassAttributes.html
+GObject\protected\GObject_New\GObject_New.html
+GObject\protected\Kernel\Kernel.html
+GObject\ToString\ToString.html
+GObject\utils\GObject_CleanUp\GObject_CleanUp.html
+GObject\utils\GObject_EnableExternalCreate\GObject_EnableExternalCreate.html
+GObject\utils\GObject_GetAllObjects\GObject_GetAllObjects.html
+GObject\utils\GObject_GetAllObjectsFromSameOwner\GObject_GetAllObjectsFromSameOwner.html
+GObject\utils\GObject_GetAttributeValue\GObject_GetAttributeValue.html
+GObject\utils\GObject_GetClassHierarchy\GObject_GetClassHierarchy.html
+GObject\utils\GObject_GetOwner\GObject_GetOwner.html
+GObject\utils\GObject_GetRootClassVersion\GObject_GetRootClassVersion.html
+GObject\utils\GObject_IsCallerMethodOfSameClass\GObject_IsCallerMethodOfSameClass.html
+GObject\utils\GObject_IsExternalCreateProcessRunning\GObject_IsExternalCreateProcessRunning.html
+GObject\utils\GObject_NewClassAttributes\GObject_NewClassAttributes.html
+GObject\utils\GObject_NewObject\GObject_NewObject.html
+GObject\utils\GObject_SetError\GObject_SetError.html
+GObject\utils\GObject_StopExternalCreateProcess\GObject_StopExternalCreateProcess.html
+GObject\utils\GObject_UserCounterState\GObject_UserCounterState.html
+

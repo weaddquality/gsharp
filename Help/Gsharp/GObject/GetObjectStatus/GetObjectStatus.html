@@ -1,0 +1,266 @@
+<HTML>
+<HEAD>
+<TITLE>G#Object.lvclass:GetObjectStatus.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="G_Object.lvclass:GetObjectStatus.vi"></A><H2>G#Object.lvclass:GetObjectStatus.vi</H2>
+<P>Returns information about the specified object. If simple info = true, only object info is return and not the arrays of objects.</P>
+<P></P>
+<P>If input reference is invalid, only information about the class is returned.</P>
+<P><IMG SRC="GetObjectStatusc.jpg" ALT="G#Object.lvclass:GetObjectStatus.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.jpg" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.jpg" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.jpg" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.jpg" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cGObjectlvclass.jpg" ALT="cG#Objectlvclass"></P>
+</TD>
+<TD>
+<B>reference in</B> <P>Object reference in.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.jpg" ALT="cbool"></P>
+</TD>
+<TD>
+<B>simple info (F)</B> <P>If true, information about all objects are returned, else only information about this object is returned.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.jpg" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.jpg" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.jpg" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.jpg" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iGObjectlvclass.jpg" ALT="iG#Objectlvclass"></P>
+</TD>
+<TD>
+<B>reference out</B> <P>Object reference out.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.jpg" ALT="ii32"></P>
+</TD>
+<TD>
+<B># of objects</B> <P>Number of objects instances of the class.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.jpg" ALT="ibool"></P>
+</TD>
+<TD>
+<B>not a refnum?</B> <P>If true, the object reference is not valid.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.jpg" ALT="istr"></P>
+</TD>
+<TD>
+<B>class name</B> <P>Name of the class, specified by the runtime object reference.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i1dstr.jpg" ALT="i1dstr"></P>
+</TD>
+<TD>
+<B>all object names</B> <P>All names of the object of the class.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.jpg" ALT="istr"></P>
+</TD>
+<TD>
+<B>Object name</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.jpg" ALT="istr"></P>
+</TD>
+<TD>
+<B>object name</B> <P>Name of the object.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.jpg" ALT="ii32"></P>
+</TD>
+<TD>
+<B># of users</B> <P>Number of object users.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.jpg" ALT="ibool"></P>
+</TD>
+<TD>
+<B>last user</B> <P>If true, there is only one user of the object.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i1dGObjectlvclass.jpg" ALT="i1dG#Objectlvclass"></P>
+</TD>
+<TD>
+<B>all refs out</B> <P>All object references of the class.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iGObjectlvclass.jpg" ALT="iG#Objectlvclass"></P>
+</TD>
+<TD>
+<B>reference out</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.jpg" ALT="ibool"></P>
+</TD>
+<TD>
+<B>counter</B> <P>If true, user counter is enabled.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.jpg" ALT="istr"></P>
+</TD>
+<TD>
+<B>full class name</B> <P>Full class name including the lvlib hierarchy.</P>
+</TD>
+</TR>
+</Table>
+</BODY>
+</HTML>

@@ -1,0 +1,485 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<title>G#Debugger.lvlib:G#Debugger_GUI.vi</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:18.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Cambria","serif";
+	color:#4F81BD;
+	font-weight:bold;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{font-size:10.0pt;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+<meta name=Author content="">
+</head>
+
+<body bgcolor=white lang=SV>
+
+<div class=Section1>
+
+<h2><a name="G_Debugger.lvlib:G_Debugger_GUI.vi"></a><span lang=EN-US>G#Debugger
+GUI - Objects tab</span></h2>
+
+<p><span lang=EN-US>This tab will show all objects. The objects are grouped
+together in each class. Select an object in the tree view to see information
+about the object state.</span></p>
+
+<p><span lang=EN-US>The information about each object is:</span></p>
+
+<p style='margin-left:36.0pt;text-indent:-18.0pt'><span lang=EN-US
+style='font-family:Symbol'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Object Name</span></p>
+
+<p style='margin-left:36.0pt;text-indent:-18.0pt'><span lang=EN-US
+style='font-family:Symbol'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Object ID</span></p>
+
+<p style='margin-left:36.0pt;text-indent:-18.0pt'><span lang=EN-US
+style='font-family:Symbol'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Owner (top-level VI that created the object)</span></p>
+
+<p style='margin-left:36.0pt;text-indent:-18.0pt'><span lang=EN-US
+style='font-family:Symbol'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Full Class Name (unique name space)</span></p>
+
+<p style='margin-left:36.0pt;text-indent:-18.0pt'><span lang=EN-US
+style='font-family:Symbol'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US># of Users</span></p>
+
+<p style='margin-left:36.0pt;text-indent:-18.0pt'><span lang=EN-US
+style='font-family:Symbol'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Counter (if enable or not)</span></p>
+
+<p style='margin-left:36.0pt;text-indent:-18.0pt'><span lang=EN-US
+style='font-family:Symbol'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Valid Reference (is object alive)</span></p>
+
+<p style='margin-left:36.0pt;text-indent:-18.0pt'><span lang=EN-US
+style='font-family:Symbol'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>To String (value of the overridden ToString
+method, if implemented).</span></p>
+
+<p><span lang=EN-US>The state of the object (attributes value) for each
+inherited class in class hierarchy is shown as the object attributes control in
+the subpanel window.</span></p>
+
+<p><img width=1179 height=787 src="GDebugger_Objects.jpg"
+alt="G#Debugger GUI - Objects tab"></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cenum.jpg alt=cenum></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Tab Control</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Selects between Objects, Trace or Active Debug mode.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cbool.jpg alt=cbool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Refresh</span></b><span lang=EN-US> </span></p>
+  <p><span lang=EN-US>Refresh the object list.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cbool.jpg alt=cbool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Destroy</span></b><span lang=EN-US> </span></p>
+  <p><span lang=EN-US>Destroys the selected object and runs the Destroy method
+  of the class.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cbool.jpg alt=cbool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Connect</span></b><span lang=EN-US> </span></p>
+  <p><span lang=EN-US>Connects to a remote target. Make sure G#DebugServer is running on the remote target.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cbool.jpg alt=cbool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Garbage collect</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Garbage collects all objects of all classes.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cstr.jpg alt=cstr></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>ObjectTree</span></b><span lang=EN-US>
+  </span></p>
+  <p><span lang=EN-US>All objects that is currently alive. If objects been
+  created with &quot;no registration&quot; option, they will not show up here.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=ci32.jpg alt=ci32></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Inheritance</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Selects which attributes to watch from a inheritance
+  chain. </span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cbool.jpg alt=cbool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Attributes</span></b><span lang=EN-US>
+  </span></p>
+  <p><span lang=EN-US>Selects between object or class attributes.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=ci32.jpg alt=ci32></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Poll time (ms)</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Attributes polling time in ms.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cbool.jpg alt=cbool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Highlight Aggregates?</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Highlights the aggregate objects in the object tree.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cbool.jpg alt=cbool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Hide Empty Classes?</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Removes classes with no objects from the tree view.
+  Notice that a class could still have valid class attributes.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cbool.jpg alt=cbool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>External Create Process Running</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Indicates if the background external create process is
+  running.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cu8.jpg alt=cu8></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Window Transparency</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Transparency of the front panel window.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=cbool.jpg alt=cbool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Window Behaviour</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Selects if the debugger is on top of all VIs or not.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=ii32.jpg alt=ii32></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US># of Users</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Number of users for the selected object.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=ibool.jpg alt=ibool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Counter</span></b><span lang=EN-US> </span></p>
+  <p><span lang=EN-US>Indicates if counter is active or not for the selected
+  object.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=ibool.jpg alt=ibool></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Ref Valid</span></b><span lang=EN-US> </span></p>
+  <p><span lang=EN-US>Is the selected object valid?</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=istr.jpg alt=istr></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Object Name</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Name of the object (if named).</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=istr.jpg alt=istr></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Full Class Name</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Full class path including libraries.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=istr.jpg alt=istr></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>To String</span></b><span lang=EN-US> </span></p>
+  <p><span lang=EN-US>Shows the &quot;To String&quot; implementation of the
+  selected object.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=istr.jpg alt=istr></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>G# Version</span></b><span lang=EN-US>
+  </span></p>
+  <p><span lang=EN-US>Version of G#.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=iu32.jpg alt=iu32></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Object ID</span></b><span lang=EN-US> </span></p>
+  <p><span lang=EN-US>Unique object identity.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=istr.jpg alt=istr></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Application Instance</span></b><span
+  lang=EN-US> </span></p>
+  <p><span lang=EN-US>Application instance of the object scope.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><img width=32 height=16 src=istr.jpg alt=istr></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b><span lang=EN-US>Owner</span></b><span lang=EN-US> </span></p>
+  <p><span lang=EN-US>Owning top-level VI of the selected object. When this VI
+  stops executing, LabVIEW will automatically garbage collect the object.</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

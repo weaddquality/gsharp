@@ -1,0 +1,6 @@
+Read 1234
+Check "{ReadText}=1234"
+Font "Verdana" 12 Kerning
+ReadCharacters 0123456789
+Read 5678
+Check "{ReadText}=5678"

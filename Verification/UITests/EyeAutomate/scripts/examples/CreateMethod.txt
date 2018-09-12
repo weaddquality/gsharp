@@ -1,0 +1,14 @@
+
+Call "scripts/GsharpClassMenu.txt"
+Click "{ImageFolder}/1520783025131.png" 11 2 108 17
+MouseTripleClick "{ImageFolder}/1520783206852.png" 17 23 34 16
+Type {MethodName}
+Click "{ImageFolder}/1520783252542.png" 4 24 85 19
+Repeat {MethodTemplate}
+	Type [DOWN]
+EndRepeat
+
+MouseTripleClick "{ImageFolder}/1520783345617.png" 17 23 44 23
+Type {MethodDescription}
+Click "{ImageFolder}/1520783387522.png" +194 +111
+

@@ -1,0 +1,19 @@
+Calculator {NoOfClasses}+1
+Set NoOfClasses {CalculatorResult}
+
+Set "Matches" 0
+Begin "Wait For Class Created"
+	Set MatchCount 0
+	RecognitionMode "Exact"
+	WhileNot "{Matches}={NoOfClasses}"
+		Set "Matches" 0
+		Find "{ImageFolder}/1520950197923.png"
+		Set "Matches" {MatchCount}
+		Find "{ImageFolder}/1520975246052.png"
+		Calculator {Matches}+{MatchCount}
+		Set "Matches" {CalculatorResult}
+		Display {Matches}
+		Wait 100
+	EndWhile
+End
+Set "NoOfClasses" {Matches}

@@ -1,0 +1,26 @@
+
+Click "{ImageFolder}/1520980632073.png" 3 12
+MouseDoubleClick
+
+Font "Tahoma" 12
+ReadCharacters ABCDEFGHIJKLMNOPQRSTUVXYZabcdefghijklmnopqrstuvxyz_-,
+ReadText "{ImageFolder}/1520980632073.png" 3 21 370 199
+Display  "{ReadText}"
+Click Abstract
+
+// Click "Abstract" "{ImageFolder}/1520980632073.png" 3 21 370 199
+//Display "read text" "{ReadText}"
+//Click "Read and Write Attribute"
+//  {MethodTemplate}
+Stop
+Repeat {TemplateIndex}
+	Type [DOWN]
+	Wait 100
+EndRepeat
+
+Click "{ImageFolder}/1520783345617.png" 15 40
+MouseDoubleClick
+Type {MethodDescription}
+
+Click "{ImageFolder}/1520783387522.png"
+

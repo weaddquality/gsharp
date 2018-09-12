@@ -1,0 +1,116 @@
+<HTML>
+<HEAD>
+<TITLE>Convert Classes to G#</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="G_100.lvlib:G_100_ConvertClassesToG_.vi"></A><H2>Convert Classes to G#</H2>
+<P>This tool will convert all Endevo GOOP3 and OpenGOOP classes to G# or upgrade all G# classes to the latest template version. All classes in the active project will be updated.</P>
+<P></P>
+<P>The following steps are performed:</P>
+<P></P>
+<P>1. The active project classes are analyzed.</P>
+<P>2. The project is closed and a new temporary project is created.</P>
+<P>3. Dummy G# classes (with same name as the classes) are created in the temporary project.</P>
+<P>4. The original classes utility methods are replaced with the new G# specific utility methods from the temporary project classes.</P>
+<P>5. The orignal classes .lvclass file is updated with G# tags.</P>
+<P>6. Mass compile of the original classes.</P>
+<P>7. Open the original project.</P>
+<P>8. Replace all utility methods that are missing with G#Object support methods copied from the temporary classes.</P>
+<P>9. Done!</P>
+<P></P>
+<P>Notice that this process could take several minutes.</P>
+<P><IMG SRC="Dialog_ConvertClasses.jpg"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.jpg" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Convert</B> <P>Start convert.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.jpg" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Cancel</B> <P>Cancel.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.jpg" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Mass compile (recommended)</B> <P>If true, the updated classes are mass compiled before the original project is opened again. However, LabVIEW sometimes has problems compiling complicated code with looks of changes, therefore it might be necessary to manually open each class to recompile in a specific order.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.jpg" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Create temporary classes</B> <P>A temporary project must always be created in order to convert the classes, however if this already has been performed previously (if the converter was terminated in a later step), this could be skipped. Notice that the last temporary project is always overwritten.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.jpg" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Help</B> <P>Help.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.jpg" ALT="istr"></P>
+</TD>
+<TD>
+<B>State</B> <P>Indicates what the class converter is doing.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.jpg" ALT="ii32"></P>
+</TD>
+<TD>
+<B>Class #</B> <P>Index of the processing class.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.jpg" ALT="ii32"></P>
+</TD>
+<TD>
+<B>Total</B> <P>Total number of classes to process.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.jpg" ALT="istr"></P>
+</TD>
+<TD>
+<B>Class Name</B> <P>Name of the class currently being processed.</P>
+</TD>
+</TR>
+</Table>
+</BODY>
+</HTML>

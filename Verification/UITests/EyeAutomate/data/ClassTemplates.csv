@@ -1,0 +1,6 @@
+ClassTemplate, TemplateIndex, ClassName, ClassDescription, Parent
+G#, 0, GSharpParent, GSharpTemplDescr,
+G#, 0, GSharpSub, GSharpSubDescr, GSharpParent
+G#Interface, 1, GSharpInterfaceClass, GSharpInterfaceTemplDescr,
+G#Static, 2, GSharpStaticClass, GSharpStaticTemplDescr,
+LVNative, 3, LVNativeClass, LVNativeTemplDescr,

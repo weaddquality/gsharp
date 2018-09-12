@@ -1,0 +1,220 @@
+<HTML>
+<HEAD>
+<TITLE>G#Object.lvclass:G#Object_GenericCreate.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="G_Object.lvclass:G_Object_GenericCreate.vi"></A><H2>G#Object.lvclass:G#Object_GenericCreate.vi</H2>
+<P>Creates an instance of the class specified by the path. The path could either be directly to the constructor method, the .lvclass file or to the class folder. It is also possible to set the constructor input parameters by the &quot;Control Names&quot; and &quot;Control Values&quot; inputs.</P>
+<P></P>
+<P>Since this function runs the constructor with VI server, making the constructor &quot;running top-level&quot;, it is necessary to use the external create event in order to let this VI create the needed object and become the owner of the queues and data value reference. However, if the constructor also contains user defined queues, notifiers etc., these will be garbage collected by LabVIEW when the constructor is finished executing. To avoid this, use the Default Constructor instead. <P><P>Be careful when using this VI when building executables, since paths must be correct and make sure that all needed VIs are included in the build.<P><P>
+
+Note: Will not work on RT systems.</P>
+<P><IMG SRC="GObject_GenericCreatec.jpg" ALT="G#Object.lvclass:G#Object_GenericCreate.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.jpg" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.jpg" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.jpg" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.jpg" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="c1dstr.jpg" ALT="c1dstr"></P>
+</TD>
+<TD>
+<B>control names</B> <P>Names of the controls to set before running the constructor.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.jpg" ALT="cstr"></P>
+</TD>
+<TD>
+<B>Control Name</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="c1dfxdt.jpg" ALT="c1dfxdt"></P>
+</TD>
+<TD>
+<B>control values</B> <P>Values of the controls to set before running the constructor.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cfxdt.jpg" ALT="cfxdt"></P>
+</TD>
+<TD>
+<B>Value</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cpath.jpg" ALT="cpath"></P>
+</TD>
+<TD>
+<B>class path</B> <P>Specifies the path to the LabVIEW class.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.jpg" ALT="cbool"></P>
+</TD>
+<TD>
+<B>respond to create event? (T)</B> <P>If TRUE, this method will also respond to the create event. This will make the top-level calling VI the owner of the object and LabVIEW will not garbage collect the object until the top-level VI stops executing.</P>
+<P></P>
+<P>If FALSE, an other external process must respond to the G# create event.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.jpg" ALT="cbool"></P>
+</TD>
+<TD>
+<B>keep constructor VI ref open? (T)</B> <P>If true, the VI reference to the constructor VI will not be closed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.jpg" ALT="ci32"></P>
+</TD>
+<TD>
+<B>timeout in ms (-1)</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.jpg" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.jpg" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.jpg" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.jpg" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iGObjectlvclass.jpg" ALT="iG#Objectlvclass"></P>
+</TD>
+<TD>
+<B>reference out</B> <P>Object reference out.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ivirn.jpg" ALT="ivirn"></P>
+</TD>
+<TD>
+<B>constructor VI ref</B> <P>VI reference to constructor.</P>
+</TD>
+</TR>
+</Table>
+</BODY>
+</HTML>
+

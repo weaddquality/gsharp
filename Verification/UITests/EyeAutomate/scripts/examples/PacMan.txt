@@ -1,0 +1,24 @@
+UseMatchCache "No"
+AnimateCursor Yes
+Display "images/examples/pacboard.png"
+Display 240 35 30 30 images/examples/Blinky.png
+Display 270 35 30 30 images/examples/Inky.png
+Display 300 35 30 30 images/examples/Pinky.png
+Display 330 35 30 30 "images/examples/Clyde.png"
+Display 180 35 30 30 "images/examples/Pacman.png"
+Set Ghost none
+Repeat 15
+	// Move ghost
+	SetRandom Ghost "images/examples/Blinky.png" "images/examples/Inky.png" "images/examples/Pinky.png" "images/examples/Clyde.png"
+	DragStart {Ghost}
+	DragDrop "images/examples/1355258769815.png"
+	// Move PacMan
+	DragStart "images/examples/Pacman.png"
+	DragDrop "images/examples/1355258769815.png"
+EndRepeat
+Click "images/examples/Blinky.png"
+Click "images/examples/Inky.png"
+Click "images/examples/Pinky.png"
+Click "images/examples/Clyde.png"
+Click "images/examples/Pacman.png"
+Click "images/examples/1355258769815.png"

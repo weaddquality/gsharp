@@ -1,0 +1,2 @@
+StartFile "C:\Program Files (x86)\National Instruments\LabVIEW 2017\LabVIEW.exe"
+

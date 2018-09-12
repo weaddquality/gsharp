@@ -1,0 +1,14 @@
+//running from VM
+//Click "images/1520708110421.png" 6 2 45 24
+//Wait 500
+//Click "images/1520707994141.png"
+//Type "cmd"
+//Type [ENTER]
+//Wait 500
+
+// if running from pc
+StartFile "C:\Windows\System32\cmd.exe"
+Sleep 1500
+Type rmdir %TEMP%\GsharpTests /S /Q[ENTER]"
+Type mkdir %TEMP%\GsharpTest[ENTER]"
+Type "exit[ENTER]"
