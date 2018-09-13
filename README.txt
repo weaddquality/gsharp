@@ -35,4 +35,5 @@ Checklist for a release. Mostly used by project lead.
  - Use VIPM to create installer. See readme in VIPM-folder
  - Project provider “bootcamp” for uploading to NI Tools network. 
  - https://basecamp.com/2299158/projects/4706160/
+ - Use this form to upload new installer: https://form.jotform.com/72135974330960
  - Announcement on G#-forum
