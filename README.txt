@@ -1,4 +1,4 @@
-﻿* To start developing, use LabVIEW>>open, point to proj file (C:\Program Files (x86)\National Instruments\LabVIEW 2014\resource\Framework\Providers\addq\G#IDE\AddQ_G#IDE.lvproj). Do not use repo path, will lead to crosslinking.
+﻿* To start developing, use LabVIEW>>open, point to proj file (C:\Program Files (x86)\National Instruments\LabVIEW 2017\resource\Framework\Providers\addq\G#IDE\AddQ_G#IDE.lvproj). Do not use repo path, will lead to crosslinking.
 
 * Password to the password-protected files of the IDE are found in Doc/PWG#.txt. Use the last password.
 
