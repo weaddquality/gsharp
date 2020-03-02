@@ -9,35 +9,35 @@
 
 </Property>
 	<Item Name="support" Type="Folder">
-		<Item Name="ProviderLib.lvlib" Type="Library" URL="../support/ProviderLib/ProviderLib.lvlib"/>
-		<Item Name="LibraryLib.lvlib" Type="Library" URL="../support/LibraryLib/LibraryLib.lvlib"/>
-		<Item Name="ProjectLib.lvlib" Type="Library" URL="../support/ProjectLib/ProjectLib.lvlib"/>
-		<Item Name="IconLib.lvlib" Type="Library" URL="../support/IconLib/IconLib.lvlib"/>
-		<Item Name="ScriptingLib.lvlib" Type="Library" URL="../support/ScriptingLib/ScriptingLib.lvlib"/>
-		<Item Name="SupportLib.lvlib" Type="Library" URL="../support/G#IDELib/SupportLib.lvlib"/>
+		<Item Name="ProviderLib.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ProviderLib/ProviderLib.lvlib"/>
+		<Item Name="LibraryLib.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/LibraryLib/LibraryLib.lvlib"/>
+		<Item Name="ProjectLib.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ProjectLib/ProjectLib.lvlib"/>
+		<Item Name="IconLib.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/IconLib/IconLib.lvlib"/>
+		<Item Name="ScriptingLib.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ScriptingLib.lvlib"/>
+		<Item Name="SupportLib.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/SupportLib.lvlib"/>
 	</Item>
 	<Item Name="G#Provider" Type="Folder">
-		<Item Name="ProviderG#100.lvclass" Type="LVClass" URL="../Providers/Provider_G#100/ProviderG#100_class/ProviderG#100.lvclass"/>
-		<Item Name="G#100.lvlib" Type="Library" URL="../Providers/G#100.lvlib"/>
+		<Item Name="ProviderG#100.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/Providers/Provider_G#100/ProviderG#100_class/ProviderG#100.lvclass"/>
+		<Item Name="G#100.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/Providers/G#100.lvlib"/>
 	</Item>
 	<Item Name="plugins" Type="Folder">
-		<Item Name="CreateSubVI_AdditionalActions.vi" Type="VI" URL="../../../../../plugins/CreateSubVI/CreateSubVI_AdditionalActions.vi"/>
+		<Item Name="CreateSubVI_AdditionalActions.vi" Type="VI" URL="/&lt;resource&gt;/plugins/CreateSubVI/CreateSubVI_AdditionalActions.vi"/>
 	</Item>
-	<Item Name="AddQ_CreateNewWizard_GetCreateNewWeight.vi" Type="VI" URL="../AddQ_CreateNewWizard_GetCreateNewWeight.vi"/>
-	<Item Name="AddQ_CreateNewWizard_IncludeItem.vi" Type="VI" URL="../AddQ_CreateNewWizard_IncludeItem.vi"/>
-	<Item Name="AddQ_CreateNewWizard_Init.vi" Type="VI" URL="../AddQ_CreateNewWizard_Init.vi"/>
-	<Item Name="AddQ_CreateNewWizard_Interface.vi" Type="VI" URL="../AddQ_CreateNewWizard_Interface.vi"/>
-	<Item Name="AddQ_CreateNewWizard_Invoke.vi" Type="VI" URL="../AddQ_CreateNewWizard_Invoke.vi"/>
-	<Item Name="AddQ_Global_Init.vi" Type="VI" URL="../AddQ_Global_Init.vi"/>
-	<Item Name="AddQ_Global_Interface.vi" Type="VI" URL="../AddQ_Global_Interface.vi"/>
-	<Item Name="AddQ_Global_OnCommand.vi" Type="VI" URL="../AddQ_Global_OnCommand.vi"/>
-	<Item Name="AddQ_Item_Init.vi" Type="VI" URL="../AddQ_Item_Init.vi"/>
-	<Item Name="AddQ_Item_Interface.vi" Type="VI" URL="../AddQ_Item_Interface.vi"/>
-	<Item Name="AddQ_Item_OnCommand.vi" Type="VI" URL="../AddQ_Item_OnCommand.vi"/>
-	<Item Name="AddQ_Item_OnPopupMenu.vi" Type="VI" URL="../AddQ_Item_OnPopupMenu.vi"/>
-	<Item Name="AddQ_Provider_Interface.vi" Type="VI" URL="../AddQ_Provider_Interface.vi"/>
-	<Item Name="AddQ_Provider_Startup.vi" Type="VI" URL="../AddQ_Provider_Startup.vi"/>
-	<Item Name="AddQ_Provider_Shutdown.vi" Type="VI" URL="../AddQ_Provider_Shutdown.vi"/>
-	<Item Name="AddQ_Provider_OnCommand.vi" Type="VI" URL="../AddQ_Provider_OnCommand.vi"/>
-	<Item Name="AddQ_Provider_OnPopupMenu.vi" Type="VI" URL="../AddQ_Provider_OnPopupMenu.vi"/>
+	<Item Name="AddQ_CreateNewWizard_GetCreateNewWeight.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_CreateNewWizard_GetCreateNewWeight.vi"/>
+	<Item Name="AddQ_CreateNewWizard_IncludeItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_CreateNewWizard_IncludeItem.vi"/>
+	<Item Name="AddQ_CreateNewWizard_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_CreateNewWizard_Init.vi"/>
+	<Item Name="AddQ_CreateNewWizard_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_CreateNewWizard_Interface.vi"/>
+	<Item Name="AddQ_CreateNewWizard_Invoke.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_CreateNewWizard_Invoke.vi"/>
+	<Item Name="AddQ_Global_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_Global_Init.vi"/>
+	<Item Name="AddQ_Global_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_Global_Interface.vi"/>
+	<Item Name="AddQ_Global_OnCommand.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_Global_OnCommand.vi"/>
+	<Item Name="AddQ_Item_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_Item_Init.vi"/>
+	<Item Name="AddQ_Item_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_Item_Interface.vi"/>
+	<Item Name="AddQ_Item_OnCommand.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_Item_OnCommand.vi"/>
+	<Item Name="AddQ_Item_OnPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_Item_OnPopupMenu.vi"/>
+	<Item Name="AddQ_Provider_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_Provider_Interface.vi"/>
+	<Item Name="AddQ_Provider_Startup.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_Provider_Startup.vi"/>
+	<Item Name="AddQ_Provider_Shutdown.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_Provider_Shutdown.vi"/>
+	<Item Name="AddQ_Provider_OnCommand.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_Provider_OnCommand.vi"/>
+	<Item Name="AddQ_Provider_OnPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_Provider_OnPopupMenu.vi"/>
 </Library>
