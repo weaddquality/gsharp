@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -21,6 +21,7 @@
 			<Item Name="G#InterfaceImplementation.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/G#InterfaceImplementation/G#InterfaceImplementation.lvclass"/>
 			<Item Name="G#MethodTemplates.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/G#MethodTemplates/G#MethodTemplates.lvclass"/>
 			<Item Name="G#ModifyAttributeDiagramTemplate.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/G#ModifyAttributeDiagramTemplate.vi"/>
+			<Item Name="IG#Template.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/IG#Template/IG#Template.lvclass"/>
 		</Item>
 		<Item Name="G#Object.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Object/G#Object.lvclass"/>
 		<Item Name="G#Interface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Interface/G#Interface.lvclass"/>
@@ -60,6 +61,8 @@
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
+				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

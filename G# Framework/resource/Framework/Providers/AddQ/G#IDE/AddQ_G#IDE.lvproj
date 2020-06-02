@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -26,6 +26,7 @@
 			<Item Name="G#SubTemplateG3.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/G#SubTemplateG3/G#SubTemplateG3.lvclass"/>
 			<Item Name="LvNative.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/LvNative/LvNative.lvclass"/>
 			<Item Name="G#Object.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Object/G#Object.ctl"/>
+			<Item Name="IG#Template.lvclass" Type="LVClass" URL="../../../../../../../../../Projects/GsharpGIT/G# Framework/vi.lib/addons/_AddQ/G#Templates/IG#Template/IG#Template.lvclass"/>
 		</Item>
 		<Item Name="G# Debugger" Type="Folder">
 			<Item Name="G#Debugger.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/G#Debugger.lvlib"/>
@@ -277,6 +278,7 @@
 				<Item Name="Dummy_PolyVIMember.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/G#MethodTemplates/methods/Dummy_PolyVIMember.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 			</Item>
 			<Item Name="mxLvProvider.mxx" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/mxLvProvider.mxx"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
