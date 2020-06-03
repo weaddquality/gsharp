@@ -84,6 +84,11 @@ G# Framework 1.8.0
 New features:
  -  Malleable VIs are now supported.
 
+G# 1.7.0
+ * Change compile version to LV2020.
+ * Added new parent interface IG# to G#Object.
+ * Added new IG#Template.
+
 G# 1.6.9
  * Minor update to GetClassType to make it work inside EXE and also better check on path.
 

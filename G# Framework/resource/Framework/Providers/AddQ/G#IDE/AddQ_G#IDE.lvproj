@@ -15,6 +15,7 @@
 			<Item Name="G#Object.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Object/G#Object.lvclass"/>
 			<Item Name="G#Interface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Interface/G#Interface.lvclass"/>
 			<Item Name="G#DebugServer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#DebugServer/G#DebugServer.lvclass"/>
+			<Item Name="IG#.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/IG#/IG#.lvclass"/>
 		</Item>
 		<Item Name="G#Templates" Type="Folder">
 			<Item Name="G#MethodTemplates.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/G#MethodTemplates/G#MethodTemplates.lvclass"/>
