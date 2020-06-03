@@ -26,7 +26,7 @@
 			<Item Name="G#SubTemplateG3.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/G#SubTemplateG3/G#SubTemplateG3.lvclass"/>
 			<Item Name="LvNative.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/LvNative/LvNative.lvclass"/>
 			<Item Name="G#Object.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Object/G#Object.ctl"/>
-			<Item Name="IG#Template.lvclass" Type="LVClass" URL="../../../../../../../../../Projects/GsharpGIT/G# Framework/vi.lib/addons/_AddQ/G#Templates/IG#Template/IG#Template.lvclass"/>
+			<Item Name="IG#Template.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/IG#Template/IG#Template.lvclass"/>
 		</Item>
 		<Item Name="G# Debugger" Type="Folder">
 			<Item Name="G#Debugger.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/G#Debugger.lvlib"/>
@@ -59,12 +59,16 @@
 				<Item Name="G# - InterfaceDemo.vi" Type="VI" URL="../../../../../../examples/AddQ/G#/Interface/G# - InterfaceDemo.vi"/>
 				<Item Name="G# - InterfaceDemo2.vi" Type="VI" URL="../../../../../../examples/AddQ/G#/Interface/G# - InterfaceDemo2.vi"/>
 				<Item Name="G# - InterfaceDemo3.vi" Type="VI" URL="../../../../../../examples/AddQ/G#/Interface/G# - InterfaceDemo3.vi"/>
+				<Item Name="G# - InterfaceDemo4.vi" Type="VI" URL="../../../../../../examples/AddQ/G#/Interface/G# - InterfaceDemo4.vi"/>
+				<Item Name="IMyInterface3.lvclass" Type="LVClass" URL="../../../../../../examples/AddQ/G#/Interface/IMyInterface3_interface/IMyInterface3.lvclass"/>
 				<Item Name="IMyInterface2.lvclass" Type="LVClass" URL="../../../../../../examples/AddQ/G#/Interface/IMyInterface2_interface/IMyInterface2.lvclass"/>
 				<Item Name="IMyInterface.lvclass" Type="LVClass" URL="../../../../../../examples/AddQ/G#/Interface/IMyInterface_interface/IMyInterface.lvclass"/>
 				<Item Name="MyClass1.lvclass" Type="LVClass" URL="../../../../../../examples/AddQ/G#/Interface/MyClass1_class/MyClass1.lvclass"/>
 				<Item Name="MyClass2.lvclass" Type="LVClass" URL="../../../../../../examples/AddQ/G#/Interface/MyClass2_class/MyClass2.lvclass"/>
 				<Item Name="MyClass3.lvclass" Type="LVClass" URL="../../../../../../examples/AddQ/G#/Interface/MyClass3_class/MyClass3.lvclass"/>
 				<Item Name="MyClass4.lvclass" Type="LVClass" URL="../../../../../../examples/AddQ/G#/Interface/MyClass4_class/MyClass4.lvclass"/>
+				<Item Name="MyClass5.lvclass" Type="LVClass" URL="../../../../../../examples/AddQ/G#/Interface/MyClass5_class/MyClass5.lvclass"/>
+				<Item Name="MyClass6.lvclass" Type="LVClass" URL="../../../../../../examples/AddQ/G#/Interface/MyClass6_class/MyClass6.lvclass"/>
 				<Item Name="MyClass1_IMyInterface.lvclass" Type="LVClass" URL="../../../../../../examples/AddQ/G#/Interface/MyClass1_class/MyClass1_IMyInterface/MyClass1_IMyInterface.lvclass"/>
 				<Item Name="MyClass2_IMyInterface.lvclass" Type="LVClass" URL="../../../../../../examples/AddQ/G#/Interface/MyClass2_class/MyClass2_IMyInterface/MyClass2_IMyInterface.lvclass"/>
 			</Item>

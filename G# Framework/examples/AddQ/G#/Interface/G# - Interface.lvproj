@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.Project.Description" Type="Str">Demonstrates how the interface concept works in G#.</Property>
 	<Property Name="ThirdParty.LV.ExampleFinder" Type="Str">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;nidna:ExampleProgram 
@@ -61,6 +61,12 @@
 			<Item Name="G# - InterfaceDemo2.vi" Type="VI" URL="../G# - InterfaceDemo2.vi"/>
 			<Item Name="G# - InterfaceDemo3.vi" Type="VI" URL="../G# - InterfaceDemo3.vi"/>
 		</Item>
+		<Item Name="Native Interface LV2020" Type="Folder">
+			<Item Name="G# - InterfaceDemo4.vi" Type="VI" URL="../G# - InterfaceDemo4.vi"/>
+			<Item Name="IMyInterface3.lvclass" Type="LVClass" URL="../IMyInterface3_interface/IMyInterface3.lvclass"/>
+			<Item Name="MyClass6.lvclass" Type="LVClass" URL="../MyClass6_class/MyClass6.lvclass"/>
+			<Item Name="MyClass5.lvclass" Type="LVClass" URL="../MyClass5_class/MyClass5.lvclass"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="G#Object.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Object/G#Object.lvclass"/>
@@ -74,6 +80,7 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
