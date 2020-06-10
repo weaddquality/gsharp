@@ -29,7 +29,6 @@
 	<Item Name="BrowseG#ClassesFromUserLib.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/BrowseG#ClassesFromUserLib.vi"/>
 	<Item Name="SetRWPermission.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/SetRWPermission.vi"/>
 	<Item Name="ReplaceError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/ReplaceError.vi"/>
-	<Item Name="CheckMethodName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/LibraryLib/CheckMethodName.vi"/>
 	<Item Name="AppendStateToError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/AppendStateToError.vi"/>
 	<Item Name="StartProgress.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/StartProgress.vi"/>
 </Library>

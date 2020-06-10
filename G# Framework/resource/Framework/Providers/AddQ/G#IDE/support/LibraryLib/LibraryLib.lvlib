@@ -30,4 +30,5 @@
 	<Item Name="SetLibraryTags.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/LibraryLib/SetLibraryTags.vi"/>
 	<Item Name="GetClassHierarchy.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/LibraryLib/GetClassHierarchy.vi"/>
 	<Item Name="GetAncestorClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/LibraryLib/GetAncestorClass.vi"/>
+	<Item Name="CheckMethodName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/LibraryLib/CheckMethodName.vi"/>
 </Library>
