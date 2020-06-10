@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.Project.Description" Type="Str">Demonstrates how the interface concept works in G#.</Property>
 	<Property Name="ThirdParty.LV.ExampleFinder" Type="Str">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;nidna:ExampleProgram 
@@ -46,7 +46,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Interfaces using wrapper class" Type="Folder">
+		<Item Name="Interfaces using wrapper class - OBSOLETE" Type="Folder">
 			<Item Name="MyClass1.lvclass" Type="LVClass" URL="../MyClass1_class/MyClass1.lvclass"/>
 			<Item Name="MyClass1_IMyInterface.lvclass" Type="LVClass" URL="../MyClass1_class/MyClass1_IMyInterface/MyClass1_IMyInterface.lvclass"/>
 			<Item Name="MyClass2.lvclass" Type="LVClass" URL="../MyClass2_class/MyClass2.lvclass"/>
@@ -54,12 +54,18 @@
 			<Item Name="IMyInterface.lvclass" Type="LVClass" URL="../IMyInterface_interface/IMyInterface.lvclass"/>
 			<Item Name="G# - InterfaceDemo.vi" Type="VI" URL="../G# - InterfaceDemo.vi"/>
 		</Item>
-		<Item Name="Interfaces not using wrapper class" Type="Folder">
+		<Item Name="Interfaces not using wrapper class - OBSOLETE" Type="Folder">
 			<Item Name="IMyInterface2.lvclass" Type="LVClass" URL="../IMyInterface2_interface/IMyInterface2.lvclass"/>
 			<Item Name="MyClass3.lvclass" Type="LVClass" URL="../MyClass3_class/MyClass3.lvclass"/>
 			<Item Name="MyClass4.lvclass" Type="LVClass" URL="../MyClass4_class/MyClass4.lvclass"/>
 			<Item Name="G# - InterfaceDemo2.vi" Type="VI" URL="../G# - InterfaceDemo2.vi"/>
 			<Item Name="G# - InterfaceDemo3.vi" Type="VI" URL="../G# - InterfaceDemo3.vi"/>
+		</Item>
+		<Item Name="Native Interface LV2020" Type="Folder">
+			<Item Name="G# - InterfaceDemo4.vi" Type="VI" URL="../G# - InterfaceDemo4.vi"/>
+			<Item Name="IMyInterface3.lvclass" Type="LVClass" URL="../IMyInterface3_interface/IMyInterface3.lvclass"/>
+			<Item Name="MyClass6.lvclass" Type="LVClass" URL="../MyClass6_class/MyClass6.lvclass"/>
+			<Item Name="MyClass5.lvclass" Type="LVClass" URL="../MyClass5_class/MyClass5.lvclass"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -74,6 +80,8 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="IG#.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/IG#/IG#.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
