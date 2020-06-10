@@ -46,7 +46,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Interfaces using wrapper class" Type="Folder">
+		<Item Name="Interfaces using wrapper class - OBSOLETE" Type="Folder">
 			<Item Name="MyClass1.lvclass" Type="LVClass" URL="../MyClass1_class/MyClass1.lvclass"/>
 			<Item Name="MyClass1_IMyInterface.lvclass" Type="LVClass" URL="../MyClass1_class/MyClass1_IMyInterface/MyClass1_IMyInterface.lvclass"/>
 			<Item Name="MyClass2.lvclass" Type="LVClass" URL="../MyClass2_class/MyClass2.lvclass"/>
@@ -54,7 +54,7 @@
 			<Item Name="IMyInterface.lvclass" Type="LVClass" URL="../IMyInterface_interface/IMyInterface.lvclass"/>
 			<Item Name="G# - InterfaceDemo.vi" Type="VI" URL="../G# - InterfaceDemo.vi"/>
 		</Item>
-		<Item Name="Interfaces not using wrapper class" Type="Folder">
+		<Item Name="Interfaces not using wrapper class - OBSOLETE" Type="Folder">
 			<Item Name="IMyInterface2.lvclass" Type="LVClass" URL="../IMyInterface2_interface/IMyInterface2.lvclass"/>
 			<Item Name="MyClass3.lvclass" Type="LVClass" URL="../MyClass3_class/MyClass3.lvclass"/>
 			<Item Name="MyClass4.lvclass" Type="LVClass" URL="../MyClass4_class/MyClass4.lvclass"/>
