@@ -97,7 +97,7 @@
 		<Method Normal="False" Override="False" Polymorphic="False" Malleable="True" VI="NoneModifyingClass.vim" AllowDynDispatch="False" Alias="Malleable Method"></Method>
 	</LvNative>
 
-	<IG#Template>
+	<IG#InterfaceTemplate>
 		<Method Normal="True" Override="True" Polymorphic="False" Malleable="False" VI="NoneModifying.vi" Alias="None Modifying Method"></Method>
-	</IG#Template>
+	</IG#InterfaceTemplate>
 </Templates>

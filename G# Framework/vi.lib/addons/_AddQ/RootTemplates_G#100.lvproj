@@ -17,18 +17,14 @@
 			<Item Name="G#SubTemplateG3.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/G#SubTemplateG3/G#SubTemplateG3.lvclass"/>
 			<Item Name="G#StaticTemplate.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/G#StaticTemplate/G#StaticTemplate.lvclass"/>
 			<Item Name="LvNative.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/LvNative/LvNative.lvclass"/>
-			<Item Name="G#InterfaceTemplate.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/G#InterfaceTemplate/G#InterfaceTemplate.lvclass"/>
-			<Item Name="G#InterfaceImplementation.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/G#InterfaceImplementation/G#InterfaceImplementation.lvclass"/>
 			<Item Name="G#MethodTemplates.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/G#MethodTemplates/G#MethodTemplates.lvclass"/>
 			<Item Name="G#ModifyAttributeDiagramTemplate.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/G#ModifyAttributeDiagramTemplate.vi"/>
-			<Item Name="IG#Template.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/IG#Template/IG#Template.lvclass"/>
+			<Item Name="IG#InterfaceTemplate.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/IG#InterfaceTemplate/IG#InterfaceTemplate.lvclass"/>
 		</Item>
 		<Item Name="G#Object.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Object/G#Object.lvclass"/>
 		<Item Name="G#Interface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Interface/G#Interface.lvclass"/>
 		<Item Name="G#Object.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Object/G#Object.ctl"/>
 		<Item Name="G#Debugger.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/G#Debugger.lvlib"/>
-		<Item Name="G#RemoteProxy.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/G#RemoteProxy/G#RemoteProxy.lvclass"/>
-		<Item Name="G#DebugServer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#DebugServer/G#DebugServer.lvclass"/>
 		<Item Name="G#.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_AddQ/G#.lvlib"/>
 		<Item Name="G# BSD license.txt" Type="Document" URL="/&lt;vilib&gt;/addons/_AddQ/G# BSD license.txt"/>
 		<Item Name="G# Packed Libraries ReadMe!.txt" Type="Document" URL="/&lt;vilib&gt;/addons/_AddQ/G# Packed Libraries ReadMe!.txt"/>
@@ -63,6 +59,7 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="IG#.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/IG#/IG#.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
