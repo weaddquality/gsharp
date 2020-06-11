@@ -16,7 +16,6 @@
 		<Item Name="DemoSubClass1.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Polymorphism/DemoSubClass1_class/DemoSubClass1.lvclass"/>
 		<Item Name="DemoSubClass2.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Polymorphism/DemoSubClass2_class/DemoSubClass2.lvclass"/>
 		<Item Name="DemoSubSubClass1.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Polymorphism/DemoSubSubClass1_class/DemoSubSubClass1.lvclass"/>
-		<Item Name="Dialog_Progress.vi" Type="VI" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/G#IDELib/Dialog_Progress.vi"/>
 		<Item Name="G# - CreatingAndDestroyingNamedObjects - The Fewton Example.vi" Type="VI" URL="../Files/examples/AddQ/G#/CreateDestroy/G# - CreatingAndDestroyingNamedObjects - The Fewton Example.vi"/>
 		<Item Name="G# - CreatingAndDestroyingNamedObjects.vi" Type="VI" URL="../Files/examples/AddQ/G#/CreateDestroy/G# - CreatingAndDestroyingNamedObjects.vi"/>
 		<Item Name="G# - CreatingAndDestroyingObjects.vi" Type="VI" URL="../Files/examples/AddQ/G#/CreateDestroy/G# - CreatingAndDestroyingObjects.vi"/>

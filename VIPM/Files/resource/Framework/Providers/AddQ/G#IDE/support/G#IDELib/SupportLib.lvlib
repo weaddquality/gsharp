@@ -29,4 +29,5 @@
 	<Item Name="AppendStateToError.vi" Type="VI" URL="../AppendStateToError.vi"/>
 	<Item Name="ShowError.vi" Type="VI" URL="../ShowError.vi"/>
 	<Item Name="StartProgress.vi" Type="VI" URL="../StartProgress.vi"/>
+	<Item Name="Dialog_Progress.vi" Type="VI" URL="../Dialog_Progress.vi"/>
 </Library>
