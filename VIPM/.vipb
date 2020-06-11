@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2020-06-11 06:20:52" Creator="Labbdator 3" Comments="" ID="4be5e7665ee00f17e169e9e60619b030">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2020-06-11 07:08:10" Creator="Labbdator 3" Comments="" ID="8166c19117db0ec5f03afff55ed741bb">
   <Library_General_Settings>
     <Package_File_Name>addq_lib_gsharp</Package_File_Name>
     <Library_Version>2.0.0.2</Library_Version>
@@ -34,11 +34,15 @@
       <Copyright/>
       <Packager>Thomas Olsson Mattias Ericsson</Packager>
       <URL>http://www.addq.se/gsharp</URL>
-      <Release_Notes>* Recompiled to LV2020.
+      <Release_Notes>New features:
+
+* Recompiled to LV2020.
 * Added support for native interfaces to G# called IG#.
-* If a library has separated compiled code in the library settings, this will override the environment settings.
 * Removed Debug Server.
 * Removed old obsolete G#Interface templates.
+
+Bug fixes:
+* If a library has separated compiled code in the library settings, this will override the environment settings.
 </Release_Notes>
     </Description>
     <Destinations>
@@ -556,7 +560,7 @@
         <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E454ED70B06A4704F825E8DDD67A631</GUID>
+      <GUID>274E50A3E02E28A2E4E433EEA12C8799</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -829,7 +833,7 @@
         <Path>Files\vi.lib\addons\_AddQ\G#Interface\G#Interface_ClassToSpecificInterface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>790F83C35A973A4DC593B4C3A60F24FA</GUID>
+      <GUID>C842F83F1E2125CF67560DC477367A0F</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -864,7 +868,7 @@
         <Path>Files\vi.lib\addons\_AddQ\G#Object\G#Object.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>53C436BF6F718DECC6BA8C358B5B1C78</GUID>
+      <GUID>B12A87AFD020E989A701CCF5BAAFC4DD</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
