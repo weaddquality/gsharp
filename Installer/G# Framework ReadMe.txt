@@ -86,7 +86,7 @@ G# Framework 1.8.0
 New features:
  -  Malleable VIs are now supported.
 
-G# 1.7.0
+G# 2.0.0
  * Change compile version to LV2020.
  * Added new parent interface IG# to G#Object.
  * Added new IG#Template.
