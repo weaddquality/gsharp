@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2020-06-11 07:45:00" Creator="Labbdator 3" Comments="" ID="c52773245c21e850fbf9ef926b4c7b4a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2020-06-12 21:38:44" Creator="Labbdator 3" Comments="" ID="ffc7f6533f1b32a95c8b0447eadcd8ea">
   <Library_General_Settings>
     <Package_File_Name>addq_lib_gsharp</Package_File_Name>
-    <Library_Version>2.0.0.2</Library_Version>
+    <Library_Version>2.0.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Releases</Library_Output_Folder>
@@ -560,7 +560,7 @@ Bug fixes:
         <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F621A45E6CE3693700ABB80D4FD01E2A</GUID>
+      <GUID>4C78D613D4805DC89681F2F4559520C1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -833,7 +833,7 @@ Bug fixes:
         <Path>Files\vi.lib\addons\_AddQ\G#Interface\G#Interface_ClassToSpecificInterface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0F20DF2F7A0241EED6995D6AB62AFB18</GUID>
+      <GUID>892A5CD3579939B4374096DD59E4120B</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -868,7 +868,7 @@ Bug fixes:
         <Path>Files\vi.lib\addons\_AddQ\G#Object\G#Object.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5EA832C4693D51F0CD0D6C366D27137E</GUID>
+      <GUID>9E5D633077AAFCD8730CDD127E25E602</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
