@@ -47,7 +47,6 @@
 		<Item Name="G#InterfaceImplementation.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#InterfaceImplementation/G#InterfaceImplementation.lvclass"/>
 		<Item Name="G#InterfaceTemplate.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#InterfaceTemplate/G#InterfaceTemplate.lvclass"/>
 		<Item Name="G#MethodTemplates.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#MethodTemplates/G#MethodTemplates.lvclass"/>
-		<Item Name="G#ModifyAttributeDiagramTemplate.vi" Type="VI" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#Template/G#ModifyAttributeDiagramTemplate.vi"/>
 		<Item Name="G#Object.ctl" Type="VI" URL="../Files/vi.lib/addons/_AddQ/G#Object/G#Object.ctl"/>
 		<Item Name="G#Object.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Object/G#Object.lvclass"/>
 		<Item Name="G#RemoteProxy.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Debugger/G#RemoteProxy/G#RemoteProxy.lvclass"/>
