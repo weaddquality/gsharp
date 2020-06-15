@@ -37,5 +37,5 @@ Checklist for a release. Mostly used by project lead.
  - https://basecamp.com/2299158/projects/4706160/
  - Use this form to upload new installer or make changes on tools network: https://form.jotform.com/72135974330960
 	(labview tools network contact: labviewtoolsnetwork@ni.com)
- - 
+ - G# on LabVIEW Tools Network: http://sine.ni.com/nips/cds/view/p/lang/sv/nid/209103
  - MAke an announcement on the G#-forum
