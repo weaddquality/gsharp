@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2020-06-12 21:46:13" Creator="Labbdator 3" Comments="" ID="76b98043a6c63ff1ba217269c63384e8">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2020-06-15 12:37:22" Creator="Labbdator 3" Comments="" ID="12d5c3d313886487b5c4b8442c759cd6">
   <Library_General_Settings>
     <Package_File_Name>addq_lib_gsharp</Package_File_Name>
-    <Library_Version>2.0.0.2</Library_Version>
+    <Library_Version>2.0.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Releases</Library_Output_Folder>
@@ -31,7 +31,7 @@
       <Description>The G# Framework is a free, award winning add-on toolkit for LabVIEW that adds reference based object-oriented support. It takes advantage of the data value reference structure  (dvr) together with the native classes and will add a full object-oriented support with excellent performance. This is the new generation of object-oriented support that makes LabVIEW as powerful as any object-oriented language. The G# Framework is a National Instrument Compatible with LabVIEW Gold product and was awarded "Add-On of the Year for Community" at NI Week 2011.
 
 &lt;b&gt;NB!&lt;/b&gt; LabVIEW must be restarted to load the features that are integrated into the LabVIEW development environment, such as the right-click menu in the project explorer.</Description>
-      <Copyright/>
+      <Copyright>Copyright (c) 2020, ADDQ</Copyright>
       <Packager>Thomas Olsson Mattias Ericsson</Packager>
       <URL>http://www.addq.se/gsharp</URL>
       <Release_Notes>New features:
@@ -43,6 +43,7 @@
 
 Bug fixes:
 * If a library has separated compiled code in the library settings, this will override the environment settings.
+* Clone method to new class inside lvlib not always working.
 </Release_Notes>
     </Description>
     <Destinations>
@@ -560,7 +561,7 @@ Bug fixes:
         <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4C78D613D4805DC89681F2F4559520C1</GUID>
+      <GUID>0237E0217C714611F07068C137EB4373</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -833,7 +834,7 @@ Bug fixes:
         <Path>Files\vi.lib\addons\_AddQ\G#Interface\G#Interface_ClassToSpecificInterface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>892A5CD3579939B4374096DD59E4120B</GUID>
+      <GUID>5BD3F2F504FD02531043FD3D627D0BED</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -868,7 +869,7 @@ Bug fixes:
         <Path>Files\vi.lib\addons\_AddQ\G#Object\G#Object.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9E5D633077AAFCD8730CDD127E25E602</GUID>
+      <GUID>91BA4B6F65D3C05F524BFB718B529B32</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
