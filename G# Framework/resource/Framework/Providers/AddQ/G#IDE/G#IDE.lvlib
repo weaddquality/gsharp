@@ -41,4 +41,5 @@
 	<Item Name="AddQ_Provider_Shutdown.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_Provider_Shutdown.vi"/>
 	<Item Name="AddQ_Provider_OnCommand.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_Provider_OnCommand.vi"/>
 	<Item Name="AddQ_Provider_OnPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_Provider_OnPopupMenu.vi"/>
+	<Item Name="AddQ_Provider_InitItems.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_Provider_InitItems.vi"/>
 </Library>
