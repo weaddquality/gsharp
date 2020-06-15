@@ -3,8 +3,8 @@ Version: 1.8.2
 
 The G# Framework is a free, award winning add-on toolkit for LabVIEW that adds reference based object-oriented support. It takes advantage of the data value reference structure together with the native classes and will add a full object-oriented support with excellent performance. This is the new generation of object-oriented support that makes LabVIEW as powerful as any object-oriented language. The G# Framework is a National Instrument Compatible with LabVIEW Gold product and was awarded "Add-On of the Year for Community" at NI Week 2011.
 
-Copyright © 2010-2020, AddQ Consulting, www.addq.se
-All rights reserved. G# is a registered trademark of AddQ Consulting.
+Copyright © 2010-2020, ADDQ, www.addq.se
+All rights reserved. G# is a registered trademark of ADDQ.
 
 The “COMPATIBLE WITH LABVIEW” logo is a trademark of National Instruments Corporation and is used under a license from National Instruments Corporation. The G# Framework software program is a product of AddQ Consulting, not National Instruments Corporation, and AddQ Consulting is solely responsible for the G# Framework software program. Neither AddQ Consulting, nor any of the software programs and other goods and services offered by AddQ Consulting, are affiliated with, endorsed by or sponsored by National Instruments Corporation.
 
@@ -13,7 +13,6 @@ LabVIEW 2017 Full Development System or higher
 
 ## SUPPORTED OPERATING SYSTEMS ##
 Windows 10/Windows 7/8/Server 2003 R2 (32bit)/Server 2008 R2(64 bit) or later
-Red Hat Enterprise Linux WS 4 or later, openSUSE 10.3 or later 
 Note: G# Framework will probably work on all LabVIEW supported platforms, but is not tested.
 
 ## EXAMPLES ##
@@ -40,7 +39,7 @@ For information about the latest version and updates, please visit G# Framework 
 BSD LICENSE  (http://www.opensource.org/licenses/BSD-3-Clause)
 YOU MAY SUBLICENSE THIS SOFTWARE IN ANY WAY THAT DOES NOT CONFLICT WITH THIS LICENSE.
 
-Copyright (c) 2010-2020, AddQ Consulting <http://www.addq.se>
+Copyright (c) 2010-2020, ADDQ <http://www.addq.se>
 
 All rights reserved.
 
@@ -60,6 +59,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 G# Framework 1.8.2
 * Icon Editor reverted back to 1.6 version without layers.
+* If a library has separated compiled code in the library settings, this will override the environment settings.
+* Bugfix - Clone method to new class inside lvlib not always working.
 
 G# Framework 1.8.1
  
@@ -78,6 +79,9 @@ G# Framework 1.8.0
  
 New features:
  -  Malleable VIs are now supported.
+
+G# 1.6.9
+ * Minor update to GetClassType to make it work inside EXE and also better check on path.
 
 G# 1.6.8
  * Changed compile version to LV2017.
