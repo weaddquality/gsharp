@@ -23,6 +23,7 @@
 	<Item Name="XML_ReadAttribute.vi" Type="VI" URL="../XML_ReadAttribute.vi"/>
 	<Item Name="XML_ReadValue.vi" Type="VI" URL="../XML_ReadValue.vi"/>
 	<Item Name="XML_RemoveLF.vi" Type="VI" URL="../XML_RemoveLF.vi"/>
+	<Item Name="XML_RemoveTabsAndSpaces.vi" Type="VI" URL="../XML_RemoveTabsAndSpaces.vi"/>
 	<Item Name="XML_RemoveTag.vi" Type="VI" URL="../XML_RemoveTag.vi"/>
 	<Item Name="XML_SetError.vi" Type="VI" URL="../XML_SetError.vi"/>
 	<Item Name="XML_SplitElements.vi" Type="VI" URL="../XML_SplitElements.vi"/>

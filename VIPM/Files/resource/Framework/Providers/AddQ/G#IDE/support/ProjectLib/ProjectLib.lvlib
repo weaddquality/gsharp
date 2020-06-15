@@ -1,7 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="17008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">G#IDE.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../G#IDE.lvlib</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,2!!!*Q(C=T:7`&lt;B."%-;`2"B2I&lt;C'!A5*J%1CR9C#DM*0A"4*]!$4U7*-QZ(+1GF34E`F6UB,B;;C^SOY4'N_NV\&lt;FW#=*J'9T&gt;S@\\O&gt;`&gt;X??C/6?#1^U/+W/.A:R7]0SYO3Z&lt;:6.P+G84P=[,_SSLHL&gt;WNM[X_Q5&gt;;F/PZ/`NN#/_-O`&gt;.6D,@['XN]OM8PWO0R&amp;H^VU&gt;L.,B^\F[_DZN\^Y&gt;^_@;88Q_&amp;2-_Q.`_7@^(J$\/@0&lt;`J@6PZ:&lt;W.X@*#OC*/TR6FP&lt;8@^KR+F`^E7`O;)/$YOY[`NLL_-6\A&lt;_U\8TX&lt;`^O8&gt;X0YDO._1^AIJG7314FJZOU7C*XKC*XKC*XKA"XKA"XKA"\KD/\KD/\KD/\KB'\KB'\KB'XJJ[%)8ON#:F74Q:+#E;&amp;)A?2A5*9?%*_&amp;*?")?&lt;J8Q*$Q*4]+4]0#)%J[%*_&amp;*?")?OCHB38A3HI1HY;&amp;5)=H3U/&amp;*?#CPA#@A#8A#HI#()28Q"!$"9%(BI!A9#MTA)O!*?!)?,B8Q"$Q"4]!4]'!LY!FY!J[!*_#B3ZG6+$2N1Y?(-H*Y("[(R_&amp;R?#ANB]@B=8A=(I?(Y?4Q/$Q/B$/A5RQ%/:W="ZQ&lt;B]@BY33(R_&amp;R?"Q?BQ?L@#%P-^03N!U&gt;(I0(Y$&amp;Y$"[$BR)S?!Q?A]@A-8AI+Y0(Y$&amp;Y$"[$B[&amp;E]"A]"I]"9AT+]$++'2W.BQT"Y/'PL"9L8SE+C:67@ZL,B;K[!&amp;58FOK#56U)KB^9^=/J@B$6C6;&gt;1.7*58VBV2&gt;2"61&gt;7,7A[I/;=ZS2F_35H*!D,@@=!8F)^NOO&gt;`TA@$\8&lt;$&lt;4Z?7FJN/J*J/*2K.2_\^+A]&amp;!BY?([P@\[^XK'7U:?[N^K?([`/@\.^_H\S\/@XXI4[;`,S9`IN`K+X^\\J-0S==X]C0ZZ&amp;ODFZQ`\46P8Z"0^ZKPH[`V8_Z,`]0?K(UN/NM]=`1(H,O&lt;;Q!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>

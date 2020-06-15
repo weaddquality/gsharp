@@ -32,7 +32,7 @@
 		<Item Name="G#Debugger_GetRefToCache.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/private/G#Debugger_GetRefToCache.vi"/>
 		<Item Name="G#Debugger_Highlight.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/private/G#Debugger_Highlight.vi"/>
 		<Item Name="G#Debugger_Init.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/private/G#Debugger_Init.vi"/>
-		<Item Name="G#Debugger_ListAggregators.vi" Type="VI" URL="../../../../../../../../Project/G#Utveckling/trunk/G# Framework/vi.lib/addons/_AddQ/G#Debugger/private/G#Debugger_ListAggregators.vi"/>
+		<Item Name="G#Debugger_ListAggregators.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/private/G#Debugger_ListAggregators.vi"/>
 		<Item Name="G#Debugger_NavigateToPreviousTreeItem.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/private/G#Debugger_NavigateToPreviousTreeItem.vi"/>
 		<Item Name="G#Debugger_OpenAttributeReference.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/private/G#Debugger_OpenAttributeReference.vi"/>
 		<Item Name="G#Debugger_PopulateActiveDebugTree.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/private/G#Debugger_PopulateActiveDebugTree.vi"/>

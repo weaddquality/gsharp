@@ -16,6 +16,7 @@
 	<Property Name="Provider_ColorTextBody" Type="UInt">0</Property>
 	<Property Name="Provider_ColorTextHeader" Type="UInt">0</Property>
 	<Property Name="Provider_HeaderString" Type="Str">Support</Property>
+	<Item Name="AddQ_G#_Help.vi" Type="VI" URL="../../../../../../../../help/AddQ_G#_Help.vi"/>
 	<Item Name="CheckIfG#UMLIsInstalled.vi" Type="VI" URL="../CheckIfG#UMLIsInstalled.vi"/>
 	<Item Name="ClassUpdate.ctl" Type="VI" URL="../ClassUpdate.ctl"/>
 	<Item Name="Dialog_VersionInformation.vi" Type="VI" URL="../Dialog_VersionInformation.vi"/>
