@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2020-06-15 18:51:58" Creator="Labbdator 3" Comments="" ID="57a6a590cf36efea75fbf6e2eeaaa76d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2020-06-15 20:50:58" Creator="Labbdator 3" Comments="" ID="e14d39a02c4f92a5be9b8200e4ad00b5">
   <Library_General_Settings>
     <Package_File_Name>addq_lib_gsharp</Package_File_Name>
-    <Library_Version>1.8.2.1</Library_Version>
+    <Library_Version>1.8.2.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Releases</Library_Output_Folder>
@@ -345,7 +345,7 @@ G# 1.6.9
           <Column>0</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#Template\G#ModifyAttributeDiagramTemplate.vi</Path>
+        <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title>G#ModifyAttributeDiagramTemplate.vi</VI_Title>
       </Items_Data>
       <Items_Data>
@@ -555,10 +555,10 @@ G# 1.6.9
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#Template\G#ModifyAttributeDiagramTemplate.vi</Path>
+        <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3944E9E7BA72713EAB45FF5902EC3555</GUID>
+      <GUID>976E9D5FAFF9F7541DCD227B21E685D7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -845,7 +845,7 @@ G# 1.6.9
         <Path>Files\vi.lib\addons\_AddQ\G#Interface\G#Interface_ClassToSpecificInterface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A75098387B2494659FB9C5F0899413F2</GUID>
+      <GUID>BBCCC307E7622185A5DBDD710B95849D</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -880,7 +880,7 @@ G# 1.6.9
         <Path>Files\vi.lib\addons\_AddQ\G#Object\G#Object.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0E09253A8DD898C2486117982540EB83</GUID>
+      <GUID>8DF22229BD30BA01FD5524B785AF5505</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
