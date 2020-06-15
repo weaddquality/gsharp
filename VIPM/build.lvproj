@@ -39,7 +39,6 @@
 		<Item Name="G# - StaticClassAndClassAttributes.vi" Type="VI" URL="../Files/examples/AddQ/G#/StaticClasses/G# - StaticClassAndClassAttributes.vi"/>
 		<Item Name="G# - SupportMethods.vi" Type="VI" URL="../Files/examples/AddQ/G#/SupportMethods/G# - SupportMethods.vi"/>
 		<Item Name="G#.lvlib" Type="Library" URL="../Files/vi.lib/addons/_AddQ/G#.lvlib"/>
-		<Item Name="G#100_Configuration.vi" Type="VI" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/Providers/Provider_G#100/G#100_Configuration.vi"/>
 		<Item Name="G#BaseTemplateG3.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#BaseTemplateG3/G#BaseTemplateG3.lvclass"/>
 		<Item Name="G#Debugger.lvlib" Type="Library" URL="../Files/vi.lib/addons/_AddQ/G#Debugger/G#Debugger.lvlib"/>
 		<Item Name="G#IDE.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/G#IDE.lvlib"/>
@@ -73,7 +72,6 @@
 		<Item Name="MyPropertyClass_LV2010.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Properties/MyPropertyClass_LV2010_class/MyPropertyClass_LV2010.lvclass"/>
 		<Item Name="MyStaticClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/StaticClasses/MyStaticClass_class/MyStaticClass.lvclass"/>
 		<Item Name="MyTestClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Serialization/MyTestClass_class/MyTestClass.lvclass"/>
-		<Item Name="ObjectAttributes.ctl" Type="VI" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#StaticTemplate/protected/ObjectAttributes.ctl"/>
 		<Item Name="TestClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Performance/TestClass_class/TestClass.lvclass"/>
 		<Item Name="XMLLib.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/XMLLib/XMLLib.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">

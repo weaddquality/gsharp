@@ -15,6 +15,7 @@
 		<Item Name="IconLib.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/IconLib/IconLib.lvlib"/>
 		<Item Name="ScriptingLib.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ScriptingLib.lvlib"/>
 		<Item Name="SupportLib.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/SupportLib.lvlib"/>
+		<Item Name="XMLLib.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/XMLLib/XMLLib.lvlib"/>
 	</Item>
 	<Item Name="G#Provider" Type="Folder">
 		<Item Name="ProviderG#100.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/Providers/Provider_G#100/ProviderG#100_class/ProviderG#100.lvclass"/>

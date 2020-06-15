@@ -283,7 +283,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="XMLLib.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/XMLLib/XMLLib.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
