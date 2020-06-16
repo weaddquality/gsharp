@@ -131,7 +131,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 	</Item>
 	<Item Name="ClearReference.vi" Type="VI" URL="../ClearReference.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"Y!!!!!Q!M1(!!(A!!&amp;2.()UFO&gt;'6S:G&amp;D:3ZM&gt;G.M98.T!!VS:7:F=G6O9W5A&lt;X6U!#R!=!!?!!!6%U=D37ZU:8*G97.F,GRW9WRB=X-!$(*F:G6S:7ZD:3"J&lt;A!!'!$Q!!)!!!!"!Q!!#!!!D1%!!*)!!!!!!1!#!!!!!!</Property>
