@@ -54,11 +54,9 @@
 				<Item Name="TcOldClass_ModifyAttribute.vi" Type="VI" URL="../TestClasses/TcOldClass.llb/TcOldClass_ModifyAttribute.vi"/>
 			</Item>
 			<Item Name="G#BaseClass1.lvclass" Type="LVClass" URL="../TestClasses/G#BaseClass1_class/G#BaseClass1.lvclass"/>
-			<Item Name="G#BaseClass1_IG#BaseInterface.lvclass" Type="LVClass" URL="../TestClasses/G#BaseClass1_class/interfaces/G#BaseClass1_IG#BaseInterface/G#BaseClass1_IG#BaseInterface.lvclass"/>
 			<Item Name="G#SubClass1.lvclass" Type="LVClass" URL="../TestClasses/G#SubClass1_class/G#SubClass1.lvclass"/>
 			<Item Name="G#SubSubClass1.lvclass" Type="LVClass" URL="../TestClasses/G#SubSubClass1_class/G#SubSubClass1.lvclass"/>
 			<Item Name="G#BaseClass2.lvclass" Type="LVClass" URL="../TestClasses/G#BaseClass2_class/G#BaseClass2.lvclass"/>
-			<Item Name="G#BaseClass2_IG#BaseInterface.lvclass" Type="LVClass" URL="../TestClasses/G#BaseClass2_class/interfaces/G#BaseClass2_IG#BaseInterface/G#BaseClass2_IG#BaseInterface.lvclass"/>
 			<Item Name="G#SubClass2.lvclass" Type="LVClass" URL="../TestClasses/G#SubClass2_class/G#SubClass2.lvclass"/>
 			<Item Name="G#SubSubClass2.lvclass" Type="LVClass" URL="../TestClasses/G#SubSubClass2_class/G#SubSubClass2.lvclass"/>
 			<Item Name="G#BaseAggregator.lvclass" Type="LVClass" URL="../TestClasses/G#BaseAggregator_class/G#BaseAggregator.lvclass"/>
@@ -121,7 +119,6 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="G#Object.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Object/G#Object.lvclass"/>
-				<Item Name="G#Interface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Interface/G#Interface.lvclass"/>
 				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
 				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
 				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
@@ -180,7 +177,7 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/TestClasses/G#BaseClass1.lvclass</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/TestClasses/G#BaseClass1_IG#BaseInterface.lvclass</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">AddQ AB</Property>
