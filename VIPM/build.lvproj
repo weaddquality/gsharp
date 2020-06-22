@@ -55,6 +55,7 @@
 		<Item Name="IG#InterfaceTemplate.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/IG#InterfaceTemplate/IG#InterfaceTemplate.lvclass"/>
 		<Item Name="IMyInterface.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/IMyInterface_interface/IMyInterface.lvclass"/>
 		<Item Name="IMyInterface2.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/IMyInterface2_interface/IMyInterface2.lvclass"/>
+		<Item Name="IMyInterface3.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/IMyInterface3_interface/IMyInterface3.lvclass"/>
 		<Item Name="LvNative.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/LvNative/LvNative.lvclass"/>
 		<Item Name="MyClass1.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass1_class/MyClass1.lvclass"/>
 		<Item Name="MyClass1_IMyInterface.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass1_class/MyClass1_IMyInterface/MyClass1_IMyInterface.lvclass"/>
@@ -62,6 +63,8 @@
 		<Item Name="MyClass2_IMyInterface.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass2_class/MyClass2_IMyInterface/MyClass2_IMyInterface.lvclass"/>
 		<Item Name="MyClass3.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass3_class/MyClass3.lvclass"/>
 		<Item Name="MyClass4.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass4_class/MyClass4.lvclass"/>
+		<Item Name="MyClass5.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass5_class/MyClass5.lvclass"/>
+		<Item Name="MyClass6.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass6_class/MyClass6.lvclass"/>
 		<Item Name="MyDemoClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/SupportMethods/MyDemoClass_class/MyDemoClass.lvclass"/>
 		<Item Name="MyG#Class.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/CreateDestroy/MyG#Class_class/MyG#Class.lvclass"/>
 		<Item Name="MyG#G3SubTempl.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/CreateDestroy/MyG#G3SubTempl_class/MyG#G3SubTempl.lvclass"/>
@@ -73,7 +76,6 @@
 		<Item Name="MyStaticClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/StaticClasses/MyStaticClass_class/MyStaticClass.lvclass"/>
 		<Item Name="MyTestClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Serialization/MyTestClass_class/MyTestClass.lvclass"/>
 		<Item Name="TestClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Performance/TestClass_class/TestClass.lvclass"/>
-		<Item Name="XMLLib.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/XMLLib/XMLLib.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -205,17 +207,13 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="CreateControl.vi" Type="VI" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/CreateControl.vi"/>
 			<Item Name="CreateNewWizard_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/CreateNewWizard_Interface.ctl"/>
 			<Item Name="Global_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Global_Interface.ctl"/>
-			<Item Name="IconLib.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/IconLib/IconLib.lvlib"/>
-			<Item Name="IMyInterface3.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/IMyInterface3_interface/IMyInterface3.lvclass"/>
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
 			<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="LibraryLib.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/LibraryLib/LibraryLib.lvlib"/>
 			<Item Name="LV Config Read Boolean.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Boolean.vi"/>
 			<Item Name="LV Config Read Color.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Color.vi"/>
 			<Item Name="LV Config Read Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Numeric (I32).vi"/>
@@ -248,14 +246,7 @@
 			<Item Name="mxLvSetToolbar.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetToolbar.vi"/>
 			<Item Name="mxLvUpdateUI.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvUpdateUI.ctl"/>
 			<Item Name="mxLvUpdateUI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvUpdateUI.vi"/>
-			<Item Name="MyClass5.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass5_class/MyClass5.lvclass"/>
-			<Item Name="MyClass6.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass6_class/MyClass6.lvclass"/>
-			<Item Name="ProjectLib.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/ProjectLib/ProjectLib.lvlib"/>
 			<Item Name="Provider_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Provider_Interface.ctl"/>
-			<Item Name="ProviderG#100.lvclass" Type="LVClass" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/Providers/Provider_G#100/ProviderG#100_class/ProviderG#100.lvclass"/>
-			<Item Name="ProviderLib.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/ProviderLib/ProviderLib.lvlib"/>
-			<Item Name="ScriptingLib.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ScriptingLib.lvlib"/>
-			<Item Name="SupportLib.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/G#IDELib/SupportLib.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
