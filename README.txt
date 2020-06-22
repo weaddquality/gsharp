@@ -38,4 +38,5 @@ Checklist for a release. Mostly used by project lead.
  - Use this form to upload new installer or make changes on tools network: https://form.jotform.com/72135974330960
 	(labview tools network contact: labviewtoolsnetwork@ni.com)
  - 
- - MAke an announcement on the G#-forum
+ - Make an announcement on the G#-forum
+	https://forums.ni.com/t5/G/gp-p/5049?profile.language=en

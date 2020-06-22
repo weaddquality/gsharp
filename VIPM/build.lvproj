@@ -75,7 +75,6 @@
 		<Item Name="MyStaticClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/StaticClasses/MyStaticClass_class/MyStaticClass.lvclass"/>
 		<Item Name="MyTestClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Serialization/MyTestClass_class/MyTestClass.lvclass"/>
 		<Item Name="TestClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Performance/TestClass_class/TestClass.lvclass"/>
-		<Item Name="XMLLib.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/XMLLib/XMLLib.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -206,15 +205,12 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="CreateNewWizard_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/CreateNewWizard_Interface.ctl"/>
-			<Item Name="G#100.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/Providers/G#100.lvlib"/>
 			<Item Name="Global_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Global_Interface.ctl"/>
-			<Item Name="IconLib.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/IconLib/IconLib.lvlib"/>
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
 			<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="LibraryLib.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/LibraryLib/LibraryLib.lvlib"/>
 			<Item Name="LV Config Read Boolean.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Boolean.vi"/>
 			<Item Name="LV Config Read Color.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Color.vi"/>
 			<Item Name="LV Config Read Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Numeric (I32).vi"/>
@@ -247,12 +243,7 @@
 			<Item Name="mxLvSetToolbar.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetToolbar.vi"/>
 			<Item Name="mxLvUpdateUI.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvUpdateUI.ctl"/>
 			<Item Name="mxLvUpdateUI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvUpdateUI.vi"/>
-			<Item Name="ProjectLib.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/ProjectLib/ProjectLib.lvlib"/>
 			<Item Name="Provider_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Provider_Interface.ctl"/>
-			<Item Name="ProviderG#100.lvclass" Type="LVClass" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/Providers/Provider_G#100/ProviderG#100_class/ProviderG#100.lvclass"/>
-			<Item Name="ProviderLib.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/ProviderLib/ProviderLib.lvlib"/>
-			<Item Name="ScriptingLib.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ScriptingLib.lvlib"/>
-			<Item Name="SupportLib.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/support/G#IDELib/SupportLib.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
