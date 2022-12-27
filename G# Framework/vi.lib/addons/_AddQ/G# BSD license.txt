@@ -5,7 +5,7 @@ G# Framework
 NOTICE -- YOU MUST LEAVE THIS NOTICE IN PLACE.  PER THE TERMS OF THE BSD LICENSE  (http://www.opensource.org/licenses/bsd-license.php).
 YOU MAY SUBLICENSE THIS SOFTWARE IN ANY WAY THAT DOES NOT CONFLICT WITH THIS LICENSE.
 
-Copyright (c) 2010-2020, AddQ <http://www.addq.se>
+Copyright (c) 2010-2022, AddQ <http://www.addq.se>
 
 All rights reserved.
 
