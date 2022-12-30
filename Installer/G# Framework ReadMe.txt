@@ -39,7 +39,7 @@ For information about the latest version and updates, please visit G# Framework 
 BSD LICENSE  (http://www.opensource.org/licenses/BSD-3-Clause)
 YOU MAY SUBLICENSE THIS SOFTWARE IN ANY WAY THAT DOES NOT CONFLICT WITH THIS LICENSE.
 
-Copyright (c) 2010-2020, ADDQ <http://www.addq.se>
+Copyright (c) 2010-2022, ADDQ <http://www.addq.se>
 
 All rights reserved.
 
@@ -56,6 +56,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 
 ## RELEASE HISTORY ##
+
+G# Framework 1.8.3
+* Bugfix: Clean up generic G# queue at last instance for specific class. Force queue destroy when release last instance or queue empty.
+* Performance improvement in object loops.
+* Add new separate queue for class attributes. This will be cleared in garbage collector
 
 G# Framework 1.8.2
 * Icon Editor reverted back to 1.6 version without layers.
