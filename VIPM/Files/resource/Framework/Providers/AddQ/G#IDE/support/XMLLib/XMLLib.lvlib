@@ -16,7 +16,7 @@
 	<Property Name="Provider_ColorTextHeader" Type="UInt">16448250</Property>
 	<Property Name="Provider_HeaderString" Type="Str">&lt;XML&gt;</Property>
 	<Item Name="XML_AddAttribute.vi" Type="VI" URL="../XML_AddAttribute.vi"/>
-	<Item Name="XML_AddHeader.vi" Type="VI" URL="../XML_AddHeader.vi"/>
+	<Item Name="XML_AddHeader.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/XMLLib/XML_AddHeader.vi"/>
 	<Item Name="XML_BuildTag.vi" Type="VI" URL="../XML_BuildTag.vi"/>
 	<Item Name="XML_ConcatenateXMLData.vi" Type="VI" URL="../XML_ConcatenateXMLData.vi"/>
 	<Item Name="XML_ConcatenateXMLDataArray.vi" Type="VI" URL="../XML_ConcatenateXMLDataArray.vi"/>
@@ -25,10 +25,10 @@
 	<Item Name="XML_ReadAttribute.vi" Type="VI" URL="../XML_ReadAttribute.vi"/>
 	<Item Name="XML_ReadValue.vi" Type="VI" URL="../XML_ReadValue.vi"/>
 	<Item Name="XML_RemoveLF.vi" Type="VI" URL="../XML_RemoveLF.vi"/>
-	<Item Name="XML_RemoveTabsAndSpaces.vi" Type="VI" URL="../XML_RemoveTabsAndSpaces.vi"/>
-	<Item Name="XML_RemoveTag.vi" Type="VI" URL="../XML_RemoveTag.vi"/>
-	<Item Name="XML_SetError.vi" Type="VI" URL="../XML_SetError.vi"/>
+	<Item Name="XML_RemoveTabsAndSpaces.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/XMLLib/XML_RemoveTabsAndSpaces.vi"/>
+	<Item Name="XML_RemoveTag.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/XMLLib/XML_RemoveTag.vi"/>
+	<Item Name="XML_SetError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/XMLLib/XML_SetError.vi"/>
 	<Item Name="XML_SplitElements.vi" Type="VI" URL="../XML_SplitElements.vi"/>
-	<Item Name="XML_UpdateAttribute.vi" Type="VI" URL="../XML_UpdateAttribute.vi"/>
+	<Item Name="XML_UpdateAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/XMLLib/XML_UpdateAttribute.vi"/>
 	<Item Name="XML_UpdateValue.vi" Type="VI" URL="../XML_UpdateValue.vi"/>
 </Library>

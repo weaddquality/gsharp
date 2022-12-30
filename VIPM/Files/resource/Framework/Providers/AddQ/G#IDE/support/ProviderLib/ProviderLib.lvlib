@@ -23,6 +23,7 @@
 	<Item Name="GetG#Version.vi" Type="VI" URL="../GetG#Version.vi"/>
 	<Item Name="GetLVOptionSettings.vi" Type="VI" URL="../GetLVOptionSettings.vi"/>
 	<Item Name="GetProjectItemFromObject.vi" Type="VI" URL="../GetProjectItemFromObject.vi"/>
+	<Item Name="GetProvider.vi" Type="VI" URL="../GetProvider.vi"/>
 	<Item Name="GetProviderConfigFile.vi" Type="VI" URL="../GetProviderConfigFile.vi"/>
 	<Item Name="GetProviderPath.vi" Type="VI" URL="../GetProviderPath.vi"/>
 	<Item Name="GetProviderSettings.vi" Type="VI" URL="../GetProviderSettings.vi"/>
@@ -31,5 +32,4 @@
 	<Item Name="SetProviderSettings.vi" Type="VI" URL="../SetProviderSettings.vi"/>
 	<Item Name="GetGlobalCaller.vi" Type="VI" URL="../GetGlobalCaller.vi"/>
 	<Item Name="ObjectToMenuItem.vi" Type="VI" URL="../ObjectToMenuItem.vi"/>
-	<Item Name="GetProvider.vi" Type="VI" URL="../GetProvider.vi"/>
 </Library>

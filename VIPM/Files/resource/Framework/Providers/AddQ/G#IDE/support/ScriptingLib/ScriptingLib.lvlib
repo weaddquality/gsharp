@@ -17,19 +17,19 @@
 	<Property Name="Provider_ColorTextBody" Type="UInt">0</Property>
 	<Property Name="Provider_ColorTextHeader" Type="UInt">16448250</Property>
 	<Property Name="Provider_HeaderString" Type="Str">Script</Property>
-	<Item Name="AddAttributes.vi" Type="VI" URL="../AddAttributes.vi"/>
+	<Item Name="AddAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/AddAttributes.vi"/>
 	<Item Name="ApplyLVOptionsToVI.vi" Type="VI" URL="../ApplyLVOptionsToVI.vi"/>
 	<Item Name="CheckConnectorPaneRefs.vi" Type="VI" URL="../CheckConnectorPaneRefs.vi"/>
 	<Item Name="ConnectorPaneIcon.ctl" Type="VI" URL="../ConnectorPaneIcon.ctl"/>
 	<Item Name="CopyControls.vi" Type="VI" URL="../CopyControls.vi"/>
 	<Item Name="CopyControlsFromTmplVI.vi" Type="VI" URL="../CopyControlsFromTmplVI.vi"/>
-	<Item Name="CreateControl.vi" Type="VI" URL="../CreateControl.vi"/>
+	<Item Name="CreateControl.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/CreateControl.vi"/>
 	<Item Name="DataTypes.ctl" Type="VI" URL="../DataTypes.ctl"/>
-	<Item Name="DataTypeToControlType.vi" Type="VI" URL="../DataTypeToControlType.vi"/>
-	<Item Name="FindVIsOfName.vi" Type="VI" URL="../FindVIsOfName.vi"/>
+	<Item Name="DataTypeToControlType.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/DataTypeToControlType.vi"/>
+	<Item Name="FindVIsOfName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/FindVIsOfName.vi"/>
 	<Item Name="GetClusterControlTypes.vi" Type="VI" URL="../GetClusterControlTypes.vi"/>
 	<Item Name="GetImplementingMethods.vi" Type="VI" URL="../GetImplementingMethods.vi"/>
-	<Item Name="GetTypeDefStyleID.vi" Type="VI" URL="../GetTypeDefStyleID.vi"/>
+	<Item Name="GetTypeDefStyleID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/GetTypeDefStyleID.vi"/>
 	<Item Name="MakeSpaceForControlTreminals.vi" Type="VI" URL="../MakeSpaceForControlTreminals.vi"/>
 	<Item Name="ReadAllConnPaneDescriptions.vi" Type="VI" URL="../ReadAllConnPaneDescriptions.vi"/>
 	<Item Name="ReadAttributes.vi" Type="VI" URL="../ReadAttributes.vi"/>

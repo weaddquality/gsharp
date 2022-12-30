@@ -18,7 +18,7 @@
 	<Property Name="Provider_ColorTextBody" Type="UInt">0</Property>
 	<Property Name="Provider_ColorTextHeader" Type="UInt">0</Property>
 	<Property Name="Provider_HeaderString" Type="Str">Support</Property>
-	<Item Name="AddQ_G#_Help.vi" Type="VI" URL="../../../../../../../../help/AddQ_G#_Help.vi"/>
+	<Item Name="AddQ_G#_Help.vi" Type="VI" URL="/&lt;helpdir&gt;/AddQ_G#_Help.vi"/>
 	<Item Name="CheckIfG#UMLIsInstalled.vi" Type="VI" URL="../CheckIfG#UMLIsInstalled.vi"/>
 	<Item Name="ClassUpdate.ctl" Type="VI" URL="../ClassUpdate.ctl"/>
 	<Item Name="Dialog_VersionInformation.vi" Type="VI" URL="../Dialog_VersionInformation.vi"/>
@@ -27,7 +27,7 @@
 	<Item Name="Version.vi" Type="VI" URL="../Version.vi"/>
 	<Item Name="ShowError.vi" Type="VI" URL="../ShowError.vi"/>
 	<Item Name="BrowseG#ClassesFromUserLib.vi" Type="VI" URL="../BrowseG#ClassesFromUserLib.vi"/>
-	<Item Name="SetRWPermission.vi" Type="VI" URL="../SetRWPermission.vi"/>
+	<Item Name="SetRWPermission.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/SetRWPermission.vi"/>
 	<Item Name="ReplaceError.vi" Type="VI" URL="../ReplaceError.vi"/>
 	<Item Name="CheckMethodName.vi" Type="VI" URL="../../LibraryLib/CheckMethodName.vi"/>
 	<Item Name="AppendStateToError.vi" Type="VI" URL="../AppendStateToError.vi"/>
