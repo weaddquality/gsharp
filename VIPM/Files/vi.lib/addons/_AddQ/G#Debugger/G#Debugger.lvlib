@@ -16,14 +16,14 @@
 		<Item Name="G#Debugger_TreeElement.ctl" Type="VI" URL="../private/G#Debugger_TreeElement.ctl"/>
 		<Item Name="G#Debugger_AddObject.vi" Type="VI" URL="../private/G#Debugger_AddObject.vi"/>
 		<Item Name="G#Debugger_AddObjectToTree.vi" Type="VI" URL="../private/G#Debugger_AddObjectToTree.vi"/>
-		<Item Name="G#Debugger_AttributeContainer.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/private/G#Debugger_AttributeContainer.vi"/>
+		<Item Name="G#Debugger_AttributeContainer.vi" Type="VI" URL="../private/G#Debugger_AttributeContainer.vi"/>
 		<Item Name="G#Debugger_CachedObject.vi" Type="VI" URL="../private/G#Debugger_CachedObject.vi"/>
 		<Item Name="G#Debugger_CheckError.vi" Type="VI" URL="../private/G#Debugger_CheckError.vi"/>
 		<Item Name="G#Debugger_Clear.vi" Type="VI" URL="../private/G#Debugger_Clear.vi"/>
 		<Item Name="G#Debugger_ClearTree.vi" Type="VI" URL="../private/G#Debugger_ClearTree.vi"/>
 		<Item Name="G#Debugger_Close.vi" Type="VI" URL="../private/G#Debugger_Close.vi"/>
 		<Item Name="G#Debugger_DebugDialog.vi" Type="VI" URL="../private/G#Debugger_DebugDialog.vi"/>
-		<Item Name="G#Debugger_DisconnectFromTypeDef.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/private/G#Debugger_DisconnectFromTypeDef.vi"/>
+		<Item Name="G#Debugger_DisconnectFromTypeDef.vi" Type="VI" URL="../private/G#Debugger_DisconnectFromTypeDef.vi"/>
 		<Item Name="G#Debugger_FilterTrace.vi" Type="VI" URL="../private/G#Debugger_FilterTrace.vi"/>
 		<Item Name="G#Debugger_GetAllClassesInProject.vi" Type="VI" URL="../private/G#Debugger_GetAllClassesInProject.vi"/>
 		<Item Name="G#Debugger_GetClassMethods.vi" Type="VI" URL="../private/G#Debugger_GetClassMethods.vi"/>
@@ -32,7 +32,7 @@
 		<Item Name="G#Debugger_GetRefToCache.vi" Type="VI" URL="../private/G#Debugger_GetRefToCache.vi"/>
 		<Item Name="G#Debugger_Highlight.vi" Type="VI" URL="../private/G#Debugger_Highlight.vi"/>
 		<Item Name="G#Debugger_Init.vi" Type="VI" URL="../private/G#Debugger_Init.vi"/>
-		<Item Name="G#Debugger_ListAggregators.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/private/G#Debugger_ListAggregators.vi"/>
+		<Item Name="G#Debugger_ListAggregators.vi" Type="VI" URL="../private/G#Debugger_ListAggregators.vi"/>
 		<Item Name="G#Debugger_NavigateToPreviousTreeItem.vi" Type="VI" URL="../private/G#Debugger_NavigateToPreviousTreeItem.vi"/>
 		<Item Name="G#Debugger_OpenAttributeReference.vi" Type="VI" URL="../private/G#Debugger_OpenAttributeReference.vi"/>
 		<Item Name="G#Debugger_PopulateActiveDebugTree.vi" Type="VI" URL="../private/G#Debugger_PopulateActiveDebugTree.vi"/>
