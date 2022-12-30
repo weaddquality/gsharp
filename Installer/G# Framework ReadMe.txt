@@ -1,9 +1,9 @@
 G# Framework
-Version: 2.0.0
+Version: 2.0.1
 
 The G# Framework is a free, award winning add-on toolkit for LabVIEW that adds reference based object-oriented support. It takes advantage of the data value reference structure together with the native classes and will add a full object-oriented support with excellent performance. This is the new generation of object-oriented support that makes LabVIEW as powerful as any object-oriented language. The G# Framework is a National Instrument Compatible with LabVIEW Gold product and was awarded "Add-On of the Year for Community" at NI Week 2011.
 
-Copyright © 2010-2020, ADDQ, www.addq.se
+Copyright © 2010-2022, ADDQ, www.addq.se
 All rights reserved. G# is a registered trademark of ADDQ.
 
 The “COMPATIBLE WITH LABVIEW” logo is a trademark of National Instruments Corporation and is used under a license from National Instruments Corporation. The G# Framework software program is a product of AddQ Consulting, not National Instruments Corporation, and AddQ Consulting is solely responsible for the G# Framework software program. Neither AddQ Consulting, nor any of the software programs and other goods and services offered by AddQ Consulting, are affiliated with, endorsed by or sponsored by National Instruments Corporation.
@@ -39,7 +39,7 @@ For information about the latest version and updates, please visit G# Framework 
 BSD LICENSE  (http://www.opensource.org/licenses/BSD-3-Clause)
 YOU MAY SUBLICENSE THIS SOFTWARE IN ANY WAY THAT DOES NOT CONFLICT WITH THIS LICENSE.
 
-Copyright (c) 2010-2020, ADDQ <http://www.addq.se>
+Copyright (c) 2010-2022, ADDQ <http://www.addq.se>
 
 All rights reserved.
 
@@ -56,6 +56,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 
 ## RELEASE HISTORY ##
+
+G# Framework 2.0.1
+* Bugfix: Clean up generic G# queue at last instance for specific class. Force queue destroy when release last instance or queue empty.
+* Performance improvement in object loops.
+* Add new separate queue for class attributes. This will be cleared in garbage collector
 
 G# Framework 2.0.0
 * Recompiled to LV2020.
