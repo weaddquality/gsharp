@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2020-06-22 20:17:32" Creator="Labbdator 3" Comments="" ID="b710d61e891b653bb08126471841d3d3">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2023-01-02 08:59:23" Creator="Labbdator 3" Comments="" ID="0dfcb9a6280ceb35dbd4bc695dfe09db">
   <Library_General_Settings>
     <Package_File_Name>addq_lib_gsharp</Package_File_Name>
-    <Library_Version>2.0.0.4</Library_Version>
+    <Library_Version>2.0.1.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Releases</Library_Output_Folder>
@@ -31,20 +31,16 @@
       <Description>The G# Framework is a free, award winning add-on toolkit for LabVIEW that adds reference based object-oriented support. It takes advantage of the data value reference structure  (dvr) together with the native classes and will add a full object-oriented support with excellent performance. This is the new generation of object-oriented support that makes LabVIEW as powerful as any object-oriented language. The G# Framework is a National Instrument Compatible with LabVIEW Gold product and was awarded "Add-On of the Year for Community" at NI Week 2011.
 
 &lt;b&gt;NB!&lt;/b&gt; LabVIEW must be restarted to load the features that are integrated into the LabVIEW development environment, such as the right-click menu in the project explorer.</Description>
-      <Copyright>Copyright (c) 2020, ADDQ</Copyright>
-      <Packager>Thomas Olsson Mattias Ericsson</Packager>
+      <Copyright>Copyright (c) 2022, ADDQ</Copyright>
+      <Packager>Thomas Olsson Mattias Ericsson Niklas Hammersberg</Packager>
       <URL>http://www.addq.se/gsharp</URL>
       <Release_Notes>New features:
 
-* Recompiled to LV2020.
-* Added support for native interfaces to G# called IG#.
-* Removed Debug Server.
-* Removed old obsolete G#Interface templates.
-
-Bug fixes:
-* If a library has separated compiled code in the library settings, this will override the environment settings.
-* Clone method to new class inside lvlib not always working.
-</Release_Notes>
+G# Framework 2.0.1
+* Bugfix: Clean up generic G# queue at last instance for specific class. Force queue destroy when release last instance or queue empty.
+* Performance improvement in object loops.
+* Add new separate queue for class attributes. This will be cleared in garbage collector
+* Logo updated</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -308,6 +304,7 @@ Bug fixes:
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
@@ -561,7 +558,7 @@ Bug fixes:
         <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC2415135A5F93F988D945196D592E62</GUID>
+      <GUID>78A451ACE0A24C703A397D4FBD1D3252</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -806,7 +803,7 @@ Bug fixes:
         <Path>Files\vi.lib\addons\_AddQ\G#Object\advanced\G#Interface_InterfaceToSpecificClass.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ED15EC9A757A4FB79D7FB17783BA66A1</GUID>
+      <GUID>B5B5917A22B3CA5516408CA791864333</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -841,7 +838,7 @@ Bug fixes:
         <Path>Files\vi.lib\addons\_AddQ\G#Object\G#Object.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>87829CF43849A16D8CB8056FDBBB106B</GUID>
+      <GUID>CECD73717E587FA009F43B95650B92F0</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
