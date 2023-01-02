@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2022-12-30 12:27:01" Creator="Labbdator 3" Comments="" ID="a68594e9a49ce68d9a9e1b387144054e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2023-01-02 23:54:04" Creator="Labbdator 3" Comments="" ID="3a820a19107bed3d9b833612d559a220">
   <Library_General_Settings>
     <Package_File_Name>addq_lib_gsharp</Package_File_Name>
-    <Library_Version>1.8.3.2</Library_Version>
+    <Library_Version>1.8.3.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Releases</Library_Output_Folder>
@@ -35,12 +35,13 @@
       <Packager>Thomas Olsson Mattias Ericsson Niklas hammersberg</Packager>
       <URL>http://www.addq.se/gsharp</URL>
       <Release_Notes>G# Framework 1.8.3
+* Update logo
+
+G# 1.6.10
 * Bugfix: Clean up generic G# queue at last instance for specific class. Force queue destroy when release last instance or queue empty.
 * Performance improvement in object loops.
 * Add new separate queue for class attributes. This will be cleared in garbage collector
-
-G# 1.6.10
- * </Release_Notes>
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -558,7 +559,7 @@ G# 1.6.10
         <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8DD5DEC30848F214BD5FCFA89899C8B6</GUID>
+      <GUID>9107E38AB871678E67773F64FFA335CF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -845,7 +846,7 @@ G# 1.6.10
         <Path>Files\vi.lib\addons\_AddQ\G#Interface\G#Interface_ClassToSpecificInterface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8907D62357874F0F7140299C0814A7B4</GUID>
+      <GUID>C541FF8B5F88972646EB62F22F08B1F9</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -880,7 +881,7 @@ G# 1.6.10
         <Path>Files\vi.lib\addons\_AddQ\G#Object\G#Object.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DDCDB657C45ADACB7C4014E1C6E91EE0</GUID>
+      <GUID>A9680A47CB718358FCE2E164F883A599</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
