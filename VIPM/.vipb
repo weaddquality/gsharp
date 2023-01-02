@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2023-01-02 09:08:33" Creator="Labbdator 3" Comments="" ID="305c6cc6852803abd12cc162b23911e8">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2023-01-02 09:39:22" Creator="Labbdator 3" Comments="" ID="f74f024e8c1b180b69776f5af656f872">
   <Library_General_Settings>
     <Package_File_Name>addq_lib_gsharp</Package_File_Name>
-    <Library_Version>2.0.1.2</Library_Version>
+    <Library_Version>2.0.1.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Releases</Library_Output_Folder>
@@ -558,7 +558,7 @@ G# Framework 2.0.1
         <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>78A451ACE0A24C703A397D4FBD1D3252</GUID>
+      <GUID>4FC1A621A511092629CAE5E2EC27DB4C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -803,7 +803,7 @@ G# Framework 2.0.1
         <Path>Files\vi.lib\addons\_AddQ\G#Object\advanced\G#Interface_InterfaceToSpecificClass.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B5B5917A22B3CA5516408CA791864333</GUID>
+      <GUID>8304B054E6BBD46B32E7B505322DAE5A</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -838,7 +838,7 @@ G# Framework 2.0.1
         <Path>Files\vi.lib\addons\_AddQ\G#Object\G#Object.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CECD73717E587FA009F43B95650B92F0</GUID>
+      <GUID>CE008D06D7351D75CA2DC0B889BE0CB2</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
