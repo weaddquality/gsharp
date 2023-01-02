@@ -29,7 +29,7 @@
 	<Property Name="Provider_ClassItemIcon" Type="Str">GreenFrame</Property>
 	<Property Name="Provider_Name" Type="Str">G#100</Property>
 	<Property Name="Provider_TemplateName" Type="Str">G#Object</Property>
-	<Property Name="Provider_TemplateVersion" Type="Str">1.6.9</Property>
+	<Property Name="Provider_TemplateVersion" Type="Str">1.6.10</Property>
 	<Item Name="G#Object.ctl" Type="Class Private Data" URL="G#Object.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
