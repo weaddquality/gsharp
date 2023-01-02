@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2023-01-02 09:39:22" Creator="Labbdator 3" Comments="" ID="f74f024e8c1b180b69776f5af656f872">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2023-01-02 09:47:49" Creator="Labbdator 3" Comments="" ID="26c9d06dd9d0b974a4c8ae55835ef598">
   <Library_General_Settings>
     <Package_File_Name>addq_lib_gsharp</Package_File_Name>
-    <Library_Version>2.0.1.1</Library_Version>
+    <Library_Version>2.0.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Releases</Library_Output_Folder>
