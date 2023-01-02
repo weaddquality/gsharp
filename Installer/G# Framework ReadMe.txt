@@ -57,7 +57,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ## RELEASE HISTORY ##
 
-G# Framework 1.8.3
+G# Framework 1.6.10
 * Bugfix: Clean up generic G# queue at last instance for specific class. Force queue destroy when release last instance or queue empty.
 * Performance improvement in object loops.
 * Add new separate queue for class attributes. This will be cleared in garbage collector
