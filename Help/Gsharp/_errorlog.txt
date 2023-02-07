@@ -1,6 +1,6 @@
 Microsoft HTML Help Compiler 4.74.8702
 
-Compiling c:\Projects\GSharp\trunk\Help\Gsharp\Gsharp.chm
+Compiling c:\ProjectGSharpDevelopment_2017\gsharp\Help\Gsharp\Gsharp.chm
 
 GsharpHome.htm
 GDebugger\ActiveDebug\GDebugger_ActiveDebug.html
@@ -128,7 +128,7 @@ GInterface\Dispose\Dispose.html
 GsharpDebugServer.htm
 GDebugServer\StartDebugServer\StartDebugServer.html
 GsharpHome_files\image001.jpg
-GsharpHome_files\CwLV_gold_hor.small.png
+GsharpHome_files\LVTN_Logo_AvailOn_Color_RGB 200.png
 GDebugger\ActiveDebug\GDebugger_ActiveDebug.jpg
 GDebugger\ActiveDebug\cenum.jpg
 GDebugger\ActiveDebug\cbool.jpg
@@ -1147,12 +1147,12 @@ GDebugServer\StartDebugServer\ibool.jpg
 GDebugServer\StartDebugServer\ii32.jpg
 GDebugServer\StartDebugServer\istr.jpg
 
-Compile time: 0 minutes, 13 seconds
+Compile time: 0 minutes, 8 seconds
 125	Topics
 394	Local links
-10	Internet links
+11	Internet links
 1,019	Graphics
 
 
-Created c:\Projects\GSharp\trunk\Help\Gsharp\Gsharp.chm, 3,128,780 bytes
-Compression decreased file by 1,960,886 bytes.
+Created c:\ProjectGSharpDevelopment_2017\gsharp\Help\Gsharp\Gsharp.chm, 2,911,238 bytes
+Compression decreased file by 1,917,105 bytes.
