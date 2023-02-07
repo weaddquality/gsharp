@@ -25,11 +25,10 @@
 	<Item Name="LaunchHelp.vi" Type="VI" URL="../LaunchHelp.vi"/>
 	<Item Name="UpdateClassFileToG#.vi" Type="VI" URL="../UpdateClassFileToG#.vi"/>
 	<Item Name="Version.vi" Type="VI" URL="../Version.vi"/>
+	<Item Name="ShowError.vi" Type="VI" URL="../ShowError.vi"/>
 	<Item Name="BrowseG#ClassesFromUserLib.vi" Type="VI" URL="../BrowseG#ClassesFromUserLib.vi"/>
 	<Item Name="SetRWPermission.vi" Type="VI" URL="../SetRWPermission.vi"/>
 	<Item Name="ReplaceError.vi" Type="VI" URL="../ReplaceError.vi"/>
 	<Item Name="AppendStateToError.vi" Type="VI" URL="../AppendStateToError.vi"/>
-	<Item Name="ShowError.vi" Type="VI" URL="../ShowError.vi"/>
 	<Item Name="StartProgress.vi" Type="VI" URL="../StartProgress.vi"/>
-	<Item Name="Dialog_Progress.vi" Type="VI" URL="../Dialog_Progress.vi"/>
 </Library>
