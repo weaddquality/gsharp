@@ -3,554 +3,550 @@
 <HEAD>
 <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
 <!-- Sitemap 1.0 -->
-</HEAD>
-<BODY>
-   <OBJECT type="text/site properties">
-     <param name="Window Styles" value="0x800025">
-     <param name="comment" value="title:Online Help">
-     <param name="comment" value="base:index.htm">
-   </OBJECT>
-   <UL>
-      <LI><OBJECT type="text/sitemap">
-            <param name="Name" value="G# Framework">
-            <param name="Local" value="GsharpHome.htm">
-          </OBJECT>
-      <LI><OBJECT type="text/sitemap">
-            <param name="Name" value="G# BSD License">
-            <param name="Local" value="BSDlicense.htm">
-          </OBJECT>
-      <LI><OBJECT type="text/sitemap">
-            <param name="Name" value="System Requirements">
-            <param name="Local" value="GsharpSystemRequirements.htm">
-          </OBJECT>
-      <LI><OBJECT type="text/sitemap">
-            <param name="Name" value="G# Installation">
-            <param name="Local" value="GsharpInstallation.htm">
-          </OBJECT>
-      <LI><OBJECT type="text/sitemap">
-            <param name="Name" value="Getting Started">
-            <param name="Local" value="GsharpGettingStarted.htm">
-          </OBJECT>
-      <LI><OBJECT type="text/sitemap">
-            <param name="Name" value="Support">
-            <param name="Local" value="GsharpSupport.htm">
-          </OBJECT>
-      <LI><OBJECT type="text/sitemap">
-            <param name="Name" value="Overview">
-            <param name="Local" value="Overview.htm">
-          </OBJECT>
-      <LI><OBJECT type="text/sitemap">
-            <param name="Name" value="G# Templates">
-            <param name="Local" value="GsharpTemplates.htm">
-          </OBJECT>
-      <LI><OBJECT type="text/sitemap">
-            <param name="Name" value="G# Examples">
-            <param name="Local" value="GsharpExamples.htm">
-          </OBJECT>
-      <LI><OBJECT type="text/sitemap">
-            <param name="Name" value="G# Palette">
-            <param name="Local" value="GsharpPalette.htm">
-          </OBJECT>
-      <LI><OBJECT type="text/sitemap">
-            <param name="Name" value="Tools">
-            <param name="Local" value="GsharpTools.htm">
-          </OBJECT>
-      <UL>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="G#Debugger">
-               <param name="Local" value="GsharpDebugger.htm">
-             </OBJECT>
-         <UL>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Objects tab">
-                  <param name="Local" value="GDebugger/Objects/GDebugger_Objects.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Trace tab">
-                  <param name="Local" value="GDebugger/Trace/GDebugger_Trace.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Active Debug tab">
-                  <param name="Local" value="GDebugger/ActiveDebug/GDebugger_ActiveDebug.html">
-                </OBJECT>
-         </UL>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="Convert Classes to G#">
-               <param name="Local" value="GIDE\DialogConvertClasses\DialogConvertClasses.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="Options">
-               <param name="Local" value="GIDE\DialogOptions\DialogOptions.html">
-             </OBJECT>
-      </UL>
-      <LI><OBJECT type="text/sitemap">
-            <param name="Name" value="G# IDE">
-            <param name="Local" value="GsharpIDE.htm">
-          </OBJECT>
-      <UL>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="Popup Menus">
-               <param name="Local" value="GsharpPopupMenus.htm">
-             </OBJECT>
-         <UL>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Top Project Item">
-                  <param name="Local" value="GsharpPopupMenus_ProjectItem.htm">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G# Class Item">
-                  <param name="Local" value="GsharpPopupMenus_ClassItems.htm">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G# VI Item">
-                  <param name="Local" value="GsharpPopupMenus_VIItems.htm">
-                </OBJECT>
-         </UL>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="Dialogs">
-               <param name="Local" value="GsharpDialogs.htm">
-             </OBJECT>
-         <UL>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Dialog - Create Class">
-                  <param name="Local" value="GIDE\DialogCreateClass\DialogCreateClass.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Dialog - Create Method">
-                  <param name="Local" value="GIDE\DialogCreateMethod\DialogCreateMethod.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Dialog - Create Property">
-                  <param name="Local" value="GIDE\DialogCreateProperty\DialogCreateProperty.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Dialog - Create Type Def Control">
-                  <param name="Local" value="GIDE\DialogCreateTypeDef\DialogCreateTypeDef.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Dialog - Rename or Clone Class">
-                  <param name="Local" value="GIDE\DialogChangeClassName\DialogChangeClassName.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Dialog - Change Scope">
-                  <param name="Local" value="GIDE\DialogChangeScope\DialogChangeScope.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Dialog - Rename or Clone Method">
-                  <param name="Local" value="GIDE\DialogChangeMethodName\DialogChangeMethodName.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Dialog - Class Description">
-                  <param name="Local" value="GIDE\DialogChangeClassDescription\DialogChangeClassDescription.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Dialog - VI Description">
-                  <param name="Local" value="GIDE\DialogChangeMethodDescription\DialogChangeMethodDescription.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Dialog - Implement Interface">
-                  <param name="Local" value="GIDE\DialogImplementInterface\DialogImplementInterface.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Dialog - Change Inheritance">
-                  <param name="Local" value="GIDE\DialogChangeInheritance\DialogChangeInheritance.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Dialog - Synchronize Method Implementation">
-                  <param name="Local" value="GIDE\DialogSyncMethodImplementation\DialogSyncImplementation.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Icon">
-                  <param name="Local" value="GsharpDialogIcons.htm">
-                </OBJECT>
-            <UL>
-               <LI><OBJECT type="text/sitemap">
-                     <param name="Name" value="Dialog - Icon Editor">
-                     <param name="Local" value="GIDE\DialogIconEditor\DialogIconEditor.html">
-                   </OBJECT>
-               <LI><OBJECT type="text/sitemap">
-                     <param name="Name" value="Dialog - Class Icon Editor">
-                     <param name="Local" value="GIDE\DialogClassIconEditor\DialogClassIconEditor.html">
-                   </OBJECT>
-               <LI><OBJECT type="text/sitemap">
-                     <param name="Name" value="Dialog - Header Editor">
-                     <param name="Local" value="GIDE\DialogHeaderEditor\DialogHeaderEditor.html">
-                   </OBJECT>
-            </UL>
-         </UL>
-      </UL>
-      <LI><OBJECT type="text/sitemap">
-            <param name="Name" value="G#Object">
-            <param name="Local" value="GsharpObject.htm">
-          </OBJECT>
-      <UL>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="ClearReference">
-               <param name="Local" value="GObject/ClearReference/ClearReference.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="Destroy">
-               <param name="Local" value="GObject/Destroy/Destroy.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="Dispose">
-               <param name="Local" value="GObject/Dispose/Dispose.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="GarbageCollector">
-               <param name="Local" value="GObject/GarbageCollector/GarbageCollector.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="GetClassName">
-               <param name="Local" value="GObject/GetClassName/GetClassName.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="GetObjectID">
-               <param name="Local" value="GObject/GetObjectID/GetObjectID.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="GetObjectStatus">
-               <param name="Local" value="GObject/GetObjectStatus/GetObjectStatus.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="G#Object_Create">
-               <param name="Local" value="GObject/GObject_Create/GObject_Create.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="G#Object_Open">
-               <param name="Local" value="GObject/GObject_Open/GObject_Open.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="IsEmptyObject">
-               <param name="Local" value="GObject/IsEmptyObject/IsEmptyObject.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="IsEqual">
-               <param name="Local" value="GObject/IsEqual/IsEqual.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="IsInstanceOf">
-               <param name="Local" value="GObject/IsInstanceOf/IsInstanceOf.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="ToString">
-               <param name="Local" value="GObject/ToString/ToString.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="NotARefNum">
-               <param name="Local" value="GObject/NotARefNum/NotARefNum.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="advanced">
-             </OBJECT>
-         <UL>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_CastFromLabVIEWObject">
-                  <param name="Local" value="GObject/advanced/GObject_CastFromLabVIEWObject/GObject_CastFromLabVIEWObject.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_Deserialize">
-                  <param name="Local" value="GObject/advanced/GObject_Deserialize/GObject_Deserialize.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GenericCreate">
-                  <param name="Local" value="GObject/advanced/GObject_GenericCreate/GObject_GenericCreate.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GenericDefaultConstructor">
-                  <param name="Local" value="GObject/advanced/GObject_GenericDefaultConstructor/GObject_GenericDefaultConstructor.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GenericOpen">
-                  <param name="Local" value="GObject/advanced/GObject_GenericOpen/GObject_GenericOpen.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GetClassPath">
-                  <param name="Local" value="GObject/advanced/GObject_GetClassPath/GObject_GetClassPath.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GetClassType">
-                  <param name="Local" value="GObject/advanced/GObject_GetClassType/GObject_GetClassType.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GetEvent">
-                  <param name="Local" value="GObject/advanced/GObject_GetEvent/GObject_GetEvent.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GetParent">
-                  <param name="Local" value="GObject/advanced/GObject_GetParent/GObject_GetParent.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_IsCallToParent">
-                  <param name="Local" value="GObject/advanced/GObject_IsCallToParent/GObject_IsCallToParent.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_SendUserEvent">
-                  <param name="Local" value="GObject/advanced/GObject_SendUserEvent/GObject_SendUserEvent.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_Serialize">
-                  <param name="Local" value="GObject/advanced/GObject_Serialize/GObject_Serialize.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_StartExternalCreateProcess">
-                  <param name="Local" value="GObject/advanced/GObject_StartExternalCreateProcess/GObject_StartExternalCreateProcess.html">
-                </OBJECT>
-         </UL>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="utils">
-             </OBJECT>
-         <UL>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_CleanUp">
-                  <param name="Local" value="GObject/utils/GObject_CleanUp/GObject_CleanUp.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_Clone">
-                  <param name="Local" value="GObject\utils\GObject_Clone\GObject_Clone.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_ConvertToMoreGeneric">
-                  <param name="Local" value="GObject\utils\GObject_ConvertToMoreGeneric\GObject_ConvertToMoreGeneric.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_EnableDebug">
-                  <param name="Local" value="GObject\utils\GObject_EnableDebug\GObject_EnableDebug.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_EnableExternalCreate">
-                  <param name="Local" value="GObject/utils/GObject_EnableExternalCreate/GObject_EnableExternalCreate.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GetAggregatedObjects">
-                  <param name="Local" value="GObject\utils\GObject_GetAggregatedObjects\GObject_GetAggregatedObjects.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GetAllObjects">
-                  <param name="Local" value="GObject/utils/GObject_GetAllObjects/GObject_GetAllObjects.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GetAllObjectsFromSameOwner">
-                  <param name="Local" value="GObject/utils/GObject_GetAllObjectsFromSameOwner/GObject_GetAllObjectsFromSameOwner.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GetAttributeValue">
-                  <param name="Local" value="GObject/utils/GObject_GetAttributeValue/GObject_GetAttributeValue.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GetClassHierarchy">
-                  <param name="Local" value="GObject/utils/GObject_GetClassHierarchy/GObject_GetClassHierarchy.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GetClassVersion">
-                  <param name="Local" value="GObject/utils/GObject_GetClassVersion/GObject_GetClassVersion.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GetObjectGraph">
-                  <param name="Local" value="GObject\utils\GObject_GetObjectGraph\GObject_GetObjectGraph.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GetOwner">
-                  <param name="Local" value="GObject/utils/GObject_GetOwner/GObject_GetOwner.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GetRootClassVersion">
-                  <param name="Local" value="GObject/utils/GObject_GetRootClassVersion/GObject_GetRootClassVersion.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_IsCallerMethodOfSameClass">
-                  <param name="Local" value="GObject/utils/GObject_IsCallerMethodOfSameClass/GObject_IsCallerMethodOfSameClass.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_IsExternalCreateProcessRunning">
-                  <param name="Local" value="GObject/utils/GObject_IsExternalCreateProcessRunning/GObject_IsExternalCreateProcessRunning.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_NewClassAttributes">
-                  <param name="Local" value="GObject/utils/GObject_NewClassAttributes/GObject_NewClassAttributes.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_NewDebugObject">
-                  <param name="Local" value="GObject\utils\GObject_NewDebugObject\GObject_NewDebugObject.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_NewObject">
-                  <param name="Local" value="GObject/utils/GObject_NewObject/GObject_NewObject.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_SetError">
-                  <param name="Local" value="GObject/utils/GObject_SetError/GObject_SetError.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_StopExternalCreateProcess">
-                  <param name="Local" value="GObject/utils/GObject_StopExternalCreateProcess/GObject_StopExternalCreateProcess.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_UserCounterState">
-                  <param name="Local" value="GObject/utils/GObject_UserCounterState/GObject_UserCounterState.html">
-                </OBJECT>
-         </UL>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="protected">
-             </OBJECT>
-         <UL>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_Delete">
-                  <param name="Local" value="GObject/protected/GObject_Delete/GObject_Delete.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_ErrorMissingMethod">
-                  <param name="Local" value="GObject/protected/GObject_ErrorMissingMethod/GObject_ErrorMissingMethod.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_InstanceClassAttributes">
-                  <param name="Local" value="GObject/protected/GObject_InstanceClassAttributes/GObject_InstanceClassAttributes.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_New">
-                  <param name="Local" value="GObject/protected/GObject_New/GObject_New.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Kernel">
-                  <param name="Local" value="GObject/protected/Kernel/Kernel.html">
-                </OBJECT>
-         </UL>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="private">
-             </OBJECT>
-         <UL>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_Clear">
-                  <param name="Local" value="GObject/private/GObject_Clear/GObject_Clear.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_ExternalCreateProcess">
-                  <param name="Local" value="GObject/private/GObject_ExternalCreateProcess/GObject_ExternalCreateProcess.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_ExternalCreateProcessDelegate">
-                  <param name="Local" value="GObject/private/GObject_ExternalCreateProcessDelegate/GObject_ExternalCreateProcessDelegate.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_ParseAttributes">
-                  <param name="Local" value="GObject\private\GObject_ParseAttributes\GObject_ParseAttributes.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_RegisterClassAttributes">
-                  <param name="Local" value="GObject/private/GObject_RegisterClassAttributes/GObject_RegisterClassAttributes.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_RegisterObject">
-                  <param name="Local" value="GObject/private/GObject_RegisterObject/GObject_RegisterObject.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_RunVI">
-                  <param name="Local" value="GObject/private/GObject_RunVI/GObject_RunVI.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_SendEvent">
-                  <param name="Local" value="GObject/private/GObject_SendEvent/GObject_SendEvent.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_UnregisterObject">
-                  <param name="Local" value="GObject/private/GObject_UnregisterObject/GObject_UnregisterObject.html">
-                </OBJECT>
-         </UL>
-      </UL>
-      <LI><OBJECT type="text/sitemap">
-            <param name="Name" value="G#Interface">
-            <param name="Local" value="GsharpInterface.htm">
-          </OBJECT>
-      <UL>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="ClearReference">
-               <param name="Local" value="GInterface/ClearReference/ClearReference.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="Destroy">
-               <param name="Local" value="GInterface/Destroy/Destroy.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="Dispose">
-               <param name="Local" value="GInterface/Dispose/Dispose.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="GetClassName">
-               <param name="Local" value="GInterface/GetClassName/GetClassName.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="GetObjectID">
-               <param name="Local" value="GInterface/GetObjectID/GetObjectID.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="GetObjectStatus">
-               <param name="Local" value="GInterface/GetObjectStatus/GetObjectStatus.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="G#Interface_Create">
-               <param name="Local" value="GInterface/GInterface_Create/GInterface_Create.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="IsEmptyObject">
-               <param name="Local" value="GInterface/IsEmptyObject/IsEmptyObject.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="IsEqual">
-               <param name="Local" value="GInterface/IsEqual/IsEqual.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="NotARefNum">
-               <param name="Local" value="GInterface/NotARefNum/NotARefNum.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="ToString">
-               <param name="Local" value="GInterface/ToString/ToString.html">
-             </OBJECT>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="advanced">
-             </OBJECT>
-         <UL>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_Deserialize">
-                  <param name="Local" value="GInterface/advanced/GObject_Deserialize/GObject_Deserialize.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_GetClassPath">
-                  <param name="Local" value="GInterface/advanced/GObject_GetClassPath/GObject_GetClassPath.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Object_Serialize">
-                  <param name="Local" value="GInterface/advanced/GObject_Serialize/GObject_Serialize.html">
-                </OBJECT>
-         </UL>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="utils">
-             </OBJECT>
-         <UL>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Interface_AbstractMethod">
-                  <param name="Local" value="GInterface/utils/GInterface_AbstractMethod/GInterface_AbstractMethod.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="G#Interface_GetInstance">
-                  <param name="Local" value="GInterface/utils/GInterface_GetInstance/GInterface_GetInstance.html">
-                </OBJECT>
-            <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="ReplaceMe">
-                  <param name="Local" value="GInterface/utils/ReplaceMe/ReplaceMe.html">
-                </OBJECT>
-         </UL>
-      </UL>
-      <LI><OBJECT type="text/sitemap">
-            <param name="Name" value="G#DebugServer">
-            <param name="Local" value="GsharpDebugServer.htm">
-          </OBJECT>
-      <UL>
-         <LI><OBJECT type="text/sitemap">
-               <param name="Name" value="StartDebugServer">
-               <param name="Local" value="GDebugServer\StartDebugServer\StartDebugServer.html">
-             </OBJECT>
-      </UL>
-   </UL>
-</BODY>
-</HTML>
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="G# Framework">
+		<param name="Local" value="GsharpHome.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="G# BSD License">
+		<param name="Local" value="BSDlicense.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="System Requirements">
+		<param name="Local" value="GsharpSystemRequirements.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="G# Installation">
+		<param name="Local" value="GsharpInstallation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Getting Started">
+		<param name="Local" value="GsharpGettingStarted.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Support">
+		<param name="Local" value="GsharpSupport.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Overview">
+		<param name="Local" value="Overview.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="G# Templates">
+		<param name="Local" value="GsharpTemplates.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="G# Examples">
+		<param name="Local" value="GsharpExamples.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="G# Palette">
+		<param name="Local" value="GsharpPalette.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Tools">
+		<param name="Local" value="GsharpTools.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="G#Debugger">
+			<param name="Local" value="GsharpDebugger.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Objects tab">
+				<param name="Local" value="GDebugger/Objects/GDebugger_Objects.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Trace tab">
+				<param name="Local" value="GDebugger/Trace/GDebugger_Trace.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Active Debug tab">
+				<param name="Local" value="GDebugger/ActiveDebug/GDebugger_ActiveDebug.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Convert Classes to G#">
+			<param name="Local" value="GIDE\DialogConvertClasses\DialogConvertClasses.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Options">
+			<param name="Local" value="GIDE\DialogOptions\DialogOptions.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="G# IDE">
+		<param name="Local" value="GsharpIDE.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Popup Menus">
+			<param name="Local" value="GsharpPopupMenus.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Top Project Item">
+				<param name="Local" value="GsharpPopupMenus_ProjectItem.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G# Class Item">
+				<param name="Local" value="GsharpPopupMenus_ClassItems.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G# VI Item">
+				<param name="Local" value="GsharpPopupMenus_VIItems.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Dialogs">
+			<param name="Local" value="GsharpDialogs.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dialog - Create Class">
+				<param name="Local" value="GIDE\DialogCreateClass\DialogCreateClass.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dialog - Create Method">
+				<param name="Local" value="GIDE\DialogCreateMethod\DialogCreateMethod.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dialog - Create Property">
+				<param name="Local" value="GIDE\DialogCreateProperty\DialogCreateProperty.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dialog - Create Type Def Control">
+				<param name="Local" value="GIDE\DialogCreateTypeDef\DialogCreateTypeDef.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dialog - Rename or Clone Class">
+				<param name="Local" value="GIDE\DialogChangeClassName\DialogChangeClassName.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dialog - Change Scope">
+				<param name="Local" value="GIDE\DialogChangeScope\DialogChangeScope.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dialog - Rename or Clone Method">
+				<param name="Local" value="GIDE\DialogChangeMethodName\DialogChangeMethodName.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dialog - Class Description">
+				<param name="Local" value="GIDE\DialogChangeClassDescription\DialogChangeClassDescription.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dialog - VI Description">
+				<param name="Local" value="GIDE\DialogChangeMethodDescription\DialogChangeMethodDescription.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dialog - Implement Interface">
+				<param name="Local" value="GIDE\DialogImplementInterface\DialogImplementInterface.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dialog - Change Inheritance">
+				<param name="Local" value="GIDE\DialogChangeInheritance\DialogChangeInheritance.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dialog - Synchronize Method Implementation">
+				<param name="Local" value="GIDE\DialogSyncMethodImplementation\DialogSyncImplementation.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Icon">
+				<param name="Local" value="GsharpDialogIcons.htm">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Dialog - Icon Editor">
+					<param name="Local" value="GIDE\DialogIconEditor\DialogIconEditor.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Dialog - Class Icon Editor">
+					<param name="Local" value="GIDE\DialogClassIconEditor\DialogClassIconEditor.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Dialog - Header Editor">
+					<param name="Local" value="GIDE\DialogHeaderEditor\DialogHeaderEditor.html">
+					</OBJECT>
+			</UL>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="G#Object">
+		<param name="Local" value="GsharpObject.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ClearReference">
+			<param name="Local" value="GObject/ClearReference/ClearReference.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Destroy">
+			<param name="Local" value="GObject/Destroy/Destroy.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Dispose">
+			<param name="Local" value="GObject/Dispose/Dispose.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GarbageCollector">
+			<param name="Local" value="GObject/GarbageCollector/GarbageCollector.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetClassName">
+			<param name="Local" value="GObject/GetClassName/GetClassName.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetObjectID">
+			<param name="Local" value="GObject/GetObjectID/GetObjectID.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetObjectStatus">
+			<param name="Local" value="GObject/GetObjectStatus/GetObjectStatus.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="G#Object_Create">
+			<param name="Local" value="GObject/GObject_Create/GObject_Create.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="G#Object_Open">
+			<param name="Local" value="GObject/GObject_Open/GObject_Open.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="IsEmptyObject">
+			<param name="Local" value="GObject/IsEmptyObject/IsEmptyObject.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="IsEqual">
+			<param name="Local" value="GObject/IsEqual/IsEqual.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="IsInstanceOf">
+			<param name="Local" value="GObject/IsInstanceOf/IsInstanceOf.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ToString">
+			<param name="Local" value="GObject/ToString/ToString.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="NotARefNum">
+			<param name="Local" value="GObject/NotARefNum/NotARefNum.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="advanced">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_CastFromLabVIEWObject">
+				<param name="Local" value="GObject/advanced/GObject_CastFromLabVIEWObject/GObject_CastFromLabVIEWObject.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_Deserialize">
+				<param name="Local" value="GObject/advanced/GObject_Deserialize/GObject_Deserialize.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GenericCreate">
+				<param name="Local" value="GObject/advanced/GObject_GenericCreate/GObject_GenericCreate.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GenericDefaultConstructor">
+				<param name="Local" value="GObject/advanced/GObject_GenericDefaultConstructor/GObject_GenericDefaultConstructor.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GenericOpen">
+				<param name="Local" value="GObject/advanced/GObject_GenericOpen/GObject_GenericOpen.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GetClassPath">
+				<param name="Local" value="GObject/advanced/GObject_GetClassPath/GObject_GetClassPath.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GetClassType">
+				<param name="Local" value="GObject/advanced/GObject_GetClassType/GObject_GetClassType.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GetEvent">
+				<param name="Local" value="GObject/advanced/GObject_GetEvent/GObject_GetEvent.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GetParent">
+				<param name="Local" value="GObject/advanced/GObject_GetParent/GObject_GetParent.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_IsCallToParent">
+				<param name="Local" value="GObject/advanced/GObject_IsCallToParent/GObject_IsCallToParent.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_SendUserEvent">
+				<param name="Local" value="GObject/advanced/GObject_SendUserEvent/GObject_SendUserEvent.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_Serialize">
+				<param name="Local" value="GObject/advanced/GObject_Serialize/GObject_Serialize.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_StartExternalCreateProcess">
+				<param name="Local" value="GObject/advanced/GObject_StartExternalCreateProcess/GObject_StartExternalCreateProcess.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="utils">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_CleanUp">
+				<param name="Local" value="GObject/utils/GObject_CleanUp/GObject_CleanUp.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_Clone">
+				<param name="Local" value="GObject\utils\GObject_Clone\GObject_Clone.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_ConvertToMoreGeneric">
+				<param name="Local" value="GObject\utils\GObject_ConvertToMoreGeneric\GObject_ConvertToMoreGeneric.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_EnableDebug">
+				<param name="Local" value="GObject\utils\GObject_EnableDebug\GObject_EnableDebug.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_EnableExternalCreate">
+				<param name="Local" value="GObject/utils/GObject_EnableExternalCreate/GObject_EnableExternalCreate.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GetAggregatedObjects">
+				<param name="Local" value="GObject\utils\GObject_GetAggregatedObjects\GObject_GetAggregatedObjects.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GetAllObjects">
+				<param name="Local" value="GObject/utils/GObject_GetAllObjects/GObject_GetAllObjects.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GetAllObjectsFromSameOwner">
+				<param name="Local" value="GObject/utils/GObject_GetAllObjectsFromSameOwner/GObject_GetAllObjectsFromSameOwner.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GetAttributeValue">
+				<param name="Local" value="GObject/utils/GObject_GetAttributeValue/GObject_GetAttributeValue.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GetClassHierarchy">
+				<param name="Local" value="GObject/utils/GObject_GetClassHierarchy/GObject_GetClassHierarchy.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GetClassVersion">
+				<param name="Local" value="GObject/utils/GObject_GetClassVersion/GObject_GetClassVersion.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GetObjectGraph">
+				<param name="Local" value="GObject\utils\GObject_GetObjectGraph\GObject_GetObjectGraph.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GetOwner">
+				<param name="Local" value="GObject/utils/GObject_GetOwner/GObject_GetOwner.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GetRootClassVersion">
+				<param name="Local" value="GObject/utils/GObject_GetRootClassVersion/GObject_GetRootClassVersion.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_IsCallerMethodOfSameClass">
+				<param name="Local" value="GObject/utils/GObject_IsCallerMethodOfSameClass/GObject_IsCallerMethodOfSameClass.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_IsExternalCreateProcessRunning">
+				<param name="Local" value="GObject/utils/GObject_IsExternalCreateProcessRunning/GObject_IsExternalCreateProcessRunning.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_NewClassAttributes">
+				<param name="Local" value="GObject/utils/GObject_NewClassAttributes/GObject_NewClassAttributes.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_NewDebugObject">
+				<param name="Local" value="GObject\utils\GObject_NewDebugObject\GObject_NewDebugObject.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_NewObject">
+				<param name="Local" value="GObject/utils/GObject_NewObject/GObject_NewObject.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_SetError">
+				<param name="Local" value="GObject/utils/GObject_SetError/GObject_SetError.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_StopExternalCreateProcess">
+				<param name="Local" value="GObject/utils/GObject_StopExternalCreateProcess/GObject_StopExternalCreateProcess.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_UserCounterState">
+				<param name="Local" value="GObject/utils/GObject_UserCounterState/GObject_UserCounterState.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="protected">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_Delete">
+				<param name="Local" value="GObject/protected/GObject_Delete/GObject_Delete.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_ErrorMissingMethod">
+				<param name="Local" value="GObject/protected/GObject_ErrorMissingMethod/GObject_ErrorMissingMethod.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_InstanceClassAttributes">
+				<param name="Local" value="GObject/protected/GObject_InstanceClassAttributes/GObject_InstanceClassAttributes.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_New">
+				<param name="Local" value="GObject/protected/GObject_New/GObject_New.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Kernel">
+				<param name="Local" value="GObject/protected/Kernel/Kernel.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="private">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_Clear">
+				<param name="Local" value="GObject/private/GObject_Clear/GObject_Clear.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_ExternalCreateProcess">
+				<param name="Local" value="GObject/private/GObject_ExternalCreateProcess/GObject_ExternalCreateProcess.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_ExternalCreateProcessDelegate">
+				<param name="Local" value="GObject/private/GObject_ExternalCreateProcessDelegate/GObject_ExternalCreateProcessDelegate.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_ParseAttributes">
+				<param name="Local" value="GObject\private\GObject_ParseAttributes\GObject_ParseAttributes.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_RegisterClassAttributes">
+				<param name="Local" value="GObject/private/GObject_RegisterClassAttributes/GObject_RegisterClassAttributes.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_RegisterObject">
+				<param name="Local" value="GObject/private/GObject_RegisterObject/GObject_RegisterObject.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_RunVI">
+				<param name="Local" value="GObject/private/GObject_RunVI/GObject_RunVI.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_SendEvent">
+				<param name="Local" value="GObject/private/GObject_SendEvent/GObject_SendEvent.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_UnregisterObject">
+				<param name="Local" value="GObject/private/GObject_UnregisterObject/GObject_UnregisterObject.html">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="G#Interface">
+		<param name="Local" value="GsharpInterface.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ClearReference">
+			<param name="Local" value="GInterface/ClearReference/ClearReference.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Destroy">
+			<param name="Local" value="GInterface/Destroy/Destroy.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Dispose">
+			<param name="Local" value="GInterface/Dispose/Dispose.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetClassName">
+			<param name="Local" value="GInterface/GetClassName/GetClassName.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetObjectID">
+			<param name="Local" value="GInterface/GetObjectID/GetObjectID.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GetObjectStatus">
+			<param name="Local" value="GInterface/GetObjectStatus/GetObjectStatus.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="G#Interface_Create">
+			<param name="Local" value="GInterface/GInterface_Create/GInterface_Create.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="IsEmptyObject">
+			<param name="Local" value="GInterface/IsEmptyObject/IsEmptyObject.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="IsEqual">
+			<param name="Local" value="GInterface/IsEqual/IsEqual.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="NotARefNum">
+			<param name="Local" value="GInterface/NotARefNum/NotARefNum.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ToString">
+			<param name="Local" value="GInterface/ToString/ToString.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="advanced">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_Deserialize">
+				<param name="Local" value="GInterface/advanced/GObject_Deserialize/GObject_Deserialize.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_GetClassPath">
+				<param name="Local" value="GInterface/advanced/GObject_GetClassPath/GObject_GetClassPath.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Object_Serialize">
+				<param name="Local" value="GInterface/advanced/GObject_Serialize/GObject_Serialize.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="utils">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Interface_AbstractMethod">
+				<param name="Local" value="GInterface/utils/GInterface_AbstractMethod/GInterface_AbstractMethod.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="G#Interface_GetInstance">
+				<param name="Local" value="GInterface/utils/GInterface_GetInstance/GInterface_GetInstance.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ReplaceMe">
+				<param name="Local" value="GInterface/utils/ReplaceMe/ReplaceMe.html">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="G#DebugServer">
+		<param name="Local" value="GsharpDebugServer.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="StartDebugServer">
+			<param name="Local" value="GDebugServer\StartDebugServer\StartDebugServer.html">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

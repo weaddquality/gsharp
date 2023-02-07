@@ -1,18 +1,18 @@
 G# Framework
-Version: 2.0.1
+Version: 2.0.2
 
 The G# Framework is a free, award winning add-on toolkit for LabVIEW that adds reference based object-oriented support. It takes advantage of the data value reference structure together with the native classes and will add a full object-oriented support with excellent performance. This is the new generation of object-oriented support that makes LabVIEW as powerful as any object-oriented language. The G# Framework is a National Instrument Compatible with LabVIEW Gold product and was awarded "Add-On of the Year for Community" at NI Week 2011.
 
-Copyright © 2010-2022, ADDQ, www.addq.se
+Copyright © 2010-2023, ADDQ, www.addq.se
 All rights reserved. G# is a registered trademark of ADDQ.
 
 The “COMPATIBLE WITH LABVIEW” logo is a trademark of National Instruments Corporation and is used under a license from National Instruments Corporation. The G# Framework software program is a product of AddQ Consulting, not National Instruments Corporation, and AddQ Consulting is solely responsible for the G# Framework software program. Neither AddQ Consulting, nor any of the software programs and other goods and services offered by AddQ Consulting, are affiliated with, endorsed by or sponsored by National Instruments Corporation.
 
 ## SUPPORTED LABVIEW VERSIONS ##
-LabVIEW 2017 Full Development System or higher
+LabVIEW 2020 Full Development System or higher
 
 ## SUPPORTED OPERATING SYSTEMS ##
-Windows 10/Windows 7/8/Server 2003 R2 (32bit)/Server 2008 R2(64 bit) or later
+Windows 11/ Windows 10/Windows 7/8/Server 2003 R2 (32bit)/Server 2008 R2(64 bit) or later
 Note: G# Framework will probably work on all LabVIEW supported platforms, but is not tested.
 
 ## EXAMPLES ##
@@ -39,7 +39,7 @@ For information about the latest version and updates, please visit G# Framework 
 BSD LICENSE  (http://www.opensource.org/licenses/BSD-3-Clause)
 YOU MAY SUBLICENSE THIS SOFTWARE IN ANY WAY THAT DOES NOT CONFLICT WITH THIS LICENSE.
 
-Copyright (c) 2010-2022, ADDQ <http://www.addq.se>
+Copyright (c) 2010-2023, ADDQ <http://www.addq.se>
 
 All rights reserved.
 
@@ -54,8 +54,13 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ---------------------------------------------------------------------
 
-
 ## RELEASE HISTORY ##
+
+G# Framework 2.0.2
+* Bugfix: Malleable method (.vim): remove extension in icon method name.
+* Change inheritance: Should be a info dialog after change.
+* Bugfix: Sync Implementation: After only one method warning, error.
+* Bugfix: Change Inheritance, change to recursive call in kernel, destroy, notarefnum. It shall be "Call Parent Class method".
 
 G# Framework 2.0.1
 * Bugfix: Clean up generic G# queue at last instance for specific class. Force queue destroy when release last instance or queue empty.
