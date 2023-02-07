@@ -28,7 +28,8 @@ Checklist for a release. Mostly used by project lead.
  - Set copyright year.
 	- G#IDE.lvlib:SupportLib.lvlib:Dialog_VersionInformation.vi
 	- Readme-file
-	- License text in installer
+	- License text in installer "G# Framework ReadMe.txt"
+        - G# Framework\vi.lib\addons\_AddQ\G# BSD license.txt
  - Check crosslinking. Open G#IDE-project and check paths . All files must be saved linking to this location.
  - Manually check every change in the changelog
  - Run tests in Verification folder.
