@@ -23,7 +23,7 @@
 		<Item Name="G#Debugger_ClearTree.vi" Type="VI" URL="../private/G#Debugger_ClearTree.vi"/>
 		<Item Name="G#Debugger_Close.vi" Type="VI" URL="../private/G#Debugger_Close.vi"/>
 		<Item Name="G#Debugger_DebugDialog.vi" Type="VI" URL="../private/G#Debugger_DebugDialog.vi"/>
-		<Item Name="G#Debugger_DisconnectFromTypeDef.vi" Type="VI" URL="../../../../../../../.VIPM/Files/vi.lib/addons/_AddQ/G#Debugger/private/G#Debugger_DisconnectFromTypeDef.vi"/>
+		<Item Name="G#Debugger_DisconnectFromTypeDef.vi" Type="VI" URL="../private/G#Debugger_DisconnectFromTypeDef.vi"/>
 		<Item Name="G#Debugger_FilterTrace.vi" Type="VI" URL="../private/G#Debugger_FilterTrace.vi"/>
 		<Item Name="G#Debugger_GetAllClassesInProject.vi" Type="VI" URL="../private/G#Debugger_GetAllClassesInProject.vi"/>
 		<Item Name="G#Debugger_GetClassMethods.vi" Type="VI" URL="../private/G#Debugger_GetClassMethods.vi"/>
@@ -50,5 +50,5 @@
 		<Item Name="G#Debugger_GetEvent.vi" Type="VI" URL="../support/G#Debugger_GetEvent.vi"/>
 	</Item>
 	<Item Name="G#Debugger_GUI.vi" Type="VI" URL="../G#Debugger_GUI.vi"/>
-	<Item Name="G#Debugger_Start.vi" Type="VI" URL="../../../../../../../.VIPM/Files/vi.lib/addons/_AddQ/G#Debugger/G#Debugger_Start.vi"/>
+	<Item Name="G#Debugger_Start.vi" Type="VI" URL="../G#Debugger_Start.vi"/>
 </Library>
