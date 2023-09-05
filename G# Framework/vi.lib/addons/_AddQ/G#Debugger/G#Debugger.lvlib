@@ -51,4 +51,5 @@
 	</Item>
 	<Item Name="G#Debugger_GUI.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/G#Debugger_GUI.vi"/>
 	<Item Name="G#Debugger_Start.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/G#Debugger_Start.vi"/>
+	<Item Name="G#Debugger_CloneUI.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/G#Debugger_CloneUI.vi"/>
 </Library>

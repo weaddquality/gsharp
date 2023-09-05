@@ -1,5 +1,5 @@
 G# Framework
-Version: 1.8.4
+Version: 1.9.0
 
 The G# Framework is a free, award winning add-on toolkit for LabVIEW that adds reference based object-oriented support. It takes advantage of the data value reference structure together with the native classes and will add a full object-oriented support with excellent performance. This is the new generation of object-oriented support that makes LabVIEW as powerful as any object-oriented language. The G# Framework is a National Instrument Compatible with LabVIEW Gold product and was awarded "Add-On of the Year for Community" at NI Week 2011.
 
@@ -57,6 +57,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ## RELEASE HISTORY ##
 
+G# Framework 1.9.0
+* New: Possibility to clone G#Object root
+* New: Possibility to change inheritance to clone of G#Object
+* New: Possibility create derived classes to clone of G#Object
+* Bugfix: Create method shall clone from template with scripting
+ 
 G# Framework 1.8.4
 * Bugfix: Malleable method (.vim): remove extension in icon method name.
 * Change inheritance: Should be a info dialog after change.

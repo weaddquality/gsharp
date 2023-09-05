@@ -18,18 +18,19 @@
 	<Property Name="Provider_ColorTextBody" Type="UInt">0</Property>
 	<Property Name="Provider_ColorTextHeader" Type="UInt">0</Property>
 	<Property Name="Provider_HeaderString" Type="Str">Support</Property>
-	<Item Name="AddQ_G#_Help.vi" Type="VI" URL="/&lt;helpdir&gt;/AddQ_G#_Help.vi"/>
-	<Item Name="CheckIfG#UMLIsInstalled.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/CheckIfG#UMLIsInstalled.vi"/>
 	<Item Name="ClassUpdate.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/ClassUpdate.ctl"/>
+	<Item Name="AddQ_G#_Help.vi" Type="VI" URL="/&lt;helpdir&gt;/AddQ_G#_Help.vi"/>
+	<Item Name="AppendStateToError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/AppendStateToError.vi"/>
+	<Item Name="BrowseG#ClassesFromUserLib.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/BrowseG#ClassesFromUserLib.vi"/>
+	<Item Name="CheckIfG#UMLIsInstalled.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/CheckIfG#UMLIsInstalled.vi"/>
+	<Item Name="CheckMethodName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/LibraryLib/CheckMethodName.vi"/>
+	<Item Name="CleanupAndReconnect.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/CleanupAndReconnect.vi"/>
 	<Item Name="Dialog_VersionInformation.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/Dialog_VersionInformation.vi"/>
 	<Item Name="LaunchHelp.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/LaunchHelp.vi"/>
+	<Item Name="ReplaceError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/ReplaceError.vi"/>
+	<Item Name="SetRWPermission.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/SetRWPermission.vi"/>
+	<Item Name="ShowError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/ShowError.vi"/>
+	<Item Name="StartProgress.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/StartProgress.vi"/>
 	<Item Name="UpdateClassFileToG#.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/UpdateClassFileToG#.vi"/>
 	<Item Name="Version.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/Version.vi"/>
-	<Item Name="ShowError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/ShowError.vi"/>
-	<Item Name="BrowseG#ClassesFromUserLib.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/BrowseG#ClassesFromUserLib.vi"/>
-	<Item Name="SetRWPermission.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/SetRWPermission.vi"/>
-	<Item Name="ReplaceError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/ReplaceError.vi"/>
-	<Item Name="CheckMethodName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/LibraryLib/CheckMethodName.vi"/>
-	<Item Name="AppendStateToError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/AppendStateToError.vi"/>
-	<Item Name="StartProgress.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/StartProgress.vi"/>
 </Library>

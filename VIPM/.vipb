@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2023-02-08 22:52:38" Creator="Labbdator 3" Comments="" ID="8aba9fc7648ee22355ce616fec25f0ec">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2023-09-05 16:40:26" Creator="Labbdator 3" Comments="" ID="6b0985f037fcf21e5ce4cceb1f074325">
   <Library_General_Settings>
     <Package_File_Name>addq_lib_gsharp</Package_File_Name>
-    <Library_Version>1.8.4.2</Library_Version>
+    <Library_Version>1.9.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Releases</Library_Output_Folder>
@@ -34,7 +34,13 @@
       <Copyright>Copyright (c) 2023, ADDQ</Copyright>
       <Packager>Thomas Olsson Mattias Ericsson Niklas hammersberg</Packager>
       <URL>http://www.addq.se/gsharp</URL>
-      <Release_Notes>G# Framework 1.8.4
+      <Release_Notes>G# Framework 1.9.0
+* New: Possibility to clone G#Object root
+* New: Possibility to change inheritance to clone of G#Object
+* New: Possibility create derived classes to clone of G#Object
+* Bugfix: Create method shall clone from template with scripting
+
+G# Framework 1.8.4
 * Bugfix: Malleable method (.vim): remove extension in icon method name.
 * Change inheritance: Should be a info dialog after change.
 * Bugfix: Sync Implementation: After only one method warning, error.
@@ -561,7 +567,7 @@ G# 1.6.10
         <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3305AAD4FCDF11B8B7B8E4D90B7085E8</GUID>
+      <GUID>D1CDEF79C54E43A2133074FF51C12724</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -848,7 +854,7 @@ G# 1.6.10
         <Path>Files\vi.lib\addons\_AddQ\G#Interface\G#Interface_ClassToSpecificInterface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>05268505062D880AFEF55701F37E34FF</GUID>
+      <GUID>4C396A6F89DC6AD54BCB387D205BF9EA</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -883,7 +889,7 @@ G# 1.6.10
         <Path>Files\vi.lib\addons\_AddQ\G#Object\G#Object.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4843D8D0E483B04DCDD7169BC41B42CD</GUID>
+      <GUID>A5F935992700FE372613B7AC6EF4A1F2</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
