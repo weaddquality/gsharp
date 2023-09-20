@@ -45,9 +45,11 @@
 		<Item Name="G#Debugger_SetCachedRef.vi" Type="VI" URL="../private/G#Debugger_SetCachedRef.vi"/>
 		<Item Name="G#Debugger_ShowAttributes.vi" Type="VI" URL="../private/G#Debugger_ShowAttributes.vi"/>
 		<Item Name="G#Debugger_UpdateAttributes.vi" Type="VI" URL="../private/G#Debugger_UpdateAttributes.vi"/>
+		<Item Name="G#Debugger_RunMethod.vi" Type="VI" URL="../private/G#Debugger_RunMethod.vi"/>
 	</Item>
 	<Item Name="support" Type="Folder">
 		<Item Name="G#Debugger_GetEvent.vi" Type="VI" URL="../support/G#Debugger_GetEvent.vi"/>
+		<Item Name="G#Debugger_ProxyCall.vi" Type="VI" URL="../support/G#Debugger_ProxyCall.vi"/>
 	</Item>
 	<Item Name="G#Debugger_GUI.vi" Type="VI" URL="../G#Debugger_GUI.vi"/>
 	<Item Name="G#Debugger_Start.vi" Type="VI" URL="../G#Debugger_Start.vi"/>

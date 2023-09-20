@@ -24,7 +24,6 @@
 	<Item Name="BrowseG#ClassesFromUserLib.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/BrowseG#ClassesFromUserLib.vi"/>
 	<Item Name="CheckIfG#UMLIsInstalled.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/CheckIfG#UMLIsInstalled.vi"/>
 	<Item Name="CheckMethodName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/LibraryLib/CheckMethodName.vi"/>
-	<Item Name="CleanupAndReconnect.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/CleanupAndReconnect.vi"/>
 	<Item Name="Dialog_VersionInformation.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/Dialog_VersionInformation.vi"/>
 	<Item Name="LaunchHelp.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/LaunchHelp.vi"/>
 	<Item Name="ReplaceError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/ReplaceError.vi"/>

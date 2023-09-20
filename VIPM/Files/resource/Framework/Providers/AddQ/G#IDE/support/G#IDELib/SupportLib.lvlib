@@ -24,7 +24,6 @@
 	<Item Name="BrowseG#ClassesFromUserLib.vi" Type="VI" URL="../BrowseG#ClassesFromUserLib.vi"/>
 	<Item Name="CheckIfG#UMLIsInstalled.vi" Type="VI" URL="../CheckIfG#UMLIsInstalled.vi"/>
 	<Item Name="CheckMethodName.vi" Type="VI" URL="../../LibraryLib/CheckMethodName.vi"/>
-	<Item Name="CleanupAndReconnect.vi" Type="VI" URL="../../ScriptingLib/CleanupAndReconnect.vi"/>
 	<Item Name="Dialog_VersionInformation.vi" Type="VI" URL="../Dialog_VersionInformation.vi"/>
 	<Item Name="LaunchHelp.vi" Type="VI" URL="../LaunchHelp.vi"/>
 	<Item Name="ReplaceError.vi" Type="VI" URL="../ReplaceError.vi"/>

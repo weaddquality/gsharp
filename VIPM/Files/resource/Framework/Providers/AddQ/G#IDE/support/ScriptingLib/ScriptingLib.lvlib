@@ -20,6 +20,7 @@
 	<Item Name="AddAttributes.vi" Type="VI" URL="../AddAttributes.vi"/>
 	<Item Name="ApplyLVOptionsToVI.vi" Type="VI" URL="../ApplyLVOptionsToVI.vi"/>
 	<Item Name="CheckConnectorPaneRefs.vi" Type="VI" URL="../CheckConnectorPaneRefs.vi"/>
+	<Item Name="CleanupAndReconnect.vi" Type="VI" URL="../CleanupAndReconnect.vi"/>
 	<Item Name="ConnectorPaneIcon.ctl" Type="VI" URL="../ConnectorPaneIcon.ctl"/>
 	<Item Name="CopyControls.vi" Type="VI" URL="../CopyControls.vi"/>
 	<Item Name="CopyControlsFromTmplVI.vi" Type="VI" URL="../CopyControlsFromTmplVI.vi"/>

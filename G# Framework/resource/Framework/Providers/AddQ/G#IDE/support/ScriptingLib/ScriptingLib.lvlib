@@ -20,6 +20,7 @@
 	<Item Name="AddAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/AddAttributes.vi"/>
 	<Item Name="ApplyLVOptionsToVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ApplyLVOptionsToVI.vi"/>
 	<Item Name="CheckConnectorPaneRefs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/CheckConnectorPaneRefs.vi"/>
+	<Item Name="CleanupAndReconnect.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/CleanupAndReconnect.vi"/>
 	<Item Name="ConnectorPaneIcon.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ConnectorPaneIcon.ctl"/>
 	<Item Name="CopyControls.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/CopyControls.vi"/>
 	<Item Name="CopyControlsFromTmplVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/CopyControlsFromTmplVI.vi"/>
