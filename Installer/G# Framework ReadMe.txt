@@ -57,6 +57,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ## RELEASE HISTORY ##
 
+G# Framework 1.9.2
+* New: Possibility to clone G#Interface root
+* New: Possibility to change inheritance to clone of G#Interface
+* New: Possibility create interfaces to clone of G#Interface
+
 G# Framework 1.9.1
 * New: G#Debugger support clone of G#Object root. Possibility to open window per G#Object root.
 * Bugfix: Change Inheritance, change to recursive call in kernel, destroy.. Add "Call Parent Class method".
