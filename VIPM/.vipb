@@ -1,11 +1,11 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2023-09-20 17:39:27" Creator="Labbdator 3" Comments="" ID="0b979b5991b33ea3071c6834a00a47c3">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2023-12-28 15:16:50" Creator="Labbdator 3" Comments="" ID="b93f3ae7670c15ea55c3312da1261707">
   <Library_General_Settings>
     <Package_File_Name>addq_lib_gsharp</Package_File_Name>
-    <Library_Version>1.9.1.4</Library_Version>
+    <Library_Version>1.10.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Releases</Library_Output_Folder>
-    <Company_Name>AddQ Qestit</Company_Name>
+    <Company_Name>QESTIT  (ADDQ)</Company_Name>
     <Library_Summary/>
     <Library_License>BSD</Library_License>
     <Package_LabVIEW_Version>17.0</Package_LabVIEW_Version>
@@ -31,10 +31,20 @@
       <Description>The G# Framework is a free, award winning add-on toolkit for LabVIEW that adds reference based object-oriented support. It takes advantage of the data value reference (dvr) structure together with the native classes and will add a full object-oriented support with excellent performance. This is the new generation of object-oriented support that makes LabVIEW as powerful as any object-oriented language. The G# Framework is a National Instrument Compatible with LabVIEW Gold product and was awarded "Add-On of the Year for Community" at NI Week 2011.
 
 &lt;b&gt;NB!&lt;/b&gt; LabVIEW must be restarted to load the features that are integrated into the LabVIEW development environment, such as the right-click menu in the project explorer.</Description>
-      <Copyright>Copyright (c) 2023, ADDQ</Copyright>
-      <Packager>Thomas Olsson Mattias Ericsson Niklas hammersberg</Packager>
-      <URL>http://www.addq.se/gsharp</URL>
-      <Release_Notes>G# Framework 1.9.1
+      <Copyright>Copyright (c) 2023, QESTIT / ADDQ</Copyright>
+      <Packager>Niklas hammersberg Thomas Olsson Mattias Ericsson</Packager>
+      <URL>https://www.qestitsystems.com/labview-gsharp</URL>
+      <Release_Notes>G# Framework 1.10.0
+* New: G# Dependency Viewer, new tool window for working with G# OO classes
+* Bugfix: Create class from Tool menu without lvproj generate error
+* Refactoring: Change from list to TreeView for Clone/Move to other class
+
+G# Framework 1.9.2
+* New: Possibility to clone G#Interface root
+* New: Possibility to change inheritance to clone of G#Interface
+* New: Possibility create interfaces to clone of G#Interface
+
+G# Framework 1.9.1
 * New: G#Debugger support clone of G#Object root. Possibility to open window per G#Object root.
 * Bugfix: Change Inheritance, change to recursive call in kernel, destroy.. Add "Call Parent Class method".
 
@@ -571,7 +581,7 @@ G# 1.6.10
         <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>636CD489217612F3B5946B0711799980</GUID>
+      <GUID>35EA82B9B10DA6F7013D0252ECA05D97</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -858,7 +868,7 @@ G# 1.6.10
         <Path>Files\vi.lib\addons\_AddQ\G#Interface\G#Interface_ClassToSpecificInterface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>57E6F95FEC8A8252D2FDD618C674A7AE</GUID>
+      <GUID>D0A313C57F504B8E2730BFEF022466D7</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -893,7 +903,7 @@ G# 1.6.10
         <Path>Files\vi.lib\addons\_AddQ\G#Object\G#Object.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>213D8B9BBA4D0065829B82E7B6E3DCB4</GUID>
+      <GUID>9B68474B5821C04B8C6F640FE537783F</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

@@ -20,4 +20,5 @@
 	<Item Name="G#100_Dialog_ConvertClassesToG#.vi" Type="VI" URL="../Provider_G#100/G#100_Dialog_ConvertClassesToG#.vi"/>
 	<Item Name="G#100_StartConvertClassesToG#.vi" Type="VI" URL="../Provider_G#100/G#100_StartConvertClassesToG#.vi"/>
 	<Item Name="G#100_StartDebugger.vi" Type="VI" URL="../Provider_G#100/G#100_StartDebugger.vi"/>
+	<Item Name="G#100_StartDepViewer.vi" Type="VI" URL="../Provider_G#100/G#100_StartDepViewer.vi"/>
 </Library>

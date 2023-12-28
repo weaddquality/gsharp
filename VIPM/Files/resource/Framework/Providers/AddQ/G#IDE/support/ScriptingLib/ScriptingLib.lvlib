@@ -36,6 +36,7 @@
 	<Item Name="ReadAttributes.vi" Type="VI" URL="../ReadAttributes.vi"/>
 	<Item Name="RemoveBaseAttributes.vi" Type="VI" URL="../RemoveBaseAttributes.vi"/>
 	<Item Name="ReplaceClassRefs.vi" Type="VI" URL="../ReplaceClassRefs.vi"/>
+	<Item Name="ReplaceClassRefsFP.vi" Type="VI" URL="../ReplaceClassRefsFP.vi"/>
 	<Item Name="ReplaceCtls.vi" Type="VI" URL="../ReplaceCtls.vi"/>
 	<Item Name="ReplaceVIs.vi" Type="VI" URL="../ReplaceVIs.vi"/>
 	<Item Name="SetConnectorPane.vi" Type="VI" URL="../SetConnectorPane.vi"/>

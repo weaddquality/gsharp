@@ -42,6 +42,7 @@
 		<Item Name="G#BaseTemplateG3.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#BaseTemplateG3/G#BaseTemplateG3.lvclass"/>
 		<Item Name="G#Debugger.lvlib" Type="Library" URL="../Files/vi.lib/addons/_AddQ/G#Debugger/G#Debugger.lvlib"/>
 		<Item Name="G#DebugServer.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#DebugServer/G#DebugServer.lvclass"/>
+		<Item Name="G#DependencyViewer.lvlib" Type="Library" URL="../Files/vi.lib/addons/_AddQ/G#DependencyViewer/G#DependencyViewer.lvlib"/>
 		<Item Name="G#IDE.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/G#IDE.lvlib"/>
 		<Item Name="G#Interface.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Interface/G#Interface.lvclass"/>
 		<Item Name="G#InterfaceImplementation.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#InterfaceImplementation/G#InterfaceImplementation.lvclass"/>

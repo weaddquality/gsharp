@@ -33,6 +33,9 @@
 			<Item Name="G#Debugger.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/G#Debugger.lvlib"/>
 			<Item Name="G#RemoteProxy.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/G#RemoteProxy/G#RemoteProxy.lvclass"/>
 		</Item>
+		<Item Name="G#DependencyViewer" Type="Folder">
+			<Item Name="G#DependencyViewer.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_AddQ/G#DependencyViewer/G#DependencyViewer.lvlib"/>
+		</Item>
 		<Item Name="G# Examples" Type="Folder">
 			<Item Name="CreateDestroy" Type="Folder">
 				<Item Name="G# - CreateDestroy.lvproj" Type="Document" URL="../../../../../../examples/AddQ/G#/CreateDestroy/G# - CreateDestroy.lvproj"/>
@@ -201,6 +204,7 @@
 				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
 				<Item Name="Font.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Font.ctl"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="G#DependencyViewer.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_AddQ/G#DependencyViewer/G#DependencyViewer.rtm"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
