@@ -89,6 +89,7 @@ GsharpExamples.htm
 GsharpPalette.htm
 GsharpTools.htm
 GsharpDebugger.htm
+GsharpDependencyViewer.htm
 GIDE\DialogConvertClasses\DialogConvertClasses.html
 GIDE\DialogOptions\DialogOptions.html
 GsharpIDE.htm
@@ -927,6 +928,7 @@ GsharpTemplates_files\image002.jpg
 GsharpExamples_files\image001.jpg
 GsharpPalette_files\image001.jpg
 GsharpTools_files\image001.jpg
+GsharpDependencyViewer_files\GsharpDependencyViewer.jpg
 GIDE\DialogConvertClasses\Dialog_ConvertClasses.jpg
 GIDE\DialogConvertClasses\cbool.jpg
 GIDE\DialogConvertClasses\istr.jpg
@@ -1147,12 +1149,12 @@ GDebugServer\StartDebugServer\ibool.jpg
 GDebugServer\StartDebugServer\ii32.jpg
 GDebugServer\StartDebugServer\istr.jpg
 
-Compile time: 0 minutes, 8 seconds
-125	Topics
-394	Local links
+Compile time: 0 minutes, 6 seconds
+126	Topics
+396	Local links
 11	Internet links
-1,019	Graphics
+1,020	Graphics
 
 
-Created c:\ProjectGSharpDevelopment_2017\gsharp\Help\Gsharp\Gsharp.chm, 2,911,238 bytes
-Compression decreased file by 1,917,105 bytes.
+Created c:\ProjectGSharpDevelopment_2017\gsharp\Help\Gsharp\Gsharp.chm, 2,635,184 bytes
+Compression decreased file by 1,772,607 bytes.
