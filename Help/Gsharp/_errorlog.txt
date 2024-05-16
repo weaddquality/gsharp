@@ -1149,12 +1149,12 @@ GDebugServer\StartDebugServer\ibool.jpg
 GDebugServer\StartDebugServer\ii32.jpg
 GDebugServer\StartDebugServer\istr.jpg
 
-Compile time: 0 minutes, 6 seconds
+Compile time: 0 minutes, 8 seconds
 126	Topics
 396	Local links
 11	Internet links
 1,020	Graphics
 
 
-Created c:\ProjectGSharpDevelopment_2017\gsharp\Help\Gsharp\Gsharp.chm, 2,635,184 bytes
-Compression decreased file by 1,772,607 bytes.
+Created c:\ProjectGSharpDevelopment_2017\gsharp\Help\Gsharp\Gsharp.chm, 2,635,190 bytes
+Compression decreased file by 1,772,601 bytes.
