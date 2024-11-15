@@ -1,25 +1,20 @@
 [OPTIONS]
 Auto Index=Yes
-Binary TOC=No
-Binary Index=Yes
 Compatibility=1.1 or later
-Compiled File=Gsharp.chm
-Contents File=Gsharp.hhc
-Default Topic=GsharpHome.htm
-Error log file=_errorlog.txt
-Index File=Gsharp.hhk
-Title=G#
-Full-text search=Yes
-Display compile progress=Yes
-Display compile notes=Yes
+Compiled file=Gsharp.chm
+Contents file=Gsharp.hhc
 Default Window=main
-Default Font=
-Language=
-Create CHI file=No
-Full text search stop list file=
+Default topic=GsharpHome.htm
+Display compile progress=Yes
+Error log file=_errorlog.txt
+Full-text search=Yes
+Index file=Gsharp.hhk
+Language=0x2000 
+Title=G#
 
 [WINDOWS]
-main="G#","Gsharp.hhc","Gsharp.hhk","GsharpHome.htm","GsharpHome.htm",,,,,0x23520,222,0x1046,[10,10,640,450],0xB0000,,,,,,0
+main="G#","Gsharp.hhc","Gsharp.hhk","GsharpHome.htm","GsharpHome.htm",,,,,0x23520,222,0x1046,[10,10,640,450],0xb0000,,,,,,0
+
 
 [FILES]
 GsharpHome.htm
@@ -96,4 +91,7 @@ GObject\utils\GObject_NewObject\GObject_NewObject.html
 GObject\utils\GObject_SetError\GObject_SetError.html
 GObject\utils\GObject_StopExternalCreateProcess\GObject_StopExternalCreateProcess.html
 GObject\utils\GObject_UserCounterState\GObject_UserCounterState.html
+GsharpDependencyViewer.htm
+
+[INFOTYPES]
 

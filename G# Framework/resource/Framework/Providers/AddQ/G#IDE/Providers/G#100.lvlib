@@ -14,10 +14,10 @@
 	<Property Name="Provider_ColorTextBody" Type="UInt">0</Property>
 	<Property Name="Provider_ColorTextHeader" Type="UInt">0</Property>
 	<Property Name="Provider_HeaderString" Type="Str">G#100</Property>
-	<Item Name="AddQ_G#IDE_Tools_StartDebugger.vi" Type="VI" URL="../../../../../../../project/AddQ_G#IDE_Tools_StartDebugger.vi"/>
 	<Item Name="G#100_API_Demo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/Providers/Provider_G#100/G#100_API_Demo.vi"/>
 	<Item Name="G#100_Dialog_Configuration.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/Providers/Provider_G#100/G#100_Dialog_Configuration.vi"/>
 	<Item Name="G#100_Dialog_ConvertClassesToG#.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/Providers/Provider_G#100/G#100_Dialog_ConvertClassesToG#.vi"/>
 	<Item Name="G#100_StartConvertClassesToG#.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/Providers/Provider_G#100/G#100_StartConvertClassesToG#.vi"/>
 	<Item Name="G#100_StartDebugger.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/Providers/Provider_G#100/G#100_StartDebugger.vi"/>
+	<Item Name="G#100_StartDepViewer.vi" Type="VI" URL="../Provider_G#100/G#100_StartDepViewer.vi"/>
 </Library>

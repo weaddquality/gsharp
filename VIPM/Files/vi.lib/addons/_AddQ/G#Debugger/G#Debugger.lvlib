@@ -48,7 +48,10 @@
 	</Item>
 	<Item Name="support" Type="Folder">
 		<Item Name="G#Debugger_GetEvent.vi" Type="VI" URL="../support/G#Debugger_GetEvent.vi"/>
+		<Item Name="G#Debugger_RunMethod.vi" Type="VI" URL="../support/G#Debugger_RunMethod.vi"/>
+		<Item Name="G#Debugger_ProxyCall.vi" Type="VI" URL="../support/G#Debugger_ProxyCall.vi"/>
 	</Item>
 	<Item Name="G#Debugger_GUI.vi" Type="VI" URL="../G#Debugger_GUI.vi"/>
 	<Item Name="G#Debugger_Start.vi" Type="VI" URL="../G#Debugger_Start.vi"/>
+	<Item Name="G#Debugger_CloneUI.vi" Type="VI" URL="../G#Debugger_CloneUI.vi"/>
 </Library>

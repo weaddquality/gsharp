@@ -21,6 +21,7 @@
 	<Item Name="GetColorsTags.vi" Type="VI" URL="../GetColorsTags.vi"/>
 	<Item Name="GetLibraryTags.vi" Type="VI" URL="../GetLibraryTags.vi"/>
 	<Item Name="GetOverlayIcon.vi" Type="VI" URL="../GetOverlayIcon.vi"/>
+	<Item Name="GetOverlayIconFromFile.vi" Type="VI" URL="../GetOverlayIconFromFile.vi"/>
 	<Item Name="IconColorType.ctl" Type="VI" URL="../IconColorType.ctl"/>
 	<Item Name="LibraryTagsType.ctl" Type="VI" URL="../LibraryTagsType.ctl"/>
 	<Item Name="ListMethods.vi" Type="VI" URL="../ListMethods.vi"/>
@@ -30,5 +31,4 @@
 	<Item Name="GetClassHierarchy.vi" Type="VI" URL="../GetClassHierarchy.vi"/>
 	<Item Name="GetAncestorClass.vi" Type="VI" URL="../GetAncestorClass.vi"/>
 	<Item Name="CheckMethodName.vi" Type="VI" URL="../CheckMethodName.vi"/>
-	<Item Name="GetOverlayIconFromFile.vi" Type="VI" URL="../GetOverlayIconFromFile.vi"/>
 </Library>

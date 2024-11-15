@@ -1,12 +1,12 @@
 G# Framework
-Version: 2.0.2
+Version: 3.0.0
 
 The G# Framework is a free, award winning add-on toolkit for LabVIEW that adds reference based object-oriented support. It takes advantage of the data value reference structure together with the native classes and will add a full object-oriented support with excellent performance. This is the new generation of object-oriented support that makes LabVIEW as powerful as any object-oriented language. The G# Framework is a National Instrument Compatible with LabVIEW Gold product and was awarded "Add-On of the Year for Community" at NI Week 2011.
 
-Copyright © 2010-2023, ADDQ, www.addq.se
-All rights reserved. G# is a registered trademark of ADDQ.
+Copyright © 2010-2024, QESTIT Systems https://www.qestitsystems.com/
+All rights reserved. G# is a registered trademark of ADDQ by Qestit Systems.
 
-The “COMPATIBLE WITH LABVIEW” logo is a trademark of National Instruments Corporation and is used under a license from National Instruments Corporation. The G# Framework software program is a product of AddQ Consulting, not National Instruments Corporation, and AddQ Consulting is solely responsible for the G# Framework software program. Neither AddQ Consulting, nor any of the software programs and other goods and services offered by AddQ Consulting, are affiliated with, endorsed by or sponsored by National Instruments Corporation.
+The “COMPATIBLE WITH LABVIEW” logo is a trademark of National Instruments Corporation and is used under a license from National Instruments Corporation. The G# Framework software program is a product of Qestit Systems, not National Instruments Corporation, and Qestit Systems is solely responsible for the G# Framework software program. Neither Qestit Systems, nor any of the software programs and other goods and services offered by Qestit Systems, are affiliated with, endorsed by or sponsored by National Instruments Corporation.
 
 ## SUPPORTED LABVIEW VERSIONS ##
 LabVIEW 2020 Full Development System or higher
@@ -23,7 +23,7 @@ These examples are also searchable in the LabVIEW “Find Examples…”. Search for “
 Help is available in:
 <LabVIEW>/help/_AddQ/Gsharp.chm (if you have trouble view this file, please right-click on the file in Explorer and select Properties and there is a button called 'Unblock')
 or visit the online manual:
-http://www.addq.se/document/GsharpOnlineManual.htm
+https://addq4.se/gsharp/GsharpOnlineManual.htm
 
 For support issues, please contact: support@addq.se. Our policy is to respond within one working day. An error log is automatically created and placed in your default LabVIEW data folder. Please include this when contacting support. We will not support issues regarding object-oriented design, but we can of course offer this as consultant services. Please contact: sales@addq.se
 
@@ -39,7 +39,7 @@ For information about the latest version and updates, please visit G# Framework 
 BSD LICENSE  (http://www.opensource.org/licenses/BSD-3-Clause)
 YOU MAY SUBLICENSE THIS SOFTWARE IN ANY WAY THAT DOES NOT CONFLICT WITH THIS LICENSE.
 
-Copyright (c) 2010-2023, ADDQ <http://www.addq.se>
+Copyright (c) 2010-2024, QESTIT Systems https://www.qestitsystems.com/
 
 All rights reserved.
 
@@ -49,12 +49,25 @@ Redistribution and use in source and binary forms, with or without modification,
 
 * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
-* Neither the name of AddQ nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+* Neither the name of Qestit Systems/AddQ nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ---------------------------------------------------------------------
 
 ## RELEASE HISTORY ##
+
+G# Framework 3.0.0
+* Update Debugger to support cloned G#Object
+* New: Class/Interface right-click menu "Go to Parent Interfaces"
+* New: Class/Interface right-click menu "Change Interface Inheritance" for full support of interface inheritance
+* Bugfix: Misspelling information text
+* Merge from LV 1.10.1
+* New: G# Dependency Viewer, tool window for working with G# OO classes
+* New: When clone root G#Object, Interface root class IG# will also be clone
+* New: Possibility to clone G#Object root class
+* New: Possibility to change inheritance to clone of G#Object
+* New: Possibility create derived class or interface to clone G#Object/IG#
+* Refactoring: Change from list to TreeView for Clone/Move to other class
 
 G# Framework 2.0.2
 * Bugfix: Malleable method (.vim): remove extension in icon method name.
@@ -95,6 +108,11 @@ G# Framework 1.8.0
  
 New features:
  -  Malleable VIs are now supported.
+
+G# 2.0.2
+ * Bugfix: Clean up generic G# queue at last instance for specific class. Force queue destroy when release last instance or queue empty.
+ * Performance improvement in object loops.
+ * Add new separate queue for class attributes. This will be cleared in garbage collector
 
 G# 2.0.0
  * Change compile version to LV2020.

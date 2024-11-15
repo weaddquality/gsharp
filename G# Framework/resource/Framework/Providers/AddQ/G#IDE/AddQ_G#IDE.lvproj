@@ -29,6 +29,9 @@
 		<Item Name="G# Debugger" Type="Folder">
 			<Item Name="G#Debugger.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/G#Debugger.lvlib"/>
 		</Item>
+		<Item Name="G#DependencyViwer" Type="Folder">
+			<Item Name="G#DependencyViewer.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_AddQ/G#DependencyViewer/G#DependencyViewer.lvlib"/>
+		</Item>
 		<Item Name="G# Examples" Type="Folder">
 			<Item Name="CreateDestroy" Type="Folder">
 				<Item Name="G# - CreateDestroy.lvproj" Type="Document" URL="../../../../../../examples/AddQ/G#/CreateDestroy/G# - CreateDestroy.lvproj"/>
@@ -275,6 +278,12 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="G#DependencyViewer.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_AddQ/G#DependencyViewer/G#DependencyViewer.rtm"/>
+				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
+				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
+				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
+				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
+				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
 			</Item>
 			<Item Name="mxLvProvider.mxx" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/mxLvProvider.mxx"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">

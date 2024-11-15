@@ -11,6 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="AddQ_G#IDE_Tools_StartDebugger.vi" Type="VI" URL="../Files/project/AddQ_G#IDE_Tools_StartDebugger.vi"/>
 		<Item Name="AnotherClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Polymorphism/AnotherClass_class/AnotherClass.lvclass"/>
 		<Item Name="DemoClass1.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Polymorphism/DemoClass1_class/DemoClass1.lvclass"/>
 		<Item Name="DemoSubClass1.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Polymorphism/DemoSubClass1_class/DemoSubClass1.lvclass"/>
@@ -39,10 +40,11 @@
 		<Item Name="G# - StaticClassAndClassAttributes.vi" Type="VI" URL="../Files/examples/AddQ/G#/StaticClasses/G# - StaticClassAndClassAttributes.vi"/>
 		<Item Name="G# - SupportMethods.vi" Type="VI" URL="../Files/examples/AddQ/G#/SupportMethods/G# - SupportMethods.vi"/>
 		<Item Name="G#.lvlib" Type="Library" URL="../Files/vi.lib/addons/_AddQ/G#.lvlib"/>
+		<Item Name="G#100.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/Providers/G#100.lvlib"/>
 		<Item Name="G#BaseTemplateG3.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#BaseTemplateG3/G#BaseTemplateG3.lvclass"/>
 		<Item Name="G#Debugger.lvlib" Type="Library" URL="../Files/vi.lib/addons/_AddQ/G#Debugger/G#Debugger.lvlib"/>
+		<Item Name="G#DependencyViewer.lvlib" Type="Library" URL="../Files/vi.lib/addons/_AddQ/G#DependencyViewer/G#DependencyViewer.lvlib"/>
 		<Item Name="G#IDE.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/G#IDE.lvlib"/>
-		<Item Name="G#Interface.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Interface/G#Interface.lvclass"/>
 		<Item Name="G#MethodTemplates.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#MethodTemplates/G#MethodTemplates.lvclass"/>
 		<Item Name="G#ModifyAttributeDiagramTemplate.vi" Type="VI" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#ModifyAttributeDiagramTemplate.vi"/>
 		<Item Name="G#Object.ctl" Type="VI" URL="../Files/vi.lib/addons/_AddQ/G#Object/G#Object.ctl"/>
@@ -75,6 +77,7 @@
 		<Item Name="MyPropertyClass_LV2010.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Properties/MyPropertyClass_LV2010_class/MyPropertyClass_LV2010.lvclass"/>
 		<Item Name="MyStaticClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/StaticClasses/MyStaticClass_class/MyStaticClass.lvclass"/>
 		<Item Name="MyTestClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Serialization/MyTestClass_class/MyTestClass.lvclass"/>
+		<Item Name="ProviderG#100.lvclass" Type="LVClass" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/Providers/Provider_G#100/ProviderG#100_class/ProviderG#100.lvclass"/>
 		<Item Name="TestClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Performance/TestClass_class/TestClass.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -113,6 +116,9 @@
 				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
 				<Item Name="Enum Registry Values Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Enum Registry Values Simple.vi"/>
 				<Item Name="Enum Registry Values.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Enum Registry Values.vi"/>
+				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
+				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
+				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -179,6 +185,8 @@
 				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
+				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
@@ -208,6 +216,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="CreateNewWizard_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/CreateNewWizard_Interface.ctl"/>
+			<Item Name="G#Interface.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Interface/G#Interface.lvclass"/>
 			<Item Name="Global_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Global_Interface.ctl"/>
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
 			<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl"/>

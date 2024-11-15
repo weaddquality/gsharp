@@ -9,18 +9,15 @@
 
 </Property>
 	<Item Name="support" Type="Folder">
-		<Item Name="XMLLib.lvlib" Type="Library" URL="../support/XMLLib/XMLLib.lvlib"/>
-		<Item Name="IconLib.lvlib" Type="Library" URL="../support/IconLib/IconLib.lvlib"/>
+		<Item Name="ProviderLib.lvlib" Type="Library" URL="../support/ProviderLib/ProviderLib.lvlib"/>
 		<Item Name="LibraryLib.lvlib" Type="Library" URL="../support/LibraryLib/LibraryLib.lvlib"/>
 		<Item Name="ProjectLib.lvlib" Type="Library" URL="../support/ProjectLib/ProjectLib.lvlib"/>
-		<Item Name="ProviderLib.lvlib" Type="Library" URL="../support/ProviderLib/ProviderLib.lvlib"/>
+		<Item Name="IconLib.lvlib" Type="Library" URL="../support/IconLib/IconLib.lvlib"/>
 		<Item Name="ScriptingLib.lvlib" Type="Library" URL="../support/ScriptingLib/ScriptingLib.lvlib"/>
 		<Item Name="SupportLib.lvlib" Type="Library" URL="../support/G#IDELib/SupportLib.lvlib"/>
+		<Item Name="XMLLib.lvlib" Type="Library" URL="../support/XMLLib/XMLLib.lvlib"/>
 	</Item>
-	<Item Name="G#Provider" Type="Folder">
-		<Item Name="G#100.lvlib" Type="Library" URL="../Providers/G#100.lvlib"/>
-		<Item Name="ProviderG#100.lvclass" Type="LVClass" URL="../Providers/Provider_G#100/ProviderG#100_class/ProviderG#100.lvclass"/>
-	</Item>
+	<Item Name="G#Provider" Type="Folder"/>
 	<Item Name="plugins" Type="Folder">
 		<Item Name="CreateSubVI_AdditionalActions.vi" Type="VI" URL="../../../../../plugins/CreateSubVI/CreateSubVI_AdditionalActions.vi"/>
 	</Item>

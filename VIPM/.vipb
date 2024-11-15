@@ -1,11 +1,11 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2023-02-07 11:43:08" Creator="Labbdator 3" Comments="" ID="51db084e4d84bd6d3ca52316addf6bcf">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2024-11-14 06:56:15" Creator="Labbdator 3" Comments="" ID="968e9ef9e22547b703535d3bad1826d0">
   <Library_General_Settings>
     <Package_File_Name>addq_lib_gsharp</Package_File_Name>
-    <Library_Version>2.0.2.3</Library_Version>
+    <Library_Version>3.0.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Releases</Library_Output_Folder>
-    <Company_Name>AddQ</Company_Name>
+    <Company_Name>Qestit Systems</Company_Name>
     <Library_Summary/>
     <Library_License>BSD</Library_License>
     <Package_LabVIEW_Version>20.0</Package_LabVIEW_Version>
@@ -31,10 +31,23 @@
       <Description>The G# Framework is a free, award winning add-on toolkit for LabVIEW that adds reference based object-oriented support. It takes advantage of the data value reference structure  (dvr) together with the native classes and will add a full object-oriented support with excellent performance. This is the new generation of object-oriented support that makes LabVIEW as powerful as any object-oriented language. The G# Framework is a National Instrument Compatible with LabVIEW Gold product and was awarded "Add-On of the Year for Community" at NI Week 2011.
 
 &lt;b&gt;NB!&lt;/b&gt; LabVIEW must be restarted to load the features that are integrated into the LabVIEW development environment, such as the right-click menu in the project explorer.</Description>
-      <Copyright>Copyright (c) 2023, ADDQ</Copyright>
-      <Packager>Thomas Olsson Mattias Ericsson Niklas Hammersberg</Packager>
-      <URL>http://www.addq.se/gsharp</URL>
+      <Copyright/>
+      <Packager>Niklas Hammersberg Thomas Olsson Mattias Ericsson</Packager>
+      <URL>https://www.qestitsystems.com/test-software-labview-g-framework</URL>
       <Release_Notes>New features:
+
+G# Framework 3.0.0
+* Update Debugger to support cloned G#Object
+* New: Class/Interface right-click menu "Go to Parent Interfaces"
+* New: Class/Interface right-click menu "Change Interface Inheritance" for full support of interface inheritance
+* Bugfix: Misspelling information text
+* Merge from LV 1.10.1
+* New: G# Dependency Viewer, tool window for working with G# OO classes
+* New: When clone root G#Object, Interface root class IG# will also be clone
+* New: Possibility to clone G#Object root class
+* New: Possibility to change inheritance to clone of G#Object
+* New: Possibility create derived class or interface to clone G#Object/IG#
+* Refactoring: Change from list to TreeView for Clone/Move to other class
 
 G# Framework 2.0.2
 * Bugfix: Malleable method (.vim): remove extension in icon method name.
@@ -42,7 +55,7 @@ G# Framework 2.0.2
 * Bugfix: Sync Implementation: After only one method warning, error.
 * Bugfix: Change Inheritance, change to recursive call in kernel, destroy, notarefnum. It shall be "Call Parent Class method".
 
-G# Object/Framework 2.0.1
+G# Framework 2.0.1
 * Bugfix: Clean up generic G# queue at last instance for specific class. Force queue destroy when release last instance or queue empty.
 * Performance improvement in object loops.
 * Add new separate queue for class attributes. This will be cleared in garbage collector
@@ -564,7 +577,7 @@ G# Object/Framework 2.0.1
         <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1195FFA82E7A88910045C7A644B8CF28</GUID>
+      <GUID>4E3F3D090B2E6ED652F9B26BC6026F80</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -809,7 +822,7 @@ G# Object/Framework 2.0.1
         <Path>Files\vi.lib\addons\_AddQ\G#Object\advanced\G#Interface_InterfaceToSpecificClass.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D93F5CCFC282CFC5CFB4FF81D4FAC2D</GUID>
+      <GUID>DAB7E721ADAD4E51B4EBCFD7BCB9DA81</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -844,7 +857,7 @@ G# Object/Framework 2.0.1
         <Path>Files\vi.lib\addons\_AddQ\G#Object\G#Object.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2606B2B96EB897412AB1568046FCC285</GUID>
+      <GUID>16B39983442F0DA9D1382495F2FAEDE1</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

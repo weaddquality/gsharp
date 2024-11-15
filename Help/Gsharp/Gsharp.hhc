@@ -72,6 +72,10 @@
 				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="G#DependencyViewer">
+			<param name="Local" value="GsharpDependencyViewer.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Convert Classes to G#">
 			<param name="Local" value="GIDE\DialogConvertClasses\DialogConvertClasses.html">
 			</OBJECT>
@@ -145,12 +149,12 @@
 				<param name="Local" value="GIDE\DialogChangeMethodDescription\DialogChangeMethodDescription.html">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Dialog - Implement Interface">
-				<param name="Local" value="GIDE\DialogImplementInterface\DialogImplementInterface.html">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Dialog - Change Inheritance">
 				<param name="Local" value="GIDE\DialogChangeInheritance\DialogChangeInheritance.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dialog - Change Interface Inheritance">
+				<param name="Local" value="GIDE\DialogInterfaceInheritance\DialogInterfaceInheritance.html">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Dialog - Synchronize Method Implementation">
@@ -455,7 +459,7 @@
 		</UL>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="G#Interface">
+		<param name="Name" value="IG#">
 		<param name="Local" value="GsharpInterface.htm">
 		</OBJECT>
 	<UL>
@@ -476,16 +480,8 @@
 			<param name="Local" value="GInterface/GetClassName/GetClassName.html">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="GetObjectID">
-			<param name="Local" value="GInterface/GetObjectID/GetObjectID.html">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="GetObjectStatus">
 			<param name="Local" value="GInterface/GetObjectStatus/GetObjectStatus.html">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="G#Interface_Create">
-			<param name="Local" value="GInterface/GInterface_Create/GInterface_Create.html">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="IsEmptyObject">
@@ -500,6 +496,10 @@
 			<param name="Local" value="GInterface/NotARefNum/NotARefNum.html">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="IsInstanceOf">
+			<param name="Local" value="GInterface\IsInstanceOf\IsInstanceOf.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="ToString">
 			<param name="Local" value="GInterface/ToString/ToString.html">
 			</OBJECT>
@@ -508,45 +508,19 @@
 			</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="G#Object_Deserialize">
-				<param name="Local" value="GInterface/advanced/GObject_Deserialize/GObject_Deserialize.html">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="G#Object_GetClassPath">
 				<param name="Local" value="GInterface/advanced/GObject_GetClassPath/GObject_GetClassPath.html">
 				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="G#Object_Serialize">
-				<param name="Local" value="GInterface/advanced/GObject_Serialize/GObject_Serialize.html">
-				</OBJECT>
 		</UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="utils">
+			<param name="Name" value="proteced">
 			</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="G#Interface_AbstractMethod">
-				<param name="Local" value="GInterface/utils/GInterface_AbstractMethod/GInterface_AbstractMethod.html">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="G#Interface_GetInstance">
-				<param name="Local" value="GInterface/utils/GInterface_GetInstance/GInterface_GetInstance.html">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="ReplaceMe">
-				<param name="Local" value="GInterface/utils/ReplaceMe/ReplaceMe.html">
+				<param name="Name" value="G#Object_ErrorMissingMethod">
+				<param name="Local" value="GInterface\protected\GObject_ErrorMissingMethod\GObject_ErrorMissingMethod.html">
 				</OBJECT>
 		</UL>
-	</UL>
-	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="G#DebugServer">
-		<param name="Local" value="GsharpDebugServer.htm">
-		</OBJECT>
-	<UL>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="StartDebugServer">
-			<param name="Local" value="GDebugServer\StartDebugServer\StartDebugServer.html">
-			</OBJECT>
 	</UL>
 </UL>
 </BODY></HTML>

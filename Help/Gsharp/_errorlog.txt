@@ -1,14 +1,14 @@
 Microsoft HTML Help Compiler 4.74.8702
 
-Compiling c:\ProjectGSharpDevelopment\gsharp\Help\Gsharp\Gsharp.chm
+Compiling c:\ProjectGSharpDevelopment_2020-3\gsharp\Help\Gsharp\Gsharp.chm
 
 GsharpHome.htm
 GDebugger\ActiveDebug\GDebugger_ActiveDebug.html
 GDebugger\Objects\GDebugger_Objects.html
 GDebugger\Trace\GDebugger_Trace.html
-GInterface\advanced\GObject_Deserialize\GObject_Deserialize.html
+HHC5003: Error: Compilation failed while compiling GInterface\advanced\GObject_Deserialize\GObject_Deserialize.html.
 GInterface\advanced\GObject_GetClassPath\GObject_GetClassPath.html
-GInterface\advanced\GObject_Serialize\GObject_Serialize.html
+HHC5003: Error: Compilation failed while compiling GInterface\advanced\GObject_Serialize\GObject_Serialize.html.
 GInterface\ClearReference\ClearReference.html
 GInterface\Destroy\Destroy.html
 GInterface\GetClassName\GetClassName.html
@@ -19,9 +19,9 @@ GInterface\IsEmptyObject\IsEmptyObject.html
 GInterface\IsEqual\IsEqual.html
 GInterface\NotARefNum\NotARefNum.html
 GInterface\ToString\ToString.html
-GInterface\utils\GInterface_AbstractMethod\GInterface_AbstractMethod.html
-GInterface\utils\GInterface_GetInstance\GInterface_GetInstance.html
-GInterface\utils\ReplaceMe\ReplaceMe.html
+HHC5003: Error: Compilation failed while compiling GInterface\utils\GInterface_AbstractMethod\GInterface_AbstractMethod.html.
+HHC5003: Error: Compilation failed while compiling GInterface\utils\GInterface_GetInstance\GInterface_GetInstance.html.
+HHC5003: Error: Compilation failed while compiling GInterface\utils\ReplaceMe\ReplaceMe.html.
 GObject\advanced\GObject_CastFromLabVIEWObject\GObject_CastFromLabVIEWObject.html
 GObject\advanced\GObject_Deserialize\GObject_Deserialize.html
 GObject\advanced\GObject_GenericCreate\GObject_GenericCreate.html
@@ -76,6 +76,7 @@ GObject\utils\GObject_NewObject\GObject_NewObject.html
 GObject\utils\GObject_SetError\GObject_SetError.html
 GObject\utils\GObject_StopExternalCreateProcess\GObject_StopExternalCreateProcess.html
 GObject\utils\GObject_UserCounterState\GObject_UserCounterState.html
+GsharpDependencyViewer.htm
 Gsharp.hhc
 Gsharp.hhk
 BSDlicense.htm
@@ -106,8 +107,8 @@ GIDE\DialogChangeScope\DialogChangeScope.html
 GIDE\DialogChangeMethodName\DialogChangeMethodName.html
 GIDE\DialogChangeClassDescription\DialogChangeClassDescription.html
 GIDE\DialogChangeMethodDescription\DialogChangeMethodDescription.html
-GIDE\DialogImplementInterface\DialogImplementInterface.html
 GIDE\DialogChangeInheritance\DialogChangeInheritance.html
+GIDE\DialogInterfaceInheritance\DialogInterfaceInheritance.html
 GIDE\DialogSyncMethodImplementation\DialogSyncImplementation.html
 GsharpDialogIcons.htm
 GIDE\DialogIconEditor\DialogIconEditor.html
@@ -125,8 +126,8 @@ GObject\utils\GObject_NewDebugObject\GObject_NewDebugObject.html
 GObject\private\GObject_ParseAttributes\GObject_ParseAttributes.html
 GsharpInterface.htm
 GInterface\Dispose\Dispose.html
-GsharpDebugServer.htm
-GDebugServer\StartDebugServer\StartDebugServer.html
+GInterface\IsInstanceOf\IsInstanceOf.html
+GInterface\protected\GObject_ErrorMissingMethod\GObject_ErrorMissingMethod.html
 GsharpHome_files\image001.jpg
 GsharpHome_files\LVTN_Logo_AvailOn_Color_RGB 200.png
 GDebugger\ActiveDebug\GDebugger_ActiveDebug.jpg
@@ -153,19 +154,6 @@ GDebugger\Trace\cbool.jpg
 GDebugger\Trace\ci32.jpg
 GDebugger\Trace\cu8.jpg
 GDebugger\Trace\istr.jpg
-GInterface\advanced\GObject_Deserialize\GObject_Deserializec.jpg
-GInterface\advanced\GObject_Deserialize\cerrcodeclst.jpg
-GInterface\advanced\GObject_Deserialize\cbool.jpg
-GInterface\advanced\GObject_Deserialize\ci32.jpg
-GInterface\advanced\GObject_Deserialize\cstr.jpg
-GInterface\advanced\GObject_Deserialize\cGInterfacelvclass.jpg
-GInterface\advanced\GObject_Deserialize\c1du32.jpg
-GInterface\advanced\GObject_Deserialize\ierrcodeclst.jpg
-GInterface\advanced\GObject_Deserialize\ibool.jpg
-GInterface\advanced\GObject_Deserialize\ii32.jpg
-GInterface\advanced\GObject_Deserialize\istr.jpg
-GInterface\advanced\GObject_Deserialize\iGInterfacelvclass.jpg
-GInterface\advanced\GObject_Deserialize\i1du32.jpg
 GInterface\advanced\GObject_GetClassPath\GObject_GetClassPathc.jpg
 GInterface\advanced\GObject_GetClassPath\cerrcodeclst.jpg
 GInterface\advanced\GObject_GetClassPath\cbool.jpg
@@ -178,19 +166,6 @@ GInterface\advanced\GObject_GetClassPath\ii32.jpg
 GInterface\advanced\GObject_GetClassPath\istr.jpg
 GInterface\advanced\GObject_GetClassPath\iGInterfacelvclass.jpg
 GInterface\advanced\GObject_GetClassPath\ipath.jpg
-GInterface\advanced\GObject_Serialize\GObject_Serializec.jpg
-GInterface\advanced\GObject_Serialize\cerrcodeclst.jpg
-GInterface\advanced\GObject_Serialize\cbool.jpg
-GInterface\advanced\GObject_Serialize\ci32.jpg
-GInterface\advanced\GObject_Serialize\cstr.jpg
-GInterface\advanced\GObject_Serialize\cGInterfacelvclass.jpg
-GInterface\advanced\GObject_Serialize\c1du32.jpg
-GInterface\advanced\GObject_Serialize\ierrcodeclst.jpg
-GInterface\advanced\GObject_Serialize\ibool.jpg
-GInterface\advanced\GObject_Serialize\ii32.jpg
-GInterface\advanced\GObject_Serialize\istr.jpg
-GInterface\advanced\GObject_Serialize\iGInterfacelvclass.jpg
-GInterface\advanced\GObject_Serialize\i1du32.jpg
 GInterface\ClearReference\ClearReferencec.jpg
 GInterface\ClearReference\cGInterfacelvclass.jpg
 GInterface\ClearReference\iGInterfacelvclass.jpg
@@ -286,40 +261,6 @@ GInterface\ToString\ibool.jpg
 GInterface\ToString\ii32.jpg
 GInterface\ToString\istr.jpg
 GInterface\ToString\iGInterfacelvclass.jpg
-GInterface\utils\GInterface_AbstractMethod\GInterface_AbstractMethodc.jpg
-GInterface\utils\GInterface_AbstractMethod\cerrcodeclst.jpg
-GInterface\utils\GInterface_AbstractMethod\cbool.jpg
-GInterface\utils\GInterface_AbstractMethod\ci32.jpg
-GInterface\utils\GInterface_AbstractMethod\cstr.jpg
-GInterface\utils\GInterface_AbstractMethod\cGInterfacelvclass.jpg
-GInterface\utils\GInterface_AbstractMethod\ierrcodeclst.jpg
-GInterface\utils\GInterface_AbstractMethod\ibool.jpg
-GInterface\utils\GInterface_AbstractMethod\ii32.jpg
-GInterface\utils\GInterface_AbstractMethod\istr.jpg
-GInterface\utils\GInterface_AbstractMethod\iGInterfacelvclass.jpg
-GInterface\utils\GInterface_GetInstance\GInterface_GetInstancec.jpg
-GInterface\utils\GInterface_GetInstance\cerrcodeclst.jpg
-GInterface\utils\GInterface_GetInstance\cbool.jpg
-GInterface\utils\GInterface_GetInstance\ci32.jpg
-GInterface\utils\GInterface_GetInstance\cstr.jpg
-GInterface\utils\GInterface_GetInstance\cGInterfacelvclass.jpg
-GInterface\utils\GInterface_GetInstance\ierrcodeclst.jpg
-GInterface\utils\GInterface_GetInstance\ibool.jpg
-GInterface\utils\GInterface_GetInstance\ii32.jpg
-GInterface\utils\GInterface_GetInstance\istr.jpg
-GInterface\utils\GInterface_GetInstance\iGInterfacelvclass.jpg
-GInterface\utils\GInterface_GetInstance\iGObjectlvclass.jpg
-GInterface\utils\ReplaceMe\ReplaceMec.jpg
-GInterface\utils\ReplaceMe\cerrcodeclst.jpg
-GInterface\utils\ReplaceMe\cbool.jpg
-GInterface\utils\ReplaceMe\ci32.jpg
-GInterface\utils\ReplaceMe\cstr.jpg
-GInterface\utils\ReplaceMe\cGInterfacelvclass.jpg
-GInterface\utils\ReplaceMe\ierrcodeclst.jpg
-GInterface\utils\ReplaceMe\ibool.jpg
-GInterface\utils\ReplaceMe\ii32.jpg
-GInterface\utils\ReplaceMe\istr.jpg
-GInterface\utils\ReplaceMe\iGInterfacelvclass.jpg
 GObject\advanced\GObject_CastFromLabVIEWObject\GObject_CastFromLabVIEWObjectc.jpg
 GObject\advanced\GObject_CastFromLabVIEWObject\cLabVIEW_Objectlvclass.jpg
 GObject\advanced\GObject_CastFromLabVIEWObject\ibool.jpg
@@ -908,6 +849,7 @@ GObject\utils\GObject_UserCounterState\ibool.jpg
 GObject\utils\GObject_UserCounterState\ii32.jpg
 GObject\utils\GObject_UserCounterState\istr.jpg
 GObject\utils\GObject_UserCounterState\iGObjectlvclass.jpg
+GsharpDependencyViewer_files\GsharpDependencyViewer.jpg
 GsharpGettingStarted_files\image001.jpg
 GsharpGettingStarted_files\image002.jpg
 GsharpGettingStarted_files\image003.jpg
@@ -986,15 +928,12 @@ GIDE\DialogChangeClassDescription\ci32.jpg
 GIDE\DialogChangeMethodDescription\Dialog_ChangeMethodDescription.jpg
 GIDE\DialogChangeMethodDescription\cstr.jpg
 GIDE\DialogChangeMethodDescription\cbool.jpg
-GIDE\DialogImplementInterface\Dialog_ImplementInterface.jpg
-GIDE\DialogImplementInterface\cstr.jpg
-GIDE\DialogImplementInterface\cpath.jpg
-GIDE\DialogImplementInterface\cbool.jpg
-GIDE\DialogImplementInterface\ci32.jpg
-GIDE\DialogImplementInterface\istr.jpg
 GIDE\DialogChangeInheritance\Dialog_ChangeInheritance.jpg
 GIDE\DialogChangeInheritance\ci32.jpg
 GIDE\DialogChangeInheritance\cbool.jpg
+GIDE\DialogInterfaceInheritance\Dialog_InterfaceInheritance.jpg
+GIDE\DialogInterfaceInheritance\ci32.jpg
+GIDE\DialogInterfaceInheritance\cbool.jpg
 GIDE\DialogSyncMethodImplementation\SyncConPane.png
 GIDE\DialogSyncMethodImplementation\cbool.png
 GIDE\DialogSyncMethodImplementation\cstr.png
@@ -1136,23 +1075,26 @@ GInterface\Dispose\ibool.png
 GInterface\Dispose\ii32.png
 GInterface\Dispose\istr.png
 GInterface\Dispose\iGInterfacelvclass.png
-GDebugServer\StartDebugServer\StartDebugServerc.jpg
-GDebugServer\StartDebugServer\cerrcodeclst.jpg
-GDebugServer\StartDebugServer\cbool.jpg
-GDebugServer\StartDebugServer\ci32.jpg
-GDebugServer\StartDebugServer\cstr.jpg
-GDebugServer\StartDebugServer\cu16.jpg
-GDebugServer\StartDebugServer\ierrcodeclst.jpg
-GDebugServer\StartDebugServer\ibool.jpg
-GDebugServer\StartDebugServer\ii32.jpg
-GDebugServer\StartDebugServer\istr.jpg
+GInterface\IsInstanceOf\IsInstanceOf.jpg
+GInterface\IsInstanceOf\cGInterfacelvclass.jpg
+GInterface\IsInstanceOf\iGInterfacelvclass.jpg
+GInterface\IsInstanceOf\ibool.jpg
+GInterface\protected\GObject_ErrorMissingMethod\GObject_ErrorMissingMethod.jpg
+GInterface\protected\GObject_ErrorMissingMethod\cerrcodeclst.jpg
+GInterface\protected\GObject_ErrorMissingMethod\cbool.jpg
+GInterface\protected\GObject_ErrorMissingMethod\ci32.jpg
+GInterface\protected\GObject_ErrorMissingMethod\cstr.jpg
+GInterface\protected\GObject_ErrorMissingMethod\cGInterfacelvclass.jpg
+GInterface\protected\GObject_ErrorMissingMethod\ierrcodeclst.jpg
+GInterface\protected\GObject_ErrorMissingMethod\ibool.jpg
+GInterface\protected\GObject_ErrorMissingMethod\ii32.jpg
+GInterface\protected\GObject_ErrorMissingMethod\istr.jpg
+GInterface\protected\GObject_ErrorMissingMethod\iGInterfacelvclass.jpg
 
-Compile time: 0 minutes, 3 seconds
-125	Topics
-394	Local links
-11	Internet links
-1,019	Graphics
 
-
-Created c:\ProjectGSharpDevelopment\gsharp\Help\Gsharp\Gsharp.chm, 2,907,086 bytes
-Compression decreased file by 1,907,673 bytes.
+The following files were not compiled:
+GInterface\advanced\GObject_Deserialize\GObject_Deserialize.html
+GInterface\advanced\GObject_Serialize\GObject_Serialize.html
+GInterface\utils\GInterface_AbstractMethod\GInterface_AbstractMethod.html
+GInterface\utils\GInterface_GetInstance\GInterface_GetInstance.html
+GInterface\utils\ReplaceMe\ReplaceMe.html
