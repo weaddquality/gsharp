@@ -31,7 +31,6 @@
 	<Item Name="AddQ_Global_OnCommand.vi" Type="VI" URL="../AddQ_Global_OnCommand.vi"/>
 	<Item Name="AddQ_Item_Init.vi" Type="VI" URL="../AddQ_Item_Init.vi"/>
 	<Item Name="AddQ_Item_Interface.vi" Type="VI" URL="../AddQ_Item_Interface.vi"/>
-	<Item Name="AddQ_Item_OnCommand.vi" Type="VI" URL="../AddQ_Item_OnCommand.vi"/>
 	<Item Name="AddQ_Item_OnPopupMenu.vi" Type="VI" URL="../AddQ_Item_OnPopupMenu.vi"/>
 	<Item Name="AddQ_Provider_Interface.vi" Type="VI" URL="../AddQ_Provider_Interface.vi"/>
 	<Item Name="AddQ_Provider_Startup.vi" Type="VI" URL="../AddQ_Provider_Startup.vi"/>

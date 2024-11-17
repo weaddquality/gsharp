@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2024-11-14 06:56:15" Creator="Labbdator 3" Comments="" ID="968e9ef9e22547b703535d3bad1826d0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2024-11-17 08:58:54" Creator="Labbdator 3" Comments="" ID="9a3a2595378d22fdd5ba6bfb0ccac282">
   <Library_General_Settings>
     <Package_File_Name>addq_lib_gsharp</Package_File_Name>
-    <Library_Version>3.0.0.8</Library_Version>
+    <Library_Version>3.0.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Releases</Library_Output_Folder>
@@ -36,6 +36,10 @@
       <URL>https://www.qestitsystems.com/test-software-labview-g-framework</URL>
       <Release_Notes>New features:
 
+G# Framework 3.0.1
+* Bugfix: Clone/Move class to other class filter classes, no interfaces
+* New: Dependency Viewer: Add Items to menu file
+
 G# Framework 3.0.0
 * Update Debugger to support cloned G#Object
 * New: Class/Interface right-click menu "Go to Parent Interfaces"
@@ -55,10 +59,10 @@ G# Framework 2.0.2
 * Bugfix: Sync Implementation: After only one method warning, error.
 * Bugfix: Change Inheritance, change to recursive call in kernel, destroy, notarefnum. It shall be "Call Parent Class method".
 
-G# Framework 2.0.1
-* Bugfix: Clean up generic G# queue at last instance for specific class. Force queue destroy when release last instance or queue empty.
-* Performance improvement in object loops.
-* Add new separate queue for class attributes. This will be cleared in garbage collector
+G# 2.0.2
+ * Bugfix: Clean up generic G# queue at last instance for specific class. Force queue destroy when release last instance or queue empty.
+ * Performance improvement in object loops.
+ * Add new separate queue for class attributes. This will be cleared in garbage collector
 </Release_Notes>
     </Description>
     <Destinations>
@@ -577,7 +581,7 @@ G# Framework 2.0.1
         <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E3F3D090B2E6ED652F9B26BC6026F80</GUID>
+      <GUID>9D7923DA47C83A6CD87102374E82D75E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -822,7 +826,7 @@ G# Framework 2.0.1
         <Path>Files\vi.lib\addons\_AddQ\G#Object\advanced\G#Interface_InterfaceToSpecificClass.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DAB7E721ADAD4E51B4EBCFD7BCB9DA81</GUID>
+      <GUID>C65513F5456CB2D9AE22C69A84671759</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -857,7 +861,7 @@ G# Framework 2.0.1
         <Path>Files\vi.lib\addons\_AddQ\G#Object\G#Object.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>16B39983442F0DA9D1382495F2FAEDE1</GUID>
+      <GUID>3CB83026A6532D3B84EFA53F5EEC62B0</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
