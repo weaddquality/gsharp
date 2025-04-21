@@ -41,6 +41,7 @@
 	<Item Name="ReplaceClassRefsFP.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ReplaceClassRefsFP.vi"/>
 	<Item Name="ReplaceCtls.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ReplaceCtls.vi"/>
 	<Item Name="ReplaceVIs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ReplaceVIs.vi"/>
+	<Item Name="SearchForSubVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/SearchForSubVI.vi"/>
 	<Item Name="SetConnectorPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/SetConnectorPane.vi"/>
 	<Item Name="SetConnectorPaneFromTemplateVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/SetConnectorPaneFromTemplateVI.vi"/>
 	<Item Name="SetCorrectClassPrivateDataElement.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/SetCorrectClassPrivateDataElement.vi"/>
