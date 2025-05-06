@@ -41,6 +41,7 @@
 	<Item Name="ReplaceClassRefsFP.vi" Type="VI" URL="../ReplaceClassRefsFP.vi"/>
 	<Item Name="ReplaceCtls.vi" Type="VI" URL="../ReplaceCtls.vi"/>
 	<Item Name="ReplaceVIs.vi" Type="VI" URL="../ReplaceVIs.vi"/>
+	<Item Name="SearchForSubVI.vi" Type="VI" URL="../SearchForSubVI.vi"/>
 	<Item Name="SetConnectorPane.vi" Type="VI" URL="../SetConnectorPane.vi"/>
 	<Item Name="SetConnectorPaneFromTemplateVI.vi" Type="VI" URL="../SetConnectorPaneFromTemplateVI.vi"/>
 	<Item Name="SetCorrectClassPrivateDataElement.vi" Type="VI" URL="../SetCorrectClassPrivateDataElement.vi"/>

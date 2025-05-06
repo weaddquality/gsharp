@@ -1,9 +1,9 @@
 G# Framework
-Version: 3.0.1
+Version: 3.0.2
 
 The G# Framework is a free, award winning add-on toolkit for LabVIEW that adds reference based object-oriented support. It takes advantage of the data value reference structure together with the native classes and will add a full object-oriented support with excellent performance. This is the new generation of object-oriented support that makes LabVIEW as powerful as any object-oriented language. The G# Framework is a National Instrument Compatible with LabVIEW Gold product and was awarded "Add-On of the Year for Community" at NI Week 2011.
 
-Copyright © 2010-2024, QESTIT Systems https://www.qestitsystems.com/
+Copyright © 2010-2025, QESTIT Systems https://www.qestitsystems.com/
 All rights reserved. G# is a registered trademark of ADDQ by Qestit Systems.
 
 The “COMPATIBLE WITH LABVIEW” logo is a trademark of National Instruments Corporation and is used under a license from National Instruments Corporation. The G# Framework software program is a product of Qestit Systems, not National Instruments Corporation, and Qestit Systems is solely responsible for the G# Framework software program. Neither Qestit Systems, nor any of the software programs and other goods and services offered by Qestit Systems, are affiliated with, endorsed by or sponsored by National Instruments Corporation.
@@ -39,7 +39,7 @@ For information about the latest version and updates, please visit G# Framework 
 BSD LICENSE  (http://www.opensource.org/licenses/BSD-3-Clause)
 YOU MAY SUBLICENSE THIS SOFTWARE IN ANY WAY THAT DOES NOT CONFLICT WITH THIS LICENSE.
 
-Copyright (c) 2010-2024, QESTIT Systems https://www.qestitsystems.com/
+Copyright (c) 2010-2025, QESTIT Systems https://www.qestitsystems.com/
 
 All rights reserved.
 
@@ -55,6 +55,16 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 ---------------------------------------------------------------------
 
 ## RELEASE HISTORY ##
+
+G# Framework 3.0.2
+* Bugfix: Fix error when create/cloneToOther class of polymorphic VI.
+* Dependency Viewer: Naming windows to current lvproj to better handle several Dep Viewer windows (One per project).
+* Bugfix: Naming Method: Error when there is a method/VI with same name.
+* Bugfix: ChangingInheritance from G#Object check subVI create method in constructor
+* Bugfix: Error 1055 overriding VI without error terminals #8.
+* Bugfix: Error when creating a class in an unsaved lvlib #2.
+* Bugfix: Error 1051 when creating a class with a name that already exists in memory #3.
+* Bugfix: Error 1055 when setting library icon #5.
 
 G# Framework 3.0.1
 * Bugfix: Clone/Move class to other class filter classes, no interfaces

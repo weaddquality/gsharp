@@ -5,7 +5,7 @@ G# Framework
 NOTICE -- YOU MUST LEAVE THIS NOTICE IN PLACE.  PER THE TERMS OF THE BSD LICENSE  (http://www.opensource.org/licenses/bsd-license.php).
 YOU MAY SUBLICENSE THIS SOFTWARE IN ANY WAY THAT DOES NOT CONFLICT WITH THIS LICENSE.
 
-Copyright (c) 2010-2024, QESTIT <www.qestit.se>
+Copyright (c) 2010-2025, QESTIT Systems https://www.qestitsystems.com/
 
 All rights reserved.
 

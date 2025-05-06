@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2024-11-17 08:58:54" Creator="Labbdator 3" Comments="" ID="9a3a2595378d22fdd5ba6bfb0ccac282">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2025-05-06 18:24:24" Creator="Labbdator 3" Comments="" ID="006fad4a26ad2d88e2bf04328a85930b">
   <Library_General_Settings>
     <Package_File_Name>addq_lib_gsharp</Package_File_Name>
-    <Library_Version>3.0.1.2</Library_Version>
+    <Library_Version>3.0.2.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Releases</Library_Output_Folder>
@@ -33,8 +33,18 @@
 &lt;b&gt;NB!&lt;/b&gt; LabVIEW must be restarted to load the features that are integrated into the LabVIEW development environment, such as the right-click menu in the project explorer.</Description>
       <Copyright/>
       <Packager>Niklas Hammersberg Thomas Olsson Mattias Ericsson</Packager>
-      <URL>https://www.qestitsystems.com/test-software-labview-g-framework</URL>
+      <URL>https://systems.qestit.com/en/testing-tools/labview</URL>
       <Release_Notes>New features:
+
+G# Framework 3.0.2
+* Bugfix: Fix error when create/cloneToOther class of polymorphic VI.
+* Dependency Viewer: Naming windows to current lvproj to better handle several Dep Viewer windows (One per project).
+* Bugfix: Naming Method: Error when there is a method/VI with same name.
+* Bugfix: ChangingInheritance from G#Object check subVI create method in constructor
+* Bugfix: Error 1055 overriding VI without error terminals #8.
+* Bugfix: Error when creating a class in an unsaved lvlib #2.
+* Bugfix: Error 1051 when creating a class with a name that already exists in memory #3.
+* Bugfix: Error 1055 when setting library icon #5.
 
 G# Framework 3.0.1
 * Bugfix: Clone/Move class to other class filter classes, no interfaces
@@ -581,7 +591,7 @@ G# 2.0.2
         <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D7923DA47C83A6CD87102374E82D75E</GUID>
+      <GUID>43393CB9B105C7F92C4839EAF6327369</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -826,7 +836,7 @@ G# 2.0.2
         <Path>Files\vi.lib\addons\_AddQ\G#Object\advanced\G#Interface_InterfaceToSpecificClass.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C65513F5456CB2D9AE22C69A84671759</GUID>
+      <GUID>826D4E412CC7E5F0A1B359CB5B927EC6</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -861,7 +871,7 @@ G# 2.0.2
         <Path>Files\vi.lib\addons\_AddQ\G#Object\G#Object.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3CB83026A6532D3B84EFA53F5EEC62B0</GUID>
+      <GUID>D3CFAC6013DEFC51652E133F90CE84B4</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
