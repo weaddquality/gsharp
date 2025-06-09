@@ -25,7 +25,7 @@ rmdir /s /q  "C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\ad
 
 rmdir /s /q "C:\Program Files (x86)\National Instruments\LabVIEW 2020\menus\Categories\Addons\AddQ_G#"
 
-rmdir /s /q "C:\Program Files (x86)\National Instruments\LabVIEW 2020\examples\AddQ"
+rmdir /s /q "C:\Program Files (x86)\National Instruments\LabVIEW 2020\examples\Object-Oriented G# Development"
 
 del "C:\Program Files (x86)\National Instruments\LabVIEW 2020\project\AddQ_G#IDE_Tools_StartDebugger.vi" 
 
