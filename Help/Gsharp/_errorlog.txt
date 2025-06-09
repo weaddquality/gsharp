@@ -863,6 +863,7 @@ GsharpGettingStarted_files\image010.jpg
 Overview_files\image001.jpg
 GsharpTemplates_files\image003.jpg
 GsharpTemplates_files\image004.jpg
+GsharpTemplates_files\image006.jpg
 GsharpTemplates_files\image005.jpg
 GsharpTemplates_files\image001.jpg
 GsharpTemplates_files\image002.jpg
