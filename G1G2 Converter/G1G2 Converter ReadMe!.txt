@@ -2,10 +2,10 @@ GOOP1 and GOOP2 to G# Converter
 Version: 1.8.0
 June 13th, 2011
 
-Converts GOOP1 and GOOP2 classes to G#. Notice for internal AddQ use only.
+Converts GOOP1 and GOOP2 classes to G#. Notice for internal Qestit Systems (AddQ) use only.
 
 Copyright © 2010, AddQ Consulting, www.addq.se
-All rights reserved. G# is a registered trademark of AddQ Consulting.
+All rights reserved. G# is a registered trademark of Qestit Systems (AddQ).
 
 ## INSTALLATION ##
 
