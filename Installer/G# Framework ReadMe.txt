@@ -4,7 +4,7 @@ Version: 3.0.2
 The G# Framework is a free, award winning add-on toolkit for LabVIEW that adds reference based object-oriented support. It takes advantage of the data value reference structure together with the native classes and will add a full object-oriented support with excellent performance. This is the new generation of object-oriented support that makes LabVIEW as powerful as any object-oriented language. The G# Framework is a National Instrument Compatible with LabVIEW Gold product and was awarded "Add-On of the Year for Community" at NI Week 2011.
 
 Copyright © 2010-2025, QESTIT Systems https://www.qestitsystems.com/
-All rights reserved. G# is a registered trademark of ADDQ by Qestit Systems.
+All rights reserved. G# is a registered trademark of Qestit Systems (AddQ).
 
 The “COMPATIBLE WITH LABVIEW” logo is a trademark of National Instruments Corporation and is used under a license from National Instruments Corporation. The G# Framework software program is a product of Qestit Systems, not National Instruments Corporation, and Qestit Systems is solely responsible for the G# Framework software program. Neither Qestit Systems, nor any of the software programs and other goods and services offered by Qestit Systems, are affiliated with, endorsed by or sponsored by National Instruments Corporation.
 
