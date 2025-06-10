@@ -12,39 +12,40 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="AddQ_G#IDE_Tools_StartDebugger.vi" Type="VI" URL="../Files/project/AddQ_G#IDE_Tools_StartDebugger.vi"/>
-		<Item Name="AnotherClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Polymorphism/AnotherClass_class/AnotherClass.lvclass"/>
-		<Item Name="DemoClass1.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Polymorphism/DemoClass1_class/DemoClass1.lvclass"/>
-		<Item Name="DemoSubClass1.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Polymorphism/DemoSubClass1_class/DemoSubClass1.lvclass"/>
-		<Item Name="DemoSubClass2.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Polymorphism/DemoSubClass2_class/DemoSubClass2.lvclass"/>
-		<Item Name="DemoSubSubClass1.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Polymorphism/DemoSubSubClass1_class/DemoSubSubClass1.lvclass"/>
-		<Item Name="G# - CreatingAndDestroyingNamedObjects - The Fewton Example.vi" Type="VI" URL="../Files/examples/AddQ/G#/CreateDestroy/G# - CreatingAndDestroyingNamedObjects - The Fewton Example.vi"/>
-		<Item Name="G# - CreatingAndDestroyingNamedObjects.vi" Type="VI" URL="../Files/examples/AddQ/G#/CreateDestroy/G# - CreatingAndDestroyingNamedObjects.vi"/>
-		<Item Name="G# - CreatingAndDestroyingObjects.vi" Type="VI" URL="../Files/examples/AddQ/G#/CreateDestroy/G# - CreatingAndDestroyingObjects.vi"/>
-		<Item Name="G# - CreatingAndDestroyingObjectsSubClasses.vi" Type="VI" URL="../Files/examples/AddQ/G#/CreateDestroy/G# - CreatingAndDestroyingObjectsSubClasses.vi"/>
-		<Item Name="G# - DependencyInjectionUsingDefaultConstructor.vi" Type="VI" URL="../Files/examples/AddQ/G#/CreateDestroy/G# - DependencyInjectionUsingDefaultConstructor.vi"/>
-		<Item Name="G# - DependencyInjectionUsingExternalCreateProcessWithDefaultConstructor.vi" Type="VI" URL="../Files/examples/AddQ/G#/CreateDestroy/G# - DependencyInjectionUsingExternalCreateProcessWithDefaultConstructor.vi"/>
-		<Item Name="G# - DependencyInjectionUsingGenericCreate.vi" Type="VI" URL="../Files/examples/AddQ/G#/CreateDestroy/G# - DependencyInjectionUsingGenericCreate.vi"/>
-		<Item Name="G# - GarbageCollectorDemo.vi" Type="VI" URL="../Files/examples/AddQ/G#/CreateDestroy/G# - GarbageCollectorDemo.vi"/>
-		<Item Name="G# - GetObjectStatus.vi" Type="VI" URL="../Files/examples/AddQ/G#/SupportMethods/G# - GetObjectStatus.vi"/>
-		<Item Name="G# - InterfaceDemo.vi" Type="VI" URL="../Files/examples/AddQ/G#/Interface/G# - InterfaceDemo.vi"/>
-		<Item Name="G# - InterfaceDemo2.vi" Type="VI" URL="../Files/examples/AddQ/G#/Interface/G# - InterfaceDemo2.vi"/>
-		<Item Name="G# - InterfaceDemo3.vi" Type="VI" URL="../Files/examples/AddQ/G#/Interface/G# - InterfaceDemo3.vi"/>
-		<Item Name="G# - InterfaceDemo4.vi" Type="VI" URL="../Files/examples/AddQ/G#/Interface/G# - InterfaceDemo4.vi"/>
-		<Item Name="G# - PerformanceComparision.vi" Type="VI" URL="../Files/examples/AddQ/G#/Performance/G# - PerformanceComparision.vi"/>
-		<Item Name="G# - Polymorphism demo.vi" Type="VI" URL="../Files/examples/AddQ/G#/Polymorphism/G# - Polymorphism demo.vi"/>
-		<Item Name="G# - Polymorphism demo2.vi" Type="VI" URL="../Files/examples/AddQ/G#/Polymorphism/G# - Polymorphism demo2.vi"/>
-		<Item Name="G# - Polymorphism demo3.vi" Type="VI" URL="../Files/examples/AddQ/G#/Polymorphism/G# - Polymorphism demo3.vi"/>
-		<Item Name="G# - Property Example LV2009.vi" Type="VI" URL="../Files/examples/AddQ/G#/Properties/G# - Property Example LV2009.vi"/>
-		<Item Name="G# - Property Example LV2010.vi" Type="VI" URL="../Files/examples/AddQ/G#/Properties/G# - Property Example LV2010.vi"/>
-		<Item Name="G# - SerializationExample.vi" Type="VI" URL="../Files/examples/AddQ/G#/Serialization/G# - SerializationExample.vi"/>
-		<Item Name="G# - StaticClassAndClassAttributes.vi" Type="VI" URL="../Files/examples/AddQ/G#/StaticClasses/G# - StaticClassAndClassAttributes.vi"/>
-		<Item Name="G# - SupportMethods.vi" Type="VI" URL="../Files/examples/AddQ/G#/SupportMethods/G# - SupportMethods.vi"/>
+		<Item Name="AnotherClass.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Polymorphism/AnotherClass_class/AnotherClass.lvclass"/>
+		<Item Name="DemoClass1.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Polymorphism/DemoClass1_class/DemoClass1.lvclass"/>
+		<Item Name="DemoSubClass1.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Polymorphism/DemoSubClass1_class/DemoSubClass1.lvclass"/>
+		<Item Name="DemoSubClass2.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Polymorphism/DemoSubClass2_class/DemoSubClass2.lvclass"/>
+		<Item Name="DemoSubSubClass1.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Polymorphism/DemoSubSubClass1_class/DemoSubSubClass1.lvclass"/>
+		<Item Name="G# - CreatingAndDestroyingNamedObjects - The Fewton Example.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/CreateDestroy/G# - CreatingAndDestroyingNamedObjects - The Fewton Example.vi"/>
+		<Item Name="G# - CreatingAndDestroyingNamedObjects.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/CreateDestroy/G# - CreatingAndDestroyingNamedObjects.vi"/>
+		<Item Name="G# - CreatingAndDestroyingObjects.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/CreateDestroy/G# - CreatingAndDestroyingObjects.vi"/>
+		<Item Name="G# - CreatingAndDestroyingObjectsSubClasses.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/CreateDestroy/G# - CreatingAndDestroyingObjectsSubClasses.vi"/>
+		<Item Name="G# - DependencyInjectionUsingDefaultConstructor.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/CreateDestroy/G# - DependencyInjectionUsingDefaultConstructor.vi"/>
+		<Item Name="G# - DependencyInjectionUsingExternalCreateProcessWithDefaultConstructor.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/CreateDestroy/G# - DependencyInjectionUsingExternalCreateProcessWithDefaultConstructor.vi"/>
+		<Item Name="G# - DependencyInjectionUsingGenericCreate.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/CreateDestroy/G# - DependencyInjectionUsingGenericCreate.vi"/>
+		<Item Name="G# - GarbageCollectorDemo.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/CreateDestroy/G# - GarbageCollectorDemo.vi"/>
+		<Item Name="G# - GetObjectStatus.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/SupportMethods/G# - GetObjectStatus.vi"/>
+		<Item Name="G# - InterfaceDemo.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Interface/G# - InterfaceDemo.vi"/>
+		<Item Name="G# - InterfaceDemo2.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Interface/G# - InterfaceDemo2.vi"/>
+		<Item Name="G# - InterfaceDemo3.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Interface/G# - InterfaceDemo3.vi"/>
+		<Item Name="G# - InterfaceDemo4.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Interface/G# - InterfaceDemo4.vi"/>
+		<Item Name="G# - PerformanceComparision.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Performance/G# - PerformanceComparision.vi"/>
+		<Item Name="G# - Polymorphism demo.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Polymorphism/G# - Polymorphism demo.vi"/>
+		<Item Name="G# - Polymorphism demo2.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Polymorphism/G# - Polymorphism demo2.vi"/>
+		<Item Name="G# - Polymorphism demo3.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Polymorphism/G# - Polymorphism demo3.vi"/>
+		<Item Name="G# - Property Example LV2009.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Properties/G# - Property Example LV2009.vi"/>
+		<Item Name="G# - Property Example LV2010.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Properties/G# - Property Example LV2010.vi"/>
+		<Item Name="G# - SerializationExample.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Serialization/G# - SerializationExample.vi"/>
+		<Item Name="G# - StaticClassAndClassAttributes.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/StaticClasses/G# - StaticClassAndClassAttributes.vi"/>
+		<Item Name="G# - SupportMethods.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/SupportMethods/G# - SupportMethods.vi"/>
 		<Item Name="G#.lvlib" Type="Library" URL="../Files/vi.lib/addons/_AddQ/G#.lvlib"/>
 		<Item Name="G#100.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/Providers/G#100.lvlib"/>
 		<Item Name="G#BaseTemplateG3.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#BaseTemplateG3/G#BaseTemplateG3.lvclass"/>
 		<Item Name="G#Debugger.lvlib" Type="Library" URL="../Files/vi.lib/addons/_AddQ/G#Debugger/G#Debugger.lvlib"/>
 		<Item Name="G#DependencyViewer.lvlib" Type="Library" URL="../Files/vi.lib/addons/_AddQ/G#DependencyViewer/G#DependencyViewer.lvlib"/>
 		<Item Name="G#IDE.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/G#IDE.lvlib"/>
+		<Item Name="G#Interface.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Interface/G#Interface.lvclass"/>
 		<Item Name="G#MethodTemplates.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#MethodTemplates/G#MethodTemplates.lvclass"/>
 		<Item Name="G#ModifyAttributeDiagramTemplate.vi" Type="VI" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#ModifyAttributeDiagramTemplate.vi"/>
 		<Item Name="G#Object.ctl" Type="VI" URL="../Files/vi.lib/addons/_AddQ/G#Object/G#Object.ctl"/>
@@ -55,30 +56,30 @@
 		<Item Name="Gsharp.chm" Type="Document" URL="../Files/help/_AddQ/Gsharp.chm"/>
 		<Item Name="IG#.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/IG#/IG#.lvclass"/>
 		<Item Name="IG#InterfaceTemplate.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/IG#InterfaceTemplate/IG#InterfaceTemplate.lvclass"/>
-		<Item Name="IMyInterface.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/IMyInterface_interface/IMyInterface.lvclass"/>
-		<Item Name="IMyInterface2.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/IMyInterface2_interface/IMyInterface2.lvclass"/>
-		<Item Name="IMyInterface3.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/IMyInterface3_interface/IMyInterface3.lvclass"/>
+		<Item Name="IMyInterface.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/IMyInterface_interface/IMyInterface.lvclass"/>
+		<Item Name="IMyInterface2.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/IMyInterface2_interface/IMyInterface2.lvclass"/>
+		<Item Name="IMyInterface3.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/IMyInterface3_interface/IMyInterface3.lvclass"/>
 		<Item Name="LvNative.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/LvNative/LvNative.lvclass"/>
-		<Item Name="MyClass1.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass1_class/MyClass1.lvclass"/>
-		<Item Name="MyClass1_IMyInterface.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass1_class/MyClass1_IMyInterface/MyClass1_IMyInterface.lvclass"/>
-		<Item Name="MyClass2.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass2_class/MyClass2.lvclass"/>
-		<Item Name="MyClass2_IMyInterface.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass2_class/MyClass2_IMyInterface/MyClass2_IMyInterface.lvclass"/>
-		<Item Name="MyClass3.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass3_class/MyClass3.lvclass"/>
-		<Item Name="MyClass4.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass4_class/MyClass4.lvclass"/>
-		<Item Name="MyClass5.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass5_class/MyClass5.lvclass"/>
-		<Item Name="MyClass6.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Interface/MyClass6_class/MyClass6.lvclass"/>
-		<Item Name="MyDemoClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/SupportMethods/MyDemoClass_class/MyDemoClass.lvclass"/>
-		<Item Name="MyG#Class.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/CreateDestroy/MyG#Class_class/MyG#Class.lvclass"/>
-		<Item Name="MyG#G3SubTempl.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/CreateDestroy/MyG#G3SubTempl_class/MyG#G3SubTempl.lvclass"/>
-		<Item Name="MyG#G3Templ.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/CreateDestroy/MyG#G3Templ_class/MyG#G3Templ.lvclass"/>
-		<Item Name="MyG#SubClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/CreateDestroy/MyG#SubClass_class/MyG#SubClass.lvclass"/>
-		<Item Name="MyOrdinaryClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/StaticClasses/MyOrdinaryClass_class/MyOrdinaryClass.lvclass"/>
-		<Item Name="MyPropertyClass_LV2009.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Properties/MyPropertyClass_LV2009_class/MyPropertyClass_LV2009.lvclass"/>
-		<Item Name="MyPropertyClass_LV2010.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Properties/MyPropertyClass_LV2010_class/MyPropertyClass_LV2010.lvclass"/>
-		<Item Name="MyStaticClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/StaticClasses/MyStaticClass_class/MyStaticClass.lvclass"/>
-		<Item Name="MyTestClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Serialization/MyTestClass_class/MyTestClass.lvclass"/>
+		<Item Name="MyClass1.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/MyClass1_class/MyClass1.lvclass"/>
+		<Item Name="MyClass1_IMyInterface.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/MyClass1_class/MyClass1_IMyInterface/MyClass1_IMyInterface.lvclass"/>
+		<Item Name="MyClass2.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/MyClass2_class/MyClass2.lvclass"/>
+		<Item Name="MyClass2_IMyInterface.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/MyClass2_class/MyClass2_IMyInterface/MyClass2_IMyInterface.lvclass"/>
+		<Item Name="MyClass3.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/MyClass3_class/MyClass3.lvclass"/>
+		<Item Name="MyClass4.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/MyClass4_class/MyClass4.lvclass"/>
+		<Item Name="MyClass5.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/MyClass5_class/MyClass5.lvclass"/>
+		<Item Name="MyClass6.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/MyClass6_class/MyClass6.lvclass"/>
+		<Item Name="MyDemoClass.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/SupportMethods/MyDemoClass_class/MyDemoClass.lvclass"/>
+		<Item Name="MyG#Class.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/CreateDestroy/MyG#Class_class/MyG#Class.lvclass"/>
+		<Item Name="MyG#G3SubTempl.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/CreateDestroy/MyG#G3SubTempl_class/MyG#G3SubTempl.lvclass"/>
+		<Item Name="MyG#G3Templ.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/CreateDestroy/MyG#G3Templ_class/MyG#G3Templ.lvclass"/>
+		<Item Name="MyG#SubClass.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/CreateDestroy/MyG#SubClass_class/MyG#SubClass.lvclass"/>
+		<Item Name="MyOrdinaryClass.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/StaticClasses/MyOrdinaryClass_class/MyOrdinaryClass.lvclass"/>
+		<Item Name="MyPropertyClass_LV2009.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Properties/MyPropertyClass_LV2009_class/MyPropertyClass_LV2009.lvclass"/>
+		<Item Name="MyPropertyClass_LV2010.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Properties/MyPropertyClass_LV2010_class/MyPropertyClass_LV2010.lvclass"/>
+		<Item Name="MyStaticClass.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/StaticClasses/MyStaticClass_class/MyStaticClass.lvclass"/>
+		<Item Name="MyTestClass.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Serialization/MyTestClass_class/MyTestClass.lvclass"/>
 		<Item Name="ProviderG#100.lvclass" Type="LVClass" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/Providers/Provider_G#100/ProviderG#100_class/ProviderG#100.lvclass"/>
-		<Item Name="TestClass.lvclass" Type="LVClass" URL="../Files/examples/AddQ/G#/Performance/TestClass_class/TestClass.lvclass"/>
+		<Item Name="TestClass.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Performance/TestClass_class/TestClass.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -217,7 +218,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="CreateNewWizard_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/CreateNewWizard_Interface.ctl"/>
-			<Item Name="G#Interface.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Interface/G#Interface.lvclass"/>
 			<Item Name="Global_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Global_Interface.ctl"/>
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
 			<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl"/>

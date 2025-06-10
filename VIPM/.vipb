@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2025-05-06 18:24:24" Creator="Labbdator 3" Comments="" ID="006fad4a26ad2d88e2bf04328a85930b">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2025-06-10 10:05:11" Creator="Labbdator 3" Comments="" ID="7e43a586a4fe3a7dfa341deebe63a1a5">
   <Library_General_Settings>
-    <Package_File_Name>addq_lib_gsharp</Package_File_Name>
-    <Library_Version>3.0.2.2</Library_Version>
+    <Package_File_Name>qestit_lib_gsharp</Package_File_Name>
+    <Library_Version>3.0.3.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Releases</Library_Output_Folder>
@@ -35,6 +35,11 @@
       <Packager>Niklas Hammersberg Thomas Olsson Mattias Ericsson</Packager>
       <URL>https://systems.qestit.com/en/testing-tools/labview</URL>
       <Release_Notes>New features:
+
+G# Framework 3.0.3
+* Move examples, rename folder
+* Help information updated
+* Palette updated
 
 G# Framework 3.0.2
 * Bugfix: Fix error when create/cloneToOther class of polymorphic VI.
@@ -591,7 +596,7 @@ G# 2.0.2
         <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43393CB9B105C7F92C4839EAF6327369</GUID>
+      <GUID>3EB5CA5C959B23166D502C9D8E02AF60</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -836,7 +841,7 @@ G# 2.0.2
         <Path>Files\vi.lib\addons\_AddQ\G#Object\advanced\G#Interface_InterfaceToSpecificClass.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>826D4E412CC7E5F0A1B359CB5B927EC6</GUID>
+      <GUID>6A6F59AA726A9F19B0CDD9AA08A8B0A1</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -871,7 +876,7 @@ G# 2.0.2
         <Path>Files\vi.lib\addons\_AddQ\G#Object\G#Object.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D3CFAC6013DEFC51652E133F90CE84B4</GUID>
+      <GUID>816EEEB9711B31008714C0E5204CF097</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
