@@ -1,5 +1,5 @@
 G# Framework
-Version: 3.0.2
+Version: 3.0.3
 
 The G# Framework is a free, award winning add-on toolkit for LabVIEW that adds reference based object-oriented support. It takes advantage of the data value reference structure together with the native classes and will add a full object-oriented support with excellent performance. This is the new generation of object-oriented support that makes LabVIEW as powerful as any object-oriented language. The G# Framework is a National Instrument Compatible with LabVIEW Gold product and was awarded "Add-On of the Year for Community" at NI Week 2011.
 
@@ -16,7 +16,7 @@ Windows 11/ Windows 10/Windows 7/8/Server 2003 R2 (32bit)/Server 2008 R2(64 bit)
 Note: G# Framework will probably work on all LabVIEW supported platforms, but is not tested.
 
 ## EXAMPLES ##
-There are a lot of examples of how to use the G# Framework in <LabVIEW>/examples/AddQ/G#.
+There are a lot of examples of how to use the G# Framework in <LabVIEW>/examples/Object-Oriented G# Development.
 These examples are also searchable in the LabVIEW “Find Examples…”. Search for “G#”.
 
 ## SUPPORT ##
@@ -55,6 +55,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 ---------------------------------------------------------------------
 
 ## RELEASE HISTORY ##
+
+G# Framework 3.0.3
+* Move examples, rename folder
+* Help information updated
+* Palette updated
 
 G# Framework 3.0.2
 * Bugfix: Fix error when create/cloneToOther class of polymorphic VI.
