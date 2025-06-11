@@ -56,6 +56,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ## RELEASE HISTORY ##
 
+G# Framework 3.0.4
+* Bugfix: Dependency Viewer
+
 G# Framework 3.0.3
 * Move examples, rename folder
 * Help information updated

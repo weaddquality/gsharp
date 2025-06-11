@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2025-06-10 10:05:11" Creator="Labbdator 3" Comments="" ID="7e43a586a4fe3a7dfa341deebe63a1a5">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2025-06-11 15:19:26" Creator="Labbdator 3" Comments="" ID="54e1a5b69e581080e6e5f694429f8a9e">
   <Library_General_Settings>
     <Package_File_Name>qestit_lib_gsharp</Package_File_Name>
-    <Library_Version>3.0.3.5</Library_Version>
+    <Library_Version>3.0.4.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Releases</Library_Output_Folder>
@@ -35,6 +35,9 @@
       <Packager>Niklas Hammersberg Thomas Olsson Mattias Ericsson</Packager>
       <URL>https://systems.qestit.com/en/testing-tools/labview</URL>
       <Release_Notes>New features:
+
+G# Framework 3.0.4
+* Bugfix: Dependency Viewer
 
 G# Framework 3.0.3
 * Move examples, rename folder
@@ -596,7 +599,7 @@ G# 2.0.2
         <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3EB5CA5C959B23166D502C9D8E02AF60</GUID>
+      <GUID>95ED3988A08D3DE2FC552C6490B24C79</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -841,7 +844,7 @@ G# 2.0.2
         <Path>Files\vi.lib\addons\_AddQ\G#Object\advanced\G#Interface_InterfaceToSpecificClass.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A6F59AA726A9F19B0CDD9AA08A8B0A1</GUID>
+      <GUID>580FE7F6091F0EF03190819DA34F34B0</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -876,7 +879,7 @@ G# 2.0.2
         <Path>Files\vi.lib\addons\_AddQ\G#Object\G#Object.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>816EEEB9711B31008714C0E5204CF097</GUID>
+      <GUID>AB2D236C0BE61AD3342BD752EE46C322</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
