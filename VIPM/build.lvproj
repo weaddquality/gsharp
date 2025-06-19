@@ -27,9 +27,6 @@
 		<Item Name="G# - GarbageCollectorDemo.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/CreateDestroy/G# - GarbageCollectorDemo.vi"/>
 		<Item Name="G# - GetObjectStatus.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/SupportMethods/G# - GetObjectStatus.vi"/>
 		<Item Name="G# - InterfaceDemo.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Interface/G# - InterfaceDemo.vi"/>
-		<Item Name="G# - InterfaceDemo2.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Interface/G# - InterfaceDemo2.vi"/>
-		<Item Name="G# - InterfaceDemo3.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Interface/G# - InterfaceDemo3.vi"/>
-		<Item Name="G# - InterfaceDemo4.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Interface/G# - InterfaceDemo4.vi"/>
 		<Item Name="G# - PerformanceComparision.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Performance/G# - PerformanceComparision.vi"/>
 		<Item Name="G# - Polymorphism demo.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Polymorphism/G# - Polymorphism demo.vi"/>
 		<Item Name="G# - Polymorphism demo2.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/Polymorphism/G# - Polymorphism demo2.vi"/>
@@ -56,18 +53,11 @@
 		<Item Name="Gsharp.chm" Type="Document" URL="../Files/help/_AddQ/Gsharp.chm"/>
 		<Item Name="IG#.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/IG#/IG#.lvclass"/>
 		<Item Name="IG#InterfaceTemplate.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/IG#InterfaceTemplate/IG#InterfaceTemplate.lvclass"/>
-		<Item Name="IMyInterface.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/IMyInterface_interface/IMyInterface.lvclass"/>
+		<Item Name="IMyInterface1.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/IMyInterface1_interface/IMyInterface1.lvclass"/>
 		<Item Name="IMyInterface2.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/IMyInterface2_interface/IMyInterface2.lvclass"/>
-		<Item Name="IMyInterface3.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/IMyInterface3_interface/IMyInterface3.lvclass"/>
 		<Item Name="LvNative.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/LvNative/LvNative.lvclass"/>
 		<Item Name="MyClass1.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/MyClass1_class/MyClass1.lvclass"/>
-		<Item Name="MyClass1_IMyInterface.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/MyClass1_class/MyClass1_IMyInterface/MyClass1_IMyInterface.lvclass"/>
 		<Item Name="MyClass2.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/MyClass2_class/MyClass2.lvclass"/>
-		<Item Name="MyClass2_IMyInterface.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/MyClass2_class/MyClass2_IMyInterface/MyClass2_IMyInterface.lvclass"/>
-		<Item Name="MyClass3.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/MyClass3_class/MyClass3.lvclass"/>
-		<Item Name="MyClass4.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/MyClass4_class/MyClass4.lvclass"/>
-		<Item Name="MyClass5.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/MyClass5_class/MyClass5.lvclass"/>
-		<Item Name="MyClass6.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/Interface/MyClass6_class/MyClass6.lvclass"/>
 		<Item Name="MyDemoClass.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/SupportMethods/MyDemoClass_class/MyDemoClass.lvclass"/>
 		<Item Name="MyG#Class.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/CreateDestroy/MyG#Class_class/MyG#Class.lvclass"/>
 		<Item Name="MyG#G3SubTempl.lvclass" Type="LVClass" URL="../Files/examples/Object-Oriented G# Development/CreateDestroy/MyG#G3SubTempl_class/MyG#G3SubTempl.lvclass"/>

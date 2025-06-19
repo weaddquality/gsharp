@@ -70,58 +70,12 @@
 				<Item Name="G# - GarbageCollectorDemo.vi" Type="VI" URL="../../../../../../examples/Object-Oriented G# Development/CreateDestroy/G# - GarbageCollectorDemo.vi"/>
 			</Item>
 			<Item Name="Interface" Type="Folder">
-				<Item Name="IMyInterface2_interface" Type="Folder">
-					<Item Name="IMyInterface2.lvclass" Type="LVClass" URL="../../../../../../examples/Object-Oriented G# Development/Interface/IMyInterface2_interface/IMyInterface2.lvclass"/>
-				</Item>
-				<Item Name="IMyInterface3_interface" Type="Folder">
-					<Item Name="IMyInterface3.lvclass" Type="LVClass" URL="../../../../../../examples/Object-Oriented G# Development/Interface/IMyInterface3_interface/IMyInterface3.lvclass"/>
-				</Item>
-				<Item Name="IMyInterface_interface" Type="Folder">
-					<Item Name="IMyInterface.lvclass" Type="LVClass" URL="../../../../../../examples/Object-Oriented G# Development/Interface/IMyInterface_interface/IMyInterface.lvclass"/>
-				</Item>
-				<Item Name="MyClass1_class" Type="Folder">
-					<Item Name="MyClass1_IMyInterface" Type="Folder">
-						<Item Name="MyClass1_IMyInterface.lvclass" Type="LVClass" URL="../../../../../../examples/Object-Oriented G# Development/Interface/MyClass1_class/MyClass1_IMyInterface/MyClass1_IMyInterface.lvclass"/>
-					</Item>
-					<Item Name="protected" Type="Folder"/>
-					<Item Name="utils" Type="Folder"/>
-					<Item Name="MyClass1.lvclass" Type="LVClass" URL="../../../../../../examples/Object-Oriented G# Development/Interface/MyClass1_class/MyClass1.lvclass"/>
-				</Item>
-				<Item Name="MyClass2_class" Type="Folder">
-					<Item Name="MyClass2_IMyInterface" Type="Folder">
-						<Item Name="MyClass2_IMyInterface.lvclass" Type="LVClass" URL="../../../../../../examples/Object-Oriented G# Development/Interface/MyClass2_class/MyClass2_IMyInterface/MyClass2_IMyInterface.lvclass"/>
-					</Item>
-					<Item Name="protected" Type="Folder"/>
-					<Item Name="utils" Type="Folder"/>
-					<Item Name="MyClass2.lvclass" Type="LVClass" URL="../../../../../../examples/Object-Oriented G# Development/Interface/MyClass2_class/MyClass2.lvclass"/>
-				</Item>
-				<Item Name="MyClass3_class" Type="Folder">
-					<Item Name="protected" Type="Folder"/>
-					<Item Name="utils" Type="Folder"/>
-					<Item Name="MyClass3.lvclass" Type="LVClass" URL="../../../../../../examples/Object-Oriented G# Development/Interface/MyClass3_class/MyClass3.lvclass"/>
-				</Item>
-				<Item Name="MyClass4_class" Type="Folder">
-					<Item Name="protected" Type="Folder"/>
-					<Item Name="utils" Type="Folder"/>
-					<Item Name="MyClass4.lvclass" Type="LVClass" URL="../../../../../../examples/Object-Oriented G# Development/Interface/MyClass4_class/MyClass4.lvclass"/>
-				</Item>
-				<Item Name="MyClass5_class" Type="Folder">
-					<Item Name="protected" Type="Folder"/>
-					<Item Name="utils" Type="Folder"/>
-					<Item Name="MyClass5.lvclass" Type="LVClass" URL="../../../../../../examples/Object-Oriented G# Development/Interface/MyClass5_class/MyClass5.lvclass"/>
-				</Item>
-				<Item Name="MyClass6_class" Type="Folder">
-					<Item Name="protected" Type="Folder"/>
-					<Item Name="utils" Type="Folder"/>
-					<Item Name="MyClass6.lvclass" Type="LVClass" URL="../../../../../../examples/Object-Oriented G# Development/Interface/MyClass6_class/MyClass6.lvclass"/>
-				</Item>
-				<Item Name="G# - Interface.aliases" Type="Document" URL="../../../../../../examples/Object-Oriented G# Development/Interface/G# - Interface.aliases"/>
-				<Item Name="G# - Interface.lvlps" Type="Document" URL="../../../../../../examples/Object-Oriented G# Development/Interface/G# - Interface.lvlps"/>
 				<Item Name="G# - Interface.lvproj" Type="Document" URL="../../../../../../examples/Object-Oriented G# Development/Interface/G# - Interface.lvproj"/>
 				<Item Name="G# - InterfaceDemo.vi" Type="VI" URL="../../../../../../examples/Object-Oriented G# Development/Interface/G# - InterfaceDemo.vi"/>
-				<Item Name="G# - InterfaceDemo2.vi" Type="VI" URL="../../../../../../examples/Object-Oriented G# Development/Interface/G# - InterfaceDemo2.vi"/>
-				<Item Name="G# - InterfaceDemo3.vi" Type="VI" URL="../../../../../../examples/Object-Oriented G# Development/Interface/G# - InterfaceDemo3.vi"/>
-				<Item Name="G# - InterfaceDemo4.vi" Type="VI" URL="../../../../../../examples/Object-Oriented G# Development/Interface/G# - InterfaceDemo4.vi"/>
+				<Item Name="MyClass1.lvclass" Type="LVClass" URL="../../../../../../examples/Object-Oriented G# Development/Interface/MyClass1_class/MyClass1.lvclass"/>
+				<Item Name="MyClass2.lvclass" Type="LVClass" URL="../../../../../../examples/Object-Oriented G# Development/Interface/MyClass2_class/MyClass2.lvclass"/>
+				<Item Name="IMyInterface1.lvclass" Type="LVClass" URL="../../../../../../examples/Object-Oriented G# Development/Interface/IMyInterface1_interface/IMyInterface1.lvclass"/>
+				<Item Name="IMyInterface2.lvclass" Type="LVClass" URL="../../../../../../examples/Object-Oriented G# Development/Interface/IMyInterface2_interface/IMyInterface2.lvclass"/>
 			</Item>
 			<Item Name="Performance" Type="Folder">
 				<Item Name="TestClass_class" Type="Folder">

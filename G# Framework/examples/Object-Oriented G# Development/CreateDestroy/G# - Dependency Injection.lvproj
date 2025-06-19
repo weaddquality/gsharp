@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.Project.Description" Type="Str">These examples demonstrates how to use a technique called Dependeny Injection to create subclass dynamically by using the G# Generic Create or Default Constructor.</Property>
 	<Property Name="ThirdParty.LV.ExampleFinder" Type="Str">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;nidna:ExampleProgram 
@@ -7,34 +7,31 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="http://www.ni.com/Schemas/DNA/1.0 ..\DNA\1.0\NiExampleProgram.xsd" 
     SchemaVersion="1.0" 
-    ContentType="EXAMPLE" 
-&lt;Title&gt;
-	&lt;Text Locale="US"&gt;G# - Dependency Injection.lvproj&lt;/Text&gt;
-&lt;/Title&gt;
-&lt;Description&gt;
-	&lt;Text Locale="US"&gt;These examples demonstrates how to use a technique called Dependeny Injection to create subclass dynamically by using the G# Generic Create or Default Constructor.&lt;/Text&gt;
-&lt;/Description&gt;
-&lt;Keywords&gt;
-	&lt;Item&gt;objects&lt;/Item&gt;
-	&lt;Item&gt;object-oriented&lt;/Item&gt;
-	&lt;Item&gt;classes&lt;/Item&gt;
-	&lt;Item&gt;G#&lt;/Item&gt;
-	&lt;Item&gt;garbage&lt;/Item&gt;
-	&lt;Item&gt;garbage collector&lt;/Item&gt;
-	&lt;Item&gt;dependency injection&lt;/Item&gt;
-&lt;/Keywords&gt;
-&lt;Navigation&gt;
-	&lt;Item&gt;8419&lt;/Item&gt;
-&lt;/Navigation&gt;
-&lt;FileType&gt;LV Project&lt;/FileType&gt;
-&lt;Metadata&gt;
-&lt;Item Name="RTSupport"&gt;&lt;/Item&gt;
-&lt;/Metadata&gt;
-&lt;ProgrammingLanguages&gt;
-&lt;Item&gt;LabVIEW&lt;/Item&gt;
-&lt;/ProgrammingLanguages&gt;
-&lt;RequiredSoftware&gt;
-&lt;NiSoftware MinVersion="9.0"&gt;LabVIEW&lt;/NiSoftware&gt; 
+    ContentType="EXAMPLE" 
+&lt;Title&gt;
+	&lt;Text Locale="US"&gt;G# - Dependency Injection.lvproj&lt;/Text&gt;
+&lt;/Title&gt;
+&lt;Description&gt;
+	&lt;Text Locale="US"&gt;These examples demonstrates how to use a technique called Dependeny Injection to create subclass dynamically by using the G# Generic Create or Default Constructor.&lt;/Text&gt;
+&lt;/Description&gt;
+&lt;Keywords&gt;
+	&lt;Item&gt;objects&lt;/Item&gt;
+	&lt;Item&gt;object-oriented&lt;/Item&gt;
+	&lt;Item&gt;classes&lt;/Item&gt;
+	&lt;Item&gt;G#&lt;/Item&gt;
+&lt;/Keywords&gt;
+&lt;Navigation&gt;
+	&lt;Item&gt;8419&lt;/Item&gt;
+&lt;/Navigation&gt;
+&lt;FileType&gt;LV Project&lt;/FileType&gt;
+&lt;Metadata&gt;
+&lt;Item Name="RTSupport"&gt;&lt;/Item&gt;
+&lt;/Metadata&gt;
+&lt;ProgrammingLanguages&gt;
+&lt;Item&gt;LabVIEW&lt;/Item&gt;
+&lt;/ProgrammingLanguages&gt;
+&lt;RequiredSoftware&gt;
+&lt;NiSoftware MinVersion="20.0"&gt;LabVIEW&lt;/NiSoftware&gt; 
 &lt;/RequiredSoftware&gt;</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -64,6 +61,8 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="IG#.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/IG#/IG#.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -71,6 +70,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{BEB9A695-B598-4B5A-9845-E9C1B832620C}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{EF992398-99F5-4F83-9690-472A6D51AB8A}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.addq.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A14A1EDC-598F-4253-9014-7CDE1BA9FD41}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">DI_ExcludeFromExe</Property>
@@ -119,6 +119,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{9CEEA543-2688-4E8E-92E6-5DAF665CC424}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{1CD492C7-E695-4FB4-A387-FD14AF627415}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.addq.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{6FEFE67A-F3F4-4415-81E7-A76C91AB2743}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">DI_IncludeInExe</Property>
