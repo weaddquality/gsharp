@@ -25,6 +25,7 @@
 			<Item Name="LvNative.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/LvNative/LvNative.lvclass"/>
 			<Item Name="G#Object.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_AddQ/G#Object/G#Object.ctl"/>
 			<Item Name="IG#InterfaceTemplate.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/IG#InterfaceTemplate/IG#InterfaceTemplate.lvclass"/>
+			<Item Name="G#RealTimeTemplate.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Templates/G#RealTimeTemplate/G#RealTimeTemplate.lvclass"/>
 		</Item>
 		<Item Name="G# Debugger" Type="Folder">
 			<Item Name="G#Debugger.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_AddQ/G#Debugger/G#Debugger.lvlib"/>

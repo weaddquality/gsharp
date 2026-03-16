@@ -36,9 +36,11 @@
 	<Item Name="MakeSpaceForControlTreminals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/MakeSpaceForControlTreminals.vi"/>
 	<Item Name="ReadAllConnPaneDescriptions.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ReadAllConnPaneDescriptions.vi"/>
 	<Item Name="ReadAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ReadAttributes.vi"/>
+	<Item Name="RemoveBadSubVIs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/RemoveBadSubVIs.vi"/>
 	<Item Name="RemoveBaseAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/RemoveBaseAttributes.vi"/>
 	<Item Name="ReplaceClassRefs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ReplaceClassRefs.vi"/>
 	<Item Name="ReplaceClassRefsFP.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ReplaceClassRefsFP.vi"/>
+	<Item Name="ReplaceCtl.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ReplaceCtl.vi"/>
 	<Item Name="ReplaceCtls.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ReplaceCtls.vi"/>
 	<Item Name="ReplaceVIs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ReplaceVIs.vi"/>
 	<Item Name="SearchForSubVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/SearchForSubVI.vi"/>
