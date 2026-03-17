@@ -1,9 +1,9 @@
 G# Framework
-Version: 3.0.6
+Version: 3.1.0
 
 The G# Framework is a free, award winning add-on toolkit for LabVIEW that adds reference based object-oriented support. It takes advantage of the data value reference structure together with the native classes and will add a full object-oriented support with excellent performance. This is the new generation of object-oriented support that makes LabVIEW as powerful as any object-oriented language. The G# Framework is a National Instrument Compatible with LabVIEW Gold product and was awarded "Add-On of the Year for Community" at NI Week 2011.
 
-Copyright © 2010-2025, QESTIT Systems https://www.qestitsystems.com/
+Copyright © 2010-2026, QESTIT Systems https://www.qestitsystems.com/
 All rights reserved. G# is a registered trademark of Qestit Systems (AddQ).
 
 The “COMPATIBLE WITH LABVIEW” logo is a trademark of National Instruments Corporation and is used under a license from National Instruments Corporation. The G# Framework software program is a product of Qestit Systems, not National Instruments Corporation, and Qestit Systems is solely responsible for the G# Framework software program. Neither Qestit Systems, nor any of the software programs and other goods and services offered by Qestit Systems, are affiliated with, endorsed by or sponsored by National Instruments Corporation.
@@ -39,7 +39,7 @@ For information about the latest version and updates, please visit G# Framework 
 BSD LICENSE  (http://www.opensource.org/licenses/BSD-3-Clause)
 YOU MAY SUBLICENSE THIS SOFTWARE IN ANY WAY THAT DOES NOT CONFLICT WITH THIS LICENSE.
 
-Copyright (c) 2010-2025, QESTIT Systems https://www.qestitsystems.com/
+Copyright (c) 2010-2026, QESTIT Systems https://www.qestitsystems.com/
 
 All rights reserved.
 
@@ -55,6 +55,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 ---------------------------------------------------------------------
 
 ## RELEASE HISTORY ##
+
+G# Framework 3.1.0
+* New class template for real-time development
+* Create method window, possibility to resize window
+* Bugfix: Icons for Util, Proteced will not be changed in new class
+* Bugfix: ChangeInheritance, change to another root parent class will result in broken arrow
 
 G# Framework 3.0.6
 * Bugfix: Change class versions
