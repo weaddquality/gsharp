@@ -25,8 +25,8 @@
 		<Item Name="G#Object.ctl" Type="VI" URL="../G#Object/G#Object.ctl"/>
 		<Item Name="G#Debugger.lvlib" Type="Library" URL="../G#Debugger/G#Debugger.lvlib"/>
 		<Item Name="G#.lvlib" Type="Library" URL="../G#.lvlib"/>
-		<Item Name="G# BSD license.txt" Type="Document" URL="/&lt;vilib&gt;/addons/_AddQ/G# BSD license.txt"/>
-		<Item Name="G# Packed Libraries ReadMe!.txt" Type="Document" URL="/&lt;vilib&gt;/addons/_AddQ/G# Packed Libraries ReadMe!.txt"/>
+		<Item Name="G# BSD license.txt" Type="Document" URL="../G# BSD license.txt"/>
+		<Item Name="G# Packed Libraries ReadMe!.txt" Type="Document" URL="../G# Packed Libraries ReadMe!.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>

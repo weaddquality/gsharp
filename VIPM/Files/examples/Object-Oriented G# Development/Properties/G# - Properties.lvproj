@@ -7,32 +7,32 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="http://www.ni.com/Schemas/DNA/1.0 ..\DNA\1.0\NiExampleProgram.xsd" 
     SchemaVersion="1.0" 
-    ContentType="EXAMPLE" 
-&lt;Title&gt;
-	&lt;Text Locale="US"&gt;G# - Properties.lvproj&lt;/Text&gt;
-&lt;/Title&gt;
-&lt;Description&gt;
-	&lt;Text Locale="US"&gt;This examples shows how properties are used in LabVIEW 2009 and LabVIEW 2010. In LabVIEW 2010, the new property definition is used.&lt;/Text&gt;
-&lt;/Description&gt;
-&lt;Keywords&gt;
-	&lt;Item&gt;objects&lt;/Item&gt;
-	&lt;Item&gt;object-oriented&lt;/Item&gt;
-	&lt;Item&gt;classes&lt;/Item&gt;
-	&lt;Item&gt;G#&lt;/Item&gt;
-	&lt;Item&gt;properties&lt;/Item&gt;
-&lt;/Keywords&gt;
-&lt;Navigation&gt;
-	&lt;Item&gt;8419&lt;/Item&gt;
-&lt;/Navigation&gt;
-&lt;FileType&gt;LV Project&lt;/FileType&gt;
-&lt;Metadata&gt;
-&lt;Item Name="RTSupport"&gt;&lt;/Item&gt;
-&lt;/Metadata&gt;
-&lt;ProgrammingLanguages&gt;
-&lt;Item&gt;LabVIEW&lt;/Item&gt;
-&lt;/ProgrammingLanguages&gt;
-&lt;RequiredSoftware&gt;
-&lt;NiSoftware MinVersion="20.0"&gt;LabVIEW&lt;/NiSoftware&gt; 
+    ContentType="EXAMPLE" 
+&lt;Title&gt;
+	&lt;Text Locale="US"&gt;G# - Properties.lvproj&lt;/Text&gt;
+&lt;/Title&gt;
+&lt;Description&gt;
+	&lt;Text Locale="US"&gt;This examples shows how properties are used in LabVIEW 2009 and LabVIEW 2010. In LabVIEW 2010, the new property definition is used.&lt;/Text&gt;
+&lt;/Description&gt;
+&lt;Keywords&gt;
+	&lt;Item&gt;objects&lt;/Item&gt;
+	&lt;Item&gt;object-oriented&lt;/Item&gt;
+	&lt;Item&gt;classes&lt;/Item&gt;
+	&lt;Item&gt;G#&lt;/Item&gt;
+	&lt;Item&gt;properties&lt;/Item&gt;
+&lt;/Keywords&gt;
+&lt;Navigation&gt;
+	&lt;Item&gt;8419&lt;/Item&gt;
+&lt;/Navigation&gt;
+&lt;FileType&gt;LV Project&lt;/FileType&gt;
+&lt;Metadata&gt;
+&lt;Item Name="RTSupport"&gt;&lt;/Item&gt;
+&lt;/Metadata&gt;
+&lt;ProgrammingLanguages&gt;
+&lt;Item&gt;LabVIEW&lt;/Item&gt;
+&lt;/ProgrammingLanguages&gt;
+&lt;RequiredSoftware&gt;
+&lt;NiSoftware MinVersion="20.0"&gt;LabVIEW&lt;/NiSoftware&gt; 
 &lt;/RequiredSoftware&gt;</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -54,7 +54,6 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="G#Object.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/G#Object/G#Object.lvclass"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
@@ -62,8 +61,9 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
-				<Item Name="IG#.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_AddQ/IG#/IG#.lvclass"/>
 			</Item>
+			<Item Name="IG#.lvclass" Type="LVClass" URL="../../../../vi.lib/addons/_AddQ/IG#/IG#.lvclass"/>
+			<Item Name="G#Object.lvclass" Type="LVClass" URL="../../../../vi.lib/addons/_AddQ/G#Object/G#Object.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

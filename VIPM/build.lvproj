@@ -47,6 +47,7 @@
 		<Item Name="G#ModifyAttributeDiagramTemplate.vi" Type="VI" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#ModifyAttributeDiagramTemplate.vi"/>
 		<Item Name="G#Object.ctl" Type="VI" URL="../Files/vi.lib/addons/_AddQ/G#Object/G#Object.ctl"/>
 		<Item Name="G#Object.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Object/G#Object.lvclass"/>
+		<Item Name="G#RealTimeTemplate.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#RealTimeTemplate/G#RealTimeTemplate.lvclass"/>
 		<Item Name="G#StaticTemplate.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#StaticTemplate/G#StaticTemplate.lvclass"/>
 		<Item Name="G#SubTemplateG3.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#SubTemplateG3/G#SubTemplateG3.lvclass"/>
 		<Item Name="G#Template.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#Template/G#Template.lvclass"/>
@@ -203,7 +204,6 @@
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="AddQ_Item_OnCommand.vi" Type="VI" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/AddQ_Item_OnCommand.vi"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

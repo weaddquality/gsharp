@@ -36,9 +36,11 @@
 	<Item Name="MakeSpaceForControlTreminals.vi" Type="VI" URL="../MakeSpaceForControlTreminals.vi"/>
 	<Item Name="ReadAllConnPaneDescriptions.vi" Type="VI" URL="../ReadAllConnPaneDescriptions.vi"/>
 	<Item Name="ReadAttributes.vi" Type="VI" URL="../ReadAttributes.vi"/>
+	<Item Name="RemoveBadSubVIs.vi" Type="VI" URL="../RemoveBadSubVIs.vi"/>
 	<Item Name="RemoveBaseAttributes.vi" Type="VI" URL="../RemoveBaseAttributes.vi"/>
 	<Item Name="ReplaceClassRefs.vi" Type="VI" URL="../ReplaceClassRefs.vi"/>
 	<Item Name="ReplaceClassRefsFP.vi" Type="VI" URL="../ReplaceClassRefsFP.vi"/>
+	<Item Name="ReplaceCtl.vi" Type="VI" URL="../ReplaceCtl.vi"/>
 	<Item Name="ReplaceCtls.vi" Type="VI" URL="../ReplaceCtls.vi"/>
 	<Item Name="ReplaceVIs.vi" Type="VI" URL="../ReplaceVIs.vi"/>
 	<Item Name="SearchForSubVI.vi" Type="VI" URL="../SearchForSubVI.vi"/>

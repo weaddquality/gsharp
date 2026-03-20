@@ -13,9 +13,9 @@
 		<Item Name="LibraryLib.lvlib" Type="Library" URL="../support/LibraryLib/LibraryLib.lvlib"/>
 		<Item Name="ProjectLib.lvlib" Type="Library" URL="../support/ProjectLib/ProjectLib.lvlib"/>
 		<Item Name="IconLib.lvlib" Type="Library" URL="../support/IconLib/IconLib.lvlib"/>
-		<Item Name="ScriptingLib.lvlib" Type="Library" URL="../support/ScriptingLib/ScriptingLib.lvlib"/>
 		<Item Name="SupportLib.lvlib" Type="Library" URL="../support/G#IDELib/SupportLib.lvlib"/>
 		<Item Name="XMLLib.lvlib" Type="Library" URL="../support/XMLLib/XMLLib.lvlib"/>
+		<Item Name="ScriptingLib.lvlib" Type="Library" URL="../support/ScriptingLib/ScriptingLib.lvlib"/>
 	</Item>
 	<Item Name="G#Provider" Type="Folder"/>
 	<Item Name="plugins" Type="Folder">
@@ -31,6 +31,7 @@
 	<Item Name="AddQ_Global_OnCommand.vi" Type="VI" URL="../AddQ_Global_OnCommand.vi"/>
 	<Item Name="AddQ_Item_Init.vi" Type="VI" URL="../AddQ_Item_Init.vi"/>
 	<Item Name="AddQ_Item_Interface.vi" Type="VI" URL="../AddQ_Item_Interface.vi"/>
+	<Item Name="AddQ_Item_OnCommand.vi" Type="VI" URL="../AddQ_Item_OnCommand.vi"/>
 	<Item Name="AddQ_Item_OnPopupMenu.vi" Type="VI" URL="../AddQ_Item_OnPopupMenu.vi"/>
 	<Item Name="AddQ_Provider_Interface.vi" Type="VI" URL="../AddQ_Provider_Interface.vi"/>
 	<Item Name="AddQ_Provider_Startup.vi" Type="VI" URL="../AddQ_Provider_Startup.vi"/>

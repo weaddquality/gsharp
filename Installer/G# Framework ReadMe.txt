@@ -59,8 +59,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 G# Framework 3.1.0
 * New class template for real-time development
 * Create method window, possibility to resize window
-* Bugfix: Icons for Util, Proteced will not be changed in new class
+* Bugfix: Icons for Utils, Protected will not be changed in new class
 * Bugfix: ChangeInheritance, change to another root parent class will result in broken arrow
+* Bugfix: IconEditor, remove bad close property
 
 G# Framework 3.0.6
 * Bugfix: Change class versions
