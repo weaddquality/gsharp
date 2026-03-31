@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2026-03-20 16:04:31" Creator="Labbdator 3" Comments="" ID="ece0ceff723e62c90e0d67ac3b5536ee">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2026-03-31 13:06:29" Creator="Labbdator 3" Comments="" ID="9d87517b5dd696ae0bf266b808172afd">
   <Library_General_Settings>
     <Package_File_Name>qestit_lib_gsharp</Package_File_Name>
-    <Library_Version>3.1.0.2</Library_Version>
+    <Library_Version>3.1.1.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Releases</Library_Output_Folder>
@@ -35,6 +35,11 @@
       <Packager>Niklas Hammersberg Thomas Olsson Mattias Ericsson</Packager>
       <URL>https://systems.qestit.com/en/testing-tools/labview</URL>
       <Release_Notes>New features:
+
+G# Framework 3.1.1
+* Bugfix: Error create method in rt target
+* Bugfix: Possibility to see target classes
+* Add possibility to create rt class in rt target
 
 G# Framework 3.1.0
 * New class template for real-time development
@@ -607,7 +612,7 @@ G# 2.0.2
         <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>071A1F2F46B717D96D748CFC88D8EC50</GUID>
+      <GUID>223E00AE1F72D4C06A6B2C1D0DD7776E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -838,7 +843,7 @@ G# 2.0.2
         <Path>Files\vi.lib\addons\_AddQ\G#Object\advanced\G#Interface_InterfaceToSpecificClass.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A48579551141EB7C6C63BD0F80496AF</GUID>
+      <GUID>1FFD35AAAF4CAB449049E5F7562D8EEA</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -873,7 +878,7 @@ G# 2.0.2
         <Path>Files\vi.lib\addons\_AddQ\G#Object\G#Object.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4354CD7B380B99BC207FB67465B1F055</GUID>
+      <GUID>C737B6B8086B371A0EE844810F799F7D</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

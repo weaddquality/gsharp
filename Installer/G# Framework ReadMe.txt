@@ -58,6 +58,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 G# Framework 3.1.1
 * Bugfix: Error create method in rt target
+* Bugfix: Possibility to see target classes
 * Add possibility to create rt class in rt target
 
 G# Framework 3.1.0
