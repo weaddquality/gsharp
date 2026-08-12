@@ -21,6 +21,7 @@
 	<Item Name="AddQ_G#_Help.vi" Type="VI" URL="/&lt;helpdir&gt;/AddQ_G#_Help.vi"/>
 	<Item Name="CheckIfG#UMLIsInstalled.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/CheckIfG#UMLIsInstalled.vi"/>
 	<Item Name="ClassUpdate.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/ClassUpdate.ctl"/>
+	<Item Name="Dialog_TextInformation.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/Dialog_TextInformation.vi"/>
 	<Item Name="Dialog_VersionInformation.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/Dialog_VersionInformation.vi"/>
 	<Item Name="LaunchHelp.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/LaunchHelp.vi"/>
 	<Item Name="UpdateClassFileToG#.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/G#IDELib/UpdateClassFileToG#.vi"/>
