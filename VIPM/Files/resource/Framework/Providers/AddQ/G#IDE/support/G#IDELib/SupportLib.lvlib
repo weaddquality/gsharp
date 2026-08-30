@@ -21,6 +21,7 @@
 	<Item Name="AddQ_G#_Help.vi" Type="VI" URL="../../../../../../../../help/AddQ_G#_Help.vi"/>
 	<Item Name="CheckIfG#UMLIsInstalled.vi" Type="VI" URL="../CheckIfG#UMLIsInstalled.vi"/>
 	<Item Name="ClassUpdate.ctl" Type="VI" URL="../ClassUpdate.ctl"/>
+	<Item Name="Dialog_TextInformation.vi" Type="VI" URL="../Dialog_TextInformation.vi"/>
 	<Item Name="Dialog_VersionInformation.vi" Type="VI" URL="../Dialog_VersionInformation.vi"/>
 	<Item Name="LaunchHelp.vi" Type="VI" URL="../LaunchHelp.vi"/>
 	<Item Name="UpdateClassFileToG#.vi" Type="VI" URL="../UpdateClassFileToG#.vi"/>

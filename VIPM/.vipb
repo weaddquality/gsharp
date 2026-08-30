@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2026-03-31 13:06:29" Creator="Labbdator 3" Comments="" ID="9d87517b5dd696ae0bf266b808172afd">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2012-05-07 09:55:15" Modified_Date="2026-08-29 14:11:06" Creator="Labbdator 3" Comments="" ID="76c8171377aeca925e8dbce8de837744">
   <Library_General_Settings>
     <Package_File_Name>qestit_lib_gsharp</Package_File_Name>
-    <Library_Version>3.1.1.5</Library_Version>
+    <Library_Version>3.1.2.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Releases</Library_Output_Folder>
@@ -35,6 +35,12 @@
       <Packager>Niklas Hammersberg Thomas Olsson Mattias Ericsson</Packager>
       <URL>https://systems.qestit.com/en/testing-tools/labview</URL>
       <Release_Notes>New features:
+
+G# Framework 3.1.2
+* Bugfix: Save methods near position 0,0
+* Bugfix: Convert to G# class: Don't sets inheritance
+* Bugfix: Convert to G# class: Link parent methods
+* Bugfix: Convert to G# class: Change to G# class generic methods.
 
 G# Framework 3.1.1
 * Bugfix: Error create method in rt target
@@ -612,7 +618,7 @@ G# 2.0.2
         <Path>Files\vi.lib\addons\_AddQ\G#Templates\G#ModifyAttributeDiagramTemplate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>223E00AE1F72D4C06A6B2C1D0DD7776E</GUID>
+      <GUID>2E3A356AB3D50BB2C59AD482005FD778</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -843,7 +849,7 @@ G# 2.0.2
         <Path>Files\vi.lib\addons\_AddQ\G#Object\advanced\G#Interface_InterfaceToSpecificClass.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1FFD35AAAF4CAB449049E5F7562D8EEA</GUID>
+      <GUID>67F7C2471AC6A28CF709C8AE10888DCA</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -878,7 +884,7 @@ G# 2.0.2
         <Path>Files\vi.lib\addons\_AddQ\G#Object\G#Object.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C737B6B8086B371A0EE844810F799F7D</GUID>
+      <GUID>FAA5FF3C1F88D01849AF9CB452A5BA99</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
