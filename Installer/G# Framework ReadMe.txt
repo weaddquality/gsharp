@@ -1,5 +1,5 @@
 G# Framework
-Version: 3.1.2
+Version: 3.1.3
 
 The G# Framework is a free, award winning add-on toolkit for LabVIEW that adds reference based object-oriented support. It takes advantage of the data value reference structure together with the native classes and will add a full object-oriented support with excellent performance. This is the new generation of object-oriented support that makes LabVIEW as powerful as any object-oriented language. The G# Framework is a National Instrument Compatible with LabVIEW Gold product and was awarded "Add-On of the Year for Community" at NI Week 2011.
 
@@ -55,6 +55,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 ---------------------------------------------------------------------
 
 ## RELEASE HISTORY ##
+
+G# Framework 3.1.3
+* Bugfix: Possibility to copy text from converter information dialog
+* Bugfix: Better error info in converter, add target info
+* Bugfix: Go through converting, sum errors in end
+* Bugfix: Filter provider, convert no native
 
 G# Framework 3.1.2
 * Bugfix: Save methods near position 0,0
