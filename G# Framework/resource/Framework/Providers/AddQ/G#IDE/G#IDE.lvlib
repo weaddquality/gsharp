@@ -25,6 +25,7 @@
 		<Item Name="CreateSubVI_AdditionalActions.vi" Type="VI" URL="/&lt;resource&gt;/plugins/CreateSubVI/CreateSubVI_AdditionalActions.vi"/>
 	</Item>
 	<Item Name="AddQ_CreateNewWizard_GetCreateNewWeight.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_CreateNewWizard_GetCreateNewWeight.vi"/>
+	<Item Name="ReplaceClassRefsFP.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/support/ScriptingLib/ReplaceClassRefsFP.vi"/>
 	<Item Name="AddQ_CreateNewWizard_IncludeItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_CreateNewWizard_IncludeItem.vi"/>
 	<Item Name="AddQ_CreateNewWizard_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_CreateNewWizard_Init.vi"/>
 	<Item Name="AddQ_CreateNewWizard_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/AddQ/G#IDE/AddQ_CreateNewWizard_Interface.vi"/>
