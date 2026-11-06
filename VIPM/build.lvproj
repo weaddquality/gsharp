@@ -37,7 +37,6 @@
 		<Item Name="G# - StaticClassAndClassAttributes.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/StaticClasses/G# - StaticClassAndClassAttributes.vi"/>
 		<Item Name="G# - SupportMethods.vi" Type="VI" URL="../Files/examples/Object-Oriented G# Development/SupportMethods/G# - SupportMethods.vi"/>
 		<Item Name="G#.lvlib" Type="Library" URL="../Files/vi.lib/addons/_AddQ/G#.lvlib"/>
-		<Item Name="G#100.lvlib" Type="Library" URL="../Files/resource/Framework/Providers/AddQ/G#IDE/Providers/G#100.lvlib"/>
 		<Item Name="G#BaseTemplateG3.lvclass" Type="LVClass" URL="../Files/vi.lib/addons/_AddQ/G#Templates/G#BaseTemplateG3/G#BaseTemplateG3.lvclass"/>
 		<Item Name="G#Debugger.lvlib" Type="Library" URL="../Files/vi.lib/addons/_AddQ/G#Debugger/G#Debugger.lvlib"/>
 		<Item Name="G#DependencyViewer.lvlib" Type="Library" URL="../Files/vi.lib/addons/_AddQ/G#DependencyViewer/G#DependencyViewer.lvlib"/>

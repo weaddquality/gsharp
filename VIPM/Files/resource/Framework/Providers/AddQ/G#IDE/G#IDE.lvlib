@@ -13,15 +13,18 @@
 		<Item Name="LibraryLib.lvlib" Type="Library" URL="../support/LibraryLib/LibraryLib.lvlib"/>
 		<Item Name="ProjectLib.lvlib" Type="Library" URL="../support/ProjectLib/ProjectLib.lvlib"/>
 		<Item Name="IconLib.lvlib" Type="Library" URL="../support/IconLib/IconLib.lvlib"/>
+		<Item Name="ScriptingLib.lvlib" Type="Library" URL="../support/ScriptingLib/ScriptingLib.lvlib"/>
 		<Item Name="SupportLib.lvlib" Type="Library" URL="../support/G#IDELib/SupportLib.lvlib"/>
 		<Item Name="XMLLib.lvlib" Type="Library" URL="../support/XMLLib/XMLLib.lvlib"/>
-		<Item Name="ScriptingLib.lvlib" Type="Library" URL="../support/ScriptingLib/ScriptingLib.lvlib"/>
 	</Item>
-	<Item Name="G#Provider" Type="Folder"/>
+	<Item Name="G#Provider" Type="Folder">
+		<Item Name="G#100.lvlib" Type="Library" URL="../Providers/G#100.lvlib"/>
+	</Item>
 	<Item Name="plugins" Type="Folder">
 		<Item Name="CreateSubVI_AdditionalActions.vi" Type="VI" URL="../../../../../plugins/CreateSubVI/CreateSubVI_AdditionalActions.vi"/>
 	</Item>
 	<Item Name="AddQ_CreateNewWizard_GetCreateNewWeight.vi" Type="VI" URL="../AddQ_CreateNewWizard_GetCreateNewWeight.vi"/>
+	<Item Name="ReplaceClassRefsFP.vi" Type="VI" URL="../support/ScriptingLib/ReplaceClassRefsFP.vi"/>
 	<Item Name="AddQ_CreateNewWizard_IncludeItem.vi" Type="VI" URL="../AddQ_CreateNewWizard_IncludeItem.vi"/>
 	<Item Name="AddQ_CreateNewWizard_Init.vi" Type="VI" URL="../AddQ_CreateNewWizard_Init.vi"/>
 	<Item Name="AddQ_CreateNewWizard_Interface.vi" Type="VI" URL="../AddQ_CreateNewWizard_Interface.vi"/>
